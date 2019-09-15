@@ -1,6 +1,36 @@
 /// @description Collision
 
+if (hp <= 0)
+{
+	sprite_index = spr_slime1
+	//instance_destroy()
+}
+
+//distance between enemy and player to aggro
+var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
+
+if (dist_ <= obj_player.aggro_rad)
+{ 
+	if(dist_ <= CELL_WIDTH/2)
+	{
+		//x_speed -= sign(obj_player.x - x)
+		x_speed = 0
+		y_speed = 0
+		//y_speed -= sign(obj_player.y - y)
+	}
+	else //change the movement towards the player while respecting map hitbox
+	{
+		x_speed += sign(obj_player.x - x) * spd
+		y_speed += sign(obj_player.y - y) * spd
+	}
+}
+else{
+	x_speed = 0
+	y_speed = 0
+}
+
 //collision with map
+
 var speed_ = point_distance(0,0,x_speed,y_speed)
 var direction_ = point_direction(0,0,x_speed,y_speed)
 if (speed_ > max_speed) {
