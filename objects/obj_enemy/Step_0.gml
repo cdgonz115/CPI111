@@ -40,13 +40,16 @@ if (speed_ > max_speed) {
 
 x += x_speed
 if (x_speed > 0){ //right
+	if (place_meeting(bbox_left+sign(x_speed),y,obj_obstacle))
+			x_speed = 0
 	if (grid_collide(self,obj_level_generator.grid)){
 		x = bbox_right&~(CELL_WIDTH-1)
 		x -= bbox_right-x
 		x_speed = 0
 	}
 } else if (x_speed < 0){ //left
-	//image_xscale = -1
+	if(place_meeting(bbox_right+sign(x_speed),y,obj_obstacle)) // might need to change to +x
+			x_speed = 0
 	if (grid_collide(self,obj_level_generator.grid)){
 		x = bbox_left&~(CELL_WIDTH-1)
 		x += CELL_WIDTH+x-bbox_left + 1
@@ -56,12 +59,16 @@ if (x_speed > 0){ //right
 
 y+= y_speed
 if (y_speed > 0){ //down
+	if(place_meeting(x,bbox_top+sign(y_speed),obj_obstacle))
+			y_speed = 0
 	if (grid_collide(self,obj_level_generator.grid)){
 		y = bbox_bottom&~(CELL_HEIGHT-1)
 		y -= bbox_bottom-y + 1
 		y_speed = 0
 	}
 } else if (y_speed < 0){ //up
+	if (place_meeting(x,bbox_bottom+sign(y_speed),obj_obstacle))
+			y_speed = 0
 	if (grid_collide(self,obj_level_generator.grid)){
 		y = bbox_top&~(CELL_HEIGHT-1)
 		y += CELL_HEIGHT+y-bbox_top
