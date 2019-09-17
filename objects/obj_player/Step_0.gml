@@ -1,17 +1,23 @@
 /// @description Movement/Collision with walls
 
 //level check
-if(exp_% exp_to_level == 0 && exp_ > 0){
+if(exp_ == exp_to_level && (exp_ > 0)){
 		level_ ++
 		exp_ = 0
 		//exp_ += exp_ % exp_to_level
 	}
+
+if(mana < max_mana) mana+= 5/room_speed;
+show_debug_message(string(mana) + "/100")
+
 
 //movement controls
 key_right = keyboard_check(ord("F"))
 key_left = keyboard_check(ord("S"))
 key_up = keyboard_check(ord("E"))
 key_down = keyboard_check(ord("D"))
+
+
 
 x_input = key_right - key_left
 y_input = key_down - key_up

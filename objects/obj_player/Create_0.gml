@@ -8,12 +8,19 @@ exp_ = 0
 exp_to_level = power(2,level_) * 50
 aggro_rad = (150) //aggro pixel radius
 hp = 100
+max_hp = 100
+mana = 100
+max_mana = 100
 souls = 0
 
 attack1_cd = false
 attack1_spd = room_speed * .8 //1 sec
 attack2_cd = false
 attack2_spd = room_speed * 1.25
+attack2_cost = 15
+attack3_cd = false
+attack3_spd = room_speed * 1.5
+attack3_cost = 30
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
