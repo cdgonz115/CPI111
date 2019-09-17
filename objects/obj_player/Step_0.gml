@@ -8,7 +8,9 @@ if(exp_ == exp_to_level && (exp_ > 0)){
 	}
 
 if(mana < max_mana) mana+= 5/room_speed;
-show_debug_message(string(mana) + "/100")
+//show_debug_message(string(mana) + "/100")
+//show_debug_message(string(hp) + "/100")
+
 
 
 //movement controls

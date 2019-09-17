@@ -9,6 +9,7 @@ for(var i = 0; i < 4; i++) {
 	global.dmg = instance_create_layer(x,y,"Instances",obj_damage)
 	global.dmg.damage = damage
 	global.dmg.knockback = knockback
+	global.dmg.owner = obj_player
 	//create a full circle of hitbox
 	global.dmg.image_angle = 90*i
 	//range

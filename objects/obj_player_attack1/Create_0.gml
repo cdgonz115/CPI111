@@ -43,4 +43,5 @@ obj_damage.image_angle = point_direction(x, y, mouse_x, mouse_y);
 //assign values
 obj_damage.knockback = knockback
 obj_damage.damage = damage
+obj_damage.owner = obj_player
 

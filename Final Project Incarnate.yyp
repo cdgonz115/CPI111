@@ -202,7 +202,7 @@
             "Key": "3aeed87a-e683-4307-9b1b-63f4edeabb3d",
             "Value": {
                 "id": "35c5d375-d2c1-4afc-978d-4bc6d0e721ac",
-                "resourcePath": "sprites\\spr_gui_hp\\spr_gui_hp.yy",
+                "resourcePath": "sprites\\spr_gui_mana\\spr_gui_mana.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "5bb67673-6da7-41eb-a9c2-54e7641d8cb7",
+            "Value": {
+                "id": "42d9367a-01e1-4644-b52e-1ebb224dcdfb",
+                "resourcePath": "scripts\\item_use\\item_use.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5c80cde9-b841-408f-958d-f4b690ba5028",
             "Value": {
                 "id": "2115eeea-2cff-451a-a709-b490150c5915",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "73bce1b0-9e48-4539-b0ed-37a352992118",
+            "Value": {
+                "id": "96d099da-82ed-41ba-a702-b79001f2a764",
+                "resourcePath": "sprites\\spr_inventory\\spr_inventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74d652c9-69bd-4385-a530-55b46904e010",
             "Value": {
                 "id": "5fb5bb0a-09c0-4336-99b8-07b18ec1e4c9",
@@ -396,6 +412,14 @@
                 "id": "1228ff15-2925-41be-9f24-7478f60ade8e",
                 "resourcePath": "views\\7b6b3701-9912-43e9-babf-194cceb1d5ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d8ae12f-4fe3-459b-a3f8-39f82f20aca8",
+            "Value": {
+                "id": "73e0f39a-7fa2-4365-9603-5214d2c05932",
+                "resourcePath": "objects\\obj_enemy_damage\\obj_enemy_damage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -439,11 +463,27 @@
             }
         },
         {
+            "Key": "83744fb0-abd9-41c9-9823-0cc030518af0",
+            "Value": {
+                "id": "530397c4-1223-4c1c-8026-22c17e27473f",
+                "resourcePath": "objects\\obj_inventory\\obj_inventory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "85303056-a967-445f-9be0-2191efa3ef46",
             "Value": {
                 "id": "22f177fd-8243-44c1-85dc-d217b779e3ff",
                 "resourcePath": "views\\85303056-a967-445f-9be0-2191efa3ef46.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "85816904-ef6a-48c9-b603-68b002fcac90",
+            "Value": {
+                "id": "8db7c139-ac04-46ab-969d-b184efb014d8",
+                "resourcePath": "sprites\\spr_potions\\spr_potions.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -527,6 +567,14 @@
             }
         },
         {
+            "Key": "b0b8a970-1f3d-4f72-a297-b834fe733e59",
+            "Value": {
+                "id": "655701a3-6e98-477a-8d92-ef376862d8bf",
+                "resourcePath": "sprites\\spr_gui_hp\\spr_gui_hp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b349e792-a991-488d-a657-99c7d85ad734",
             "Value": {
                 "id": "a5ea0962-4923-46eb-a430-1f306e587602",
@@ -604,6 +652,14 @@
                 "id": "f9b751e5-55ab-460b-b0e6-e702e5619657",
                 "resourcePath": "views\\ba14d0f9-ff2f-49ed-8f4c-bbc67d0fa083.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc538397-c74c-40c1-bf5f-e429746a8cbf",
+            "Value": {
+                "id": "7f8154f6-b822-43d5-8edb-c58277c70c23",
+                "resourcePath": "sprites\\spr_potion1\\spr_potion1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -839,6 +895,14 @@
             }
         },
         {
+            "Key": "ec3a91ce-c7d6-4fa1-a576-b2b10a31857a",
+            "Value": {
+                "id": "ccd2638d-9b75-4b3c-a744-49aa4cfae5f8",
+                "resourcePath": "objects\\obj_potion1\\obj_potion1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f591c667-c2f8-46f5-84c3-dd1350cbf7cd",
             "Value": {
                 "id": "800d6952-b983-4b53-b1b1-71624a04fbec",
@@ -890,7 +954,8 @@
     "script_order": [
         "de196b2e-5f86-40bd-bdb7-cf6d5342ed40",
         "5f55bcd5-6311-4415-9707-45b359fee7de",
-        "156e995b-544f-4005-b1c4-f238c66f7c9a"
+        "156e995b-544f-4005-b1c4-f238c66f7c9a",
+        "5bb67673-6da7-41eb-a9c2-54e7641d8cb7"
     ],
     "tutorial": ""
 }

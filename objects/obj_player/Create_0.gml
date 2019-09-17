@@ -29,6 +29,7 @@ helmet_equipped = false
 //create a camera on player
 instance_create_layer(x, y, "Instances", obj_camera)
 //change camera size for screen res optimization?
+instance_create_layer(x, y, "Instances", obj_inventory)
 
 //for non-random map collision
 tilemap = layer_tilemap_get_id("Collision")

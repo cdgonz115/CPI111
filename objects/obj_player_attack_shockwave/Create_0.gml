@@ -13,6 +13,7 @@ instance_create_layer(x,y,"Instances",obj_damage)
 obj_damage.image_angle = mouse_dir
 obj_damage.damage = damage
 obj_damage.knockback = knockback
+obj_damage.owner = obj_player
 //range
 	//global.dmg.image_xscale = 1
 	//global.dmg.image_yscale = 1

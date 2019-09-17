@@ -13,6 +13,6 @@ if(other != obj_player)
 	with(other){
 	//x_speed -= sign(obj_player.x - x) * xforce
 	//y_speed -= sign(obj_player.y - y) * yforce
-	x_speed = xforce
+	//x_speed = xforce
 	}
 }
