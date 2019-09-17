@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Use item 1 in inventory
 item_use(obj_inventory.ItemArray[0],0)
