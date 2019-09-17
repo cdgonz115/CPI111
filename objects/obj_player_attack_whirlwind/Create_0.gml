@@ -11,8 +11,9 @@ for(var i = 0; i < 4; i++) {
 	global.dmg.knockback = knockback
 	//create a full circle of hitbox
 	global.dmg.image_angle = 90*i
-	global.dmg.image_xscale = 1.2
-	global.dmg.image_yscale = 1.2
+	//range
+	global.dmg.image_xscale = 1
+	global.dmg.image_yscale = 1
 }
 //obj_damage.image_xscale = 3
 //obj_damage.image_yscale = 1.5

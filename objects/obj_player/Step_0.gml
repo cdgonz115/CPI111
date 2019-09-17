@@ -82,7 +82,7 @@ else {
 			x_speed = 0
 		}
 	} else if (x_speed < 0) { //left
-		if(place_meeting(bbox_right+sign(x_speed),y,obj_obstacle)) // might need to change to +x
+		if(place_meeting(bbox_right+sign(x_speed),y,obj_obstacle)) 
 			x_speed = 0
 		if (grid_collide(self,obj_level_generator.grid)){
 			x = bbox_left&~(CELL_WIDTH-1)
