@@ -4,22 +4,16 @@
 if(exp_ == exp_to_level && (exp_ > 0)){
 		level_ ++
 		exp_ = 0
-		//exp_ += exp_ % exp_to_level
-	}
-
+}
+//mana regen
 if(mana < max_mana) mana+= 5/room_speed;
-//show_debug_message(string(mana) + "/100")
-//show_debug_message(string(hp) + "/100")
-
-
+//hp regen? probly not cuz hp items like potions
 
 //movement controls
 key_right = keyboard_check(ord("F"))
 key_left = keyboard_check(ord("S"))
 key_up = keyboard_check(ord("E"))
 key_down = keyboard_check(ord("D"))
-
-
 
 x_input = key_right - key_left
 y_input = key_down - key_up
@@ -33,10 +27,9 @@ if (speed_ > max_speed) {
 
 x_speed = (x_input) * acceleration//
 y_speed = (y_input) * acceleration
-
+//friction
 if(x_input ==0)
 	x_speed = lerp(x_speed,0,0.2)
-	
 if(y_input ==0)
 	y_speed = lerp(y_speed,0,0.2)
 	
@@ -79,44 +72,60 @@ if(obj_game_control.game_state==1){
 
 //for randomly generated rooms
 else {
-	x += x_speed
-
-	if (x_speed > 0) { //right
-		if (place_meeting(bbox_left+sign(x_speed),y,obj_obstacle))
-			x_speed = 0
-		if (grid_collide(self,obj_level_generator.grid)){
-			x = bbox_right&~(CELL_WIDTH-1)
-			x -= bbox_right-x
-			x_speed = 0
+	var x_predict = x + x_speed
+	var y_predict = y + y_speed
+	
+	//horizontal
+	if (!place_meeting(x_predict,y,obj_obstacle)){
+		x += x_speed
+		if (x_speed > 0) { //right
+			if (grid_collide(self,obj_level_generator.grid)){
+				x = bbox_right&~(CELL_WIDTH-1)
+				x -= bbox_right-x
+				x_speed = 0
+			}
 		}
-	} else if (x_speed < 0) { //left
-		if(place_meeting(bbox_right+sign(x_speed),y,obj_obstacle)) 
-			x_speed = 0
-		if (grid_collide(self,obj_level_generator.grid)){
-			x = bbox_left&~(CELL_WIDTH-1)
-			x += CELL_WIDTH+x-bbox_left
-			x_speed = 0
+		else if (x_speed < 0) { //left
+			if (grid_collide(self,obj_level_generator.grid)){
+				x = bbox_left&~(CELL_WIDTH-1)
+				x += CELL_WIDTH+x-bbox_left
+				x_speed = 0
+			}
+		}
+			
+	}
+	else {
+		x_predict = x
+		while (!place_meeting(x_predict,y,obj_obstacle)){
+			x_predict += sign(x_speed)
+		}
+		x = x_predict - sign(x_speed)
+	}
+	
+	//vertical
+	if (!place_meeting(x,y_predict,obj_obstacle)){
+		y += y_speed	
+		if(y_speed > 0){ //down
+			if (grid_collide(self,obj_level_generator.grid)){
+				y = bbox_bottom&~(CELL_HEIGHT-1)
+				y -= bbox_bottom-y + 1
+				y_speed = 0
+			}
+		} 
+		else if (y_speed < 0){ //up
+			if (grid_collide(self,obj_level_generator.grid)){
+				y = bbox_top&~(CELL_HEIGHT-1)
+				y += CELL_HEIGHT+y-bbox_top
+				y_speed = 0
+			}
 		}
 	}
-
-	y+= y_speed
-
-	if (y_speed > 0){ //down
-		if(place_meeting(x,bbox_top+sign(y_speed),obj_obstacle))
-			y_speed = 0
-		if (grid_collide(self,obj_level_generator.grid)){
-			y = bbox_bottom&~(CELL_HEIGHT-1)
-			y -= bbox_bottom-y + 1
-			y_speed = 0
+	else {
+		y_predict = y
+		while (!place_meeting(x,y_predict,obj_obstacle) ){
+			y_predict += sign(y_speed)
 		}
-	} else if (y_speed < 0){ //up
-		if (place_meeting(x,bbox_bottom+sign(y_speed),obj_obstacle))
-			y_speed = 0
-		if (grid_collide(self,obj_level_generator.grid)){
-			y = bbox_top&~(CELL_HEIGHT-1)
-			y += CELL_HEIGHT+y-bbox_top
-			y_speed = 0
-		}
+		y = y_predict - sign(y_speed)
 	}
 }
 
