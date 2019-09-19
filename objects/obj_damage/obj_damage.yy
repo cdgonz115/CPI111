@@ -5,16 +5,6 @@
     "name": "obj_damage",
     "eventList": [
         {
-            "id": "4d2bb22f-6eba-44d9-a0f0-93fa11588093",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "47d6bd1b-04d8-4537-a7d6-80de26e3f30c",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "2af2fcc4-94bb-4979-8dc6-436e187c5b1b"
-        },
-        {
             "id": "9f2fe52f-1d7f-4383-91e8-f4bb916a747d",
             "modelName": "GMEvent",
             "mvc": "1.0",

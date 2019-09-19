@@ -32,7 +32,7 @@ var last_step = 0 // for help placing things
 repeat (steps) {
 	last_step++
 	grid[# controller_x, controller_y] = FLOOR
-	grid[# controller_x+1, controller_y+1] = FLOOR //makes bottom right tile also floor, creates 2-width hallways
+	//grid[# controller_x+1, controller_y+1] = FLOOR //makes bottom right tile also floor, creates 2-width hallways
 	//randomize the direction
 	if (irandom(direction_change_odds) == direction_change_odds)
 		controller_direction = irandom(3)

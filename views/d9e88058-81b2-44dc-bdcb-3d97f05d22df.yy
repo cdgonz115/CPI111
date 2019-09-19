@@ -14,8 +14,8 @@
         "8eca267a-9660-464a-9edb-852f5aa4dc24",
         "5e28e1d9-36fb-402a-9bba-de05912b82b0",
         "f7bef072-a428-40be-b679-2a2aebcac7c4",
-        "c3fb9529-ebc4-4761-8af4-1e276ac6cffd",
-        "f591c667-c2f8-46f5-84c3-dd1350cbf7cd"
+        "f591c667-c2f8-46f5-84c3-dd1350cbf7cd",
+        "e53d78ed-60dc-4b58-a0f0-df7915280794"
     ],
     "filterType": "GMSprite",
     "folderName": "Level Generation",

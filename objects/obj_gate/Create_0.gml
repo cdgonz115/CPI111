@@ -1,3 +1,3 @@
 /// @description 
 
-var target_room//, target_x, target_y
+target_room = rm_dungeon//, target_x, target_y
