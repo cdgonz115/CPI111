@@ -1,5 +1,10 @@
 /// @description Movement/Collision with walls
 
+if(hp <= 0){
+	obj_game_control.game_state = -1
+}
+
+//if(obj_game_control.game_state != -1){ //game over
 //level check
 if(exp_ == exp_to_level && (exp_ > 0)){
 		level_ ++
@@ -37,7 +42,6 @@ if(y_input ==0)
 //for non-randomly generated rooms
 if(obj_game_control.game_state==1){
 	var bbox_side;
-	
 	//horizontal
 	//right
 	if(x_speed > 0) bbox_side = bbox_right; 
@@ -71,12 +75,12 @@ if(obj_game_control.game_state==1){
 }
 
 //for randomly generated rooms
-else {
+else if (obj_game_control.game_state == 2){
 	var x_predict = x + x_speed
 	var y_predict = y + y_speed
 	
 	//horizontal
-	if (!place_meeting(x_predict,y,obj_obstacle)){
+	if (!place_meeting(x_predict,y,obj_collidable)){
 		x += x_speed
 		if (x_speed > 0) { //right
 			if (grid_collide(self,obj_level_generator.grid)){
@@ -92,18 +96,17 @@ else {
 				x_speed = 0
 			}
 		}
-			
 	}
 	else {
 		x_predict = x
-		while (!place_meeting(x_predict,y,obj_obstacle)){
+		while (!place_meeting(x_predict,y,obj_collidable)){
 			x_predict += sign(x_speed)
 		}
 		x = x_predict - sign(x_speed)
 	}
 	
 	//vertical
-	if (!place_meeting(x,y_predict,obj_obstacle)){
+	if (!place_meeting(x,y_predict,obj_collidable)){
 		y += y_speed	
 		if(y_speed > 0){ //down
 			if (grid_collide(self,obj_level_generator.grid)){
@@ -122,7 +125,7 @@ else {
 	}
 	else {
 		y_predict = y
-		while (!place_meeting(x,y_predict,obj_obstacle) ){
+		while (!place_meeting(x,y_predict,obj_collidable) ){
 			y_predict += sign(y_speed)
 		}
 		y = y_predict - sign(y_speed)
@@ -130,3 +133,4 @@ else {
 }
 
 if(helmet_equipped) instance_create_layer(x,y,"Instances",obj_helmet);
+//}

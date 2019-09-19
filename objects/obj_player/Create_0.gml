@@ -13,6 +13,9 @@ mana = 100
 max_mana = 100
 souls = 0
 
+roll_cd = false
+rollspeed = 3
+
 attack1_cd = false
 attack1_spd = room_speed * .8 //1 sec
 attack2_cd = false
@@ -29,7 +32,7 @@ helmet_equipped = false
 //create a camera on player
 instance_create_layer(x, y, "Instances", obj_camera)
 //change camera size for screen res optimization?
-instance_create_layer(x, y, "Instances", obj_inventory)
+inventory = instance_create_layer(x, y, "Instances", obj_inventory)
 
 //for non-random map collision
 tilemap = layer_tilemap_get_id("Collision")

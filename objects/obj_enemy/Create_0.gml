@@ -7,5 +7,4 @@ exp_ = 5 //exp awarded to player when killed
 hp = 2
 spd = 0
 
-xknock = 0
-yknock = 0
+knockback = 5

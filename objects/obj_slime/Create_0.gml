@@ -2,7 +2,7 @@
 event_inherited()
 attack_cd = false
 attack_spd = 5
-damage = 5
+damage = 100
 knockback = 2
 spd = 0.5
 //image_xscale = irandom(3)

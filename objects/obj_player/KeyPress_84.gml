@@ -1,13 +1,24 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Interact with object
+
 var chesto = instance_nearest(x,y,obj_chest)
-if (place_meeting(x+5,y,obj_chest))
-	instance_create_layer(x-sprite_width/2,y,"Instances",obj_potion1)
-else if (place_meeting(x-5,y,obj_chest))
-	instance_create_layer(x+sprite_width/2,y,"Instances",obj_potion1)
-else if(place_meeting(x,y+5,obj_chest))
-	instance_create_layer(x,y-sprite_height/2,"Instances",obj_potion1)
-else if(place_meeting(x,y-5,obj_chest))
-	instance_create_layer(x,y+sprite_height/2,"Instances",obj_potion1)
-if(instance_exists(obj_potion1))
-	obj_potion1.depth = chesto.depth-1
+if(chesto.opened == false){
+	//"collision" with chest
+	//right
+	if (place_meeting(x+10,y,obj_chest))
+		instance_create_layer(x-sprite_width/2,y,"Instances",obj_potion1)
+	//left
+	else if (place_meeting(x-10,y,obj_chest))
+		instance_create_layer(x+sprite_width/2,y,"Instances",obj_potion1)
+	//down
+	else if(place_meeting(x,y+10,obj_chest))
+		instance_create_layer(x,y-sprite_height/2,"Instances",obj_potion1)
+	//up
+	else if(place_meeting(x,y-10,obj_chest))
+		instance_create_layer(x,y+sprite_height/2,"Instances",obj_potion1)
+	//pop out a potion probly don't need this line but oh well
+	if(instance_exists(obj_potion1))
+		obj_potion1.depth = chesto.depth-1
+		
+	chesto.image_speed = 1
+	chesto.opened = true
+}

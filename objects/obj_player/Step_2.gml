@@ -8,6 +8,9 @@ if (x_input ==0 && y_input == 0){
 else
 	image_speed = 0.7
 	
+depth = -y
+if(instance_exists(obj_helmet))
+	obj_helmet.depth = depth-1
 //if(point_direction(x,y,mouse_x,mouse_y) )
 var mouse_dir = point_direction(x,y,mouse_x,mouse_y)
 if(mouse_dir<45 || mouse_dir>315) sprite_index = spr_player_walk_r2; //right

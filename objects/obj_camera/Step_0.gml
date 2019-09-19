@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 if not instance_exists(target) exit
-x = lerp(x, target.x, .1)
-y = lerp(y, target.y, .1)
+if(obj_game_control.game_state != -1){
+	x = lerp(x, target.x, .1)
+	y = lerp(y, target.y, .1)
 
-x = clamp(x, width/2 + CELL_WIDTH, room_width-width/2 - CELL_WIDTH)
-y = clamp(y, height/2 + CELL_HEIGHT, room_height-height/2 - CELL_HEIGHT)
-camera_set_view_pos(view_camera[0], x-width/2, y-height/2)
+	x = clamp(x, width/2 + CELL_WIDTH, room_width-width/2 - CELL_WIDTH)
+	y = clamp(y, height/2 + CELL_HEIGHT, room_height-height/2 - CELL_HEIGHT)
+	camera_set_view_pos(view_camera[0], x-width/2, y-height/2)
+}

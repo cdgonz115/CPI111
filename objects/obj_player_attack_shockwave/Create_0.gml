@@ -10,6 +10,8 @@ knockback = 10
 damage = obj_player.damage
 
 instance_create_layer(x,y,"Instances",obj_damage)
+obj_damage.image_xscale = 2
+obj_damage.image_yscale = .5
 obj_damage.image_angle = mouse_dir
 obj_damage.damage = damage
 obj_damage.knockback = knockback
