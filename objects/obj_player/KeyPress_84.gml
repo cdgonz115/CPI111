@@ -20,7 +20,7 @@ if(instance_exists(chesto)){
 		if(instance_exists(obj_potion1))
 			obj_potion1.depth = chesto.depth-1
 		
-		chesto.image_speed = .75
+		chesto.image_speed = .7
 		chesto.opened = true
 	}
 }

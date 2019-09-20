@@ -74,6 +74,8 @@ for (var col = 1; col < height-1; col++){
 		var s_ = grid[# row, col+1]!=FLOOR
 		var w_ = grid[# row-1, col]!=FLOOR
 		var e_ = grid[# row+1, col]!=FLOOR
+		
+		var is_penta = false
 			
 		//cleanup
 		if (grid[# row,col] != FLOOR)//checks wall tiles
@@ -81,6 +83,7 @@ for (var col = 1; col < height-1; col++){
 			if (tile_index == 1)//makes so there's not 1 tile sections
 			{ 
 				grid[# row,col] = FLOOR
+				is_penta = true
 			}
 		}
 		//spawning on floor tiles
@@ -131,8 +134,12 @@ for (var col = 1; col < height-1; col++){
 		}
 		else //set floor tiles
 		{
-			//tilemap_set(layer_tilemap_get_id("Floor"),57,row,col)
-			tilemap_set(layer_tilemap_get_id("Floor"),1,row,col)
+			//if(is_penta && random(1)<0.2)
+				//tilemap_set(layer_tilemap_get_id("Pentas"),1,row,col)
+			//else
+				tilemap_set(layer_tilemap_get_id("Floor"),1,row,col)
+				if(is_penta && random(1)<0.2)
+					instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_penta)
 		}
 	}
 }
