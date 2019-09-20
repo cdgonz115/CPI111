@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "08303bb0-43a0-435e-9f53-01bd1673e483",
+            "Value": {
+                "id": "4684c7cc-b2d0-42d3-8abf-8de517663b27",
+                "resourcePath": "objects\\obj_wall_blood\\obj_wall_blood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c7753c6-3976-4b79-98ea-bf4924004f87",
             "Value": {
                 "id": "a03d471d-a18c-40db-affa-af97c1394d78",
@@ -132,6 +140,14 @@
                 "id": "8836d8ba-4340-480d-bc45-84f252ee5dfe",
                 "resourcePath": "sounds\\snd_Ability_Learn\\snd_Ability_Learn.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "146591ca-45e3-432f-aa64-d8f5edf10fc1",
+            "Value": {
+                "id": "398c1018-0700-4b6f-8f56-4edd1f15b23e",
+                "resourcePath": "objects\\obj_wall_chains\\obj_wall_chains.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1087,6 +1103,14 @@
             }
         },
         {
+            "Key": "f4b9c839-cb53-410d-9f59-3c5c68ea18c5",
+            "Value": {
+                "id": "39d6ee54-a9b6-43b9-ad0b-983cc1e88022",
+                "resourcePath": "sprites\\spr_wall_blood\\spr_wall_blood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f591c667-c2f8-46f5-84c3-dd1350cbf7cd",
             "Value": {
                 "id": "800d6952-b983-4b53-b1b1-71624a04fbec",
@@ -1131,6 +1155,14 @@
             "Value": {
                 "id": "2ced0c05-9787-4b97-af91-31d34cb02fbd",
                 "resourcePath": "sprites\\s_wall_tiles\\s_wall_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fdff2fd5-407d-49ad-a5ae-a9441488aebf",
+            "Value": {
+                "id": "9515ae3d-674e-40e7-8b0c-79ce2bb0ac92",
+                "resourcePath": "sprites\\spr_wall_chains\\spr_wall_chains.yy",
                 "resourceType": "GMSprite"
             }
         }

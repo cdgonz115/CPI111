@@ -131,6 +131,10 @@ for (var col = 1; col < height-1; col++){
 		if (grid[# row,col] != FLOOR) //ignores newly set floor tiles
 		{
 			tilemap_set(wall_map_id, tile_index, row, col) //set wall tiles to be which kind they are
+			if(tile_index == 6 && random(1)<0.5)
+				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_wall_blood)
+			if(tile_index == 4 && random(1)<0.2)
+				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_wall_chains)
 		}
 		else //set floor tiles
 		{
