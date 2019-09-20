@@ -16,7 +16,7 @@ if(obj_player.hp >=0){
 
 if(object_get_visible(obj_inventory)){
 	draw_sprite_ext(obj_inventory.sprite_index,0,x+450,y+100,1.5,1.5,0,c_white,1)
-	for(var i = -1; i < obj_inventory.size-1; i++){
+	for(var i = -1; i < obj_inventory.max_size-1; i++){
 		if(obj_inventory.ItemArray[i+1] != noone)
 			draw_sprite_ext(obj_inventory.ItemArray[i+1].sprite_index,0,x+450+i*108,y+110,3,3,0,c_white,1)
 	}
