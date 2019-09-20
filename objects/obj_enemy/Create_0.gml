@@ -8,3 +8,4 @@ hp = 2
 spd = 0
 
 knockback = 5
+knocked_back = false
