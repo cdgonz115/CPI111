@@ -3,12 +3,12 @@
 game_state = 1
 room_goto(rm_main)
 with(obj_player){
-	max_hp = 100
-	max_mana = 100
 	hp = max_hp
 	mana = max_mana
-	exp_ = 0
 	level_ = 1
+	exp_ = 0
+	exp_to_level = power(2,level_) * 50
+	
 	with(inventory){
 		for(var i=0; i<max_size;i++){
 			ItemArray[i] = noone
