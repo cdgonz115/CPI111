@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 game_state = 1
-show_debug_message("now we're  here")
 room_goto(rm_main)
 with(obj_player){
-	show_debug_message("really here?")
 	max_hp = 100
 	max_mana = 100
 	hp = max_hp

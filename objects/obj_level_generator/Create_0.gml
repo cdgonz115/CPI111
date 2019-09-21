@@ -94,8 +94,9 @@ for (var col = 1; col < height-1; col++){
 			var chest_prob = 0.2 // probability of chest dropping on floor ~2-6
 			var max_chests = 4
 			var curr_chests = 0
-			//slimes
+			//baddies
 			var slime_prob = 0.07
+			var skele_prob = 0.07
 			
 			//add a chest(maybe)!
 			if ((curr_chests < max_chests) && (random(1.0)<chest_prob) && ((n_&&e_&&w_) || (s_&&w_&&e_) || (w_&&s_&&n_) || (e_&&s_&&n_))) //checks to spawn chest only in corner surrounded by 3 walls
@@ -125,6 +126,10 @@ for (var col = 1; col < height-1; col++){
 				{
 					instance_create_layer(curr_grid_pos_x, curr_grid_pos_y, "Instances", obj_slime2)
 				}*/
+				else if (random(1) < skele_prob)
+				{
+					instance_create_layer(curr_grid_pos_x, curr_grid_pos_y, "Instances", obj_skeleton)	
+				}
 			}
 		}
 		

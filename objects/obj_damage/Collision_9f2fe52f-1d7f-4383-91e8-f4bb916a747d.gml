@@ -1,9 +1,13 @@
 /// @description hit the enemy
-if(other != obj_player)
+if(other != obj_player && !other.dead)
 {
 	other.hp -= damage
+	//hit sounds
 	if(other.object_index == obj_slime){
 		audio_play_sound(snd_slime_hit,50,0)
+	}
+	else if(other.object_index == obj_skeleton){
+		//audio_play_sound(snd_skeleton_hit,50,0)	
 	}
 	//knockback
 	if(!grid_collide(other,obj_level_generator.grid)){
@@ -14,5 +18,5 @@ if(other != obj_player)
 		other.y -= yforce
 	}
 	other.knocked_back = true
-	other.alarm[11] = 1 * room_speed
+	other.alarm[11] = 5
 }

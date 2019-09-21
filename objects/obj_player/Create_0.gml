@@ -16,7 +16,8 @@ mana_regen = 2
 souls = 0
 
 roll_cd = false
-rollspeed = 3
+rollspeed = 2
+rolling = false
 
 attack1_cd = false
 attack1_spd = room_speed * .8 //1 sec

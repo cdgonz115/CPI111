@@ -24,3 +24,21 @@ if(instance_exists(chesto)){
 		chesto.opened = true
 	}
 }
+var npc = instance_nearest(x,y,obj_NPC)
+if(instance_exists(npc)){
+	if(distance_to_object(npc) <5){
+		with(npc){
+			if(!instance_exists(obj_dialogue)){
+				dialogue = instance_create_layer(x+xoffset,y+yoffset, "Instances", obj_dialogue)
+				dialogue.text = text
+			}
+			else {
+				dialogue.text_page++
+				dialogue.text_count = 0
+				if(dialogue.text_page > array_length_1d(dialogue.text)-1){
+					instance_destroy(dialogue)
+				}
+			}
+		}
+	}
+}

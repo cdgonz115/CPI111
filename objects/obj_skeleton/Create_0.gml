@@ -1,6 +1,9 @@
 /// @description
 event_inherited()
-speed_ = 0.05
-//image_xscale = irandom(3)
-image_speed = 0.5
-image_index = irandom(3) 
+hp = 3
+exp_ = 10
+attack_cd = false
+attack_spd = 3 // lower = faster attack
+damage = 2
+knockback = 2
+spd = 1
