@@ -1,5 +1,5 @@
 /// @description 
-if(!attack_cd){
+if(!attack_cd && hp>0){
 	instance_create_layer(x,y,"Instances",obj_enemy_damage)
 	//obj_enemy_damage.image_xscale = 2
 	obj_enemy_damage.damage = damage
