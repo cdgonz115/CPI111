@@ -16,6 +16,7 @@ mana_regen = 2
 souls = 0
 
 roll_cd = false
+roll_cd_time = 2
 rollspeed = 2
 rolling = false
 

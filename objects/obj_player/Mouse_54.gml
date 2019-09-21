@@ -5,5 +5,5 @@ if(!roll_cd){
 	acceleration = acceleration*rollspeed
 	roll_cd = true
 	rolling = true
-	alarm[11] = 10 //3 frames
+	alarm[11] = 15 //time in roll state
 }
