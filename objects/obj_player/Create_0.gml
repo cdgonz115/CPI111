@@ -12,7 +12,7 @@ max_hp = 5
 hp = max_hp
 max_mana = 50
 mana = max_mana
-mana_regen = 2
+mana_regen = 5
 souls = 0
 
 roll_cd = false

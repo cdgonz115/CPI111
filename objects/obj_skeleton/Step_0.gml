@@ -5,13 +5,12 @@ if(!dead){
 		sprite_index = spr_skeleton_death
 		damage = 0
 		dead = true
-		alarm[10] = 1*room_speed
-		//instance_destroy()
+		alarm[10] = 1*room_speed //die time
 	}
 	if(!knocked_back){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
 
-		if (dist_ <= obj_player.aggro_rad)
+		if (dist_ <= obj_player.aggro_rad+50) //aggros at higher range
 		{ 
 			if(dist_ <= CELL_WIDTH/2.5)
 			{

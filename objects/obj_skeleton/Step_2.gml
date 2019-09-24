@@ -1,6 +1,6 @@
 /// @description Animation
 
-//need to fix this up a bit
+//need to change to be based on direction
 /*
 if (!dead){
 	if(x_speed>0) sprite_index = spr_skeleton_r

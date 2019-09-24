@@ -5,7 +5,7 @@ if(!dead){
 		sprite_index = spr_slime_death
 		damage = 0
 		dead = true
-		//instance_destroy()
+		//go to animation end
 	}
 	if(!knocked_back){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
@@ -23,7 +23,7 @@ if(!dead){
 				y_speed += sign(obj_player.y - y) * spd
 			}
 		}
-		else{
+		else{ //idle
 			x_speed = 0
 			y_speed = 0
 		}

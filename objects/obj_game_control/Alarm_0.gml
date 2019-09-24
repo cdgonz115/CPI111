@@ -18,7 +18,7 @@ with(obj_player){
 	y = 384
 }
 audio_stop_sound(mus_horror_ambient)
-audio_play_sound(mus_InnerCore_Low,100,true)
+//audio_play_sound(mus_InnerCore_Low,100,true)
 instance_destroy(obj_game_over)
 alarm_triggered = false
 obj_GUI.visible = true
