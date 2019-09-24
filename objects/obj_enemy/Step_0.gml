@@ -1,5 +1,5 @@
 /// @description Collision
-if(!dead){
+if(!dead && obj_game_control.game_state != -1){
 	if (hp <= 0)
 	{
 		sprite_index = spr_slime_death
