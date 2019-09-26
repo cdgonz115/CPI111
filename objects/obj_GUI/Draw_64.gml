@@ -3,8 +3,9 @@
 draw_set_color(c_white)
 draw_text(x-425,y-350,"Level: " + string(obj_player.level_))
 draw_text(x-425,y-350+30,"EXP: " + string(obj_player.exp_) + "/ " + string(obj_player.exp_to_level))
-draw_text(x-425,y-350+60,"   x " + string(obj_player.souls))
-draw_sprite_ext(spr_soul,0,x-415,y-350+70,2,2,0,c_white,1)
+draw_text(x-425,y-350+60,"Floor: " + string(obj_game_control.floor_))
+draw_text(x-425,y-350+90,"   x " + string(obj_player.souls))
+draw_sprite_ext(spr_soul,0,x-415,y-350+70+30,2,2,0,c_white,1)
 
 //the main GUI
 //don't pay attention to the math, it was lots of trial and error for the pixels lol

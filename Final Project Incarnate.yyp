@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0010b1c6-2874-4b1b-92c7-01d7ec458c17",
+            "Value": {
+                "id": "ad84eaa2-f481-4d5f-a816-179d061576b3",
+                "resourcePath": "sprites\\spr_skeleton_mage_death\\spr_skeleton_mage_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "004f4aa4-e054-4dc1-b7c6-e02a2577ff28",
             "Value": {
                 "id": "1f17571c-d1a5-4d74-93cd-d8e305451c51",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "0f9ac2db-b6e8-43d2-8204-609a384b8bd8",
+            "Value": {
+                "id": "c5e20423-2d96-4aa2-a746-09796d1d81a4",
+                "resourcePath": "sprites\\spr_skeleton_mage_l\\spr_skeleton_mage_l.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fcd891e-3875-46db-87b6-b0658228628f",
             "Value": {
                 "id": "1e813ac3-2164-4930-81f7-8dc25fe03108",
@@ -172,6 +188,14 @@
                 "id": "c7541e10-8f40-4c2a-bb04-1e4ce3b0c75a",
                 "resourcePath": "scripts\\player_recoil\\player_recoil.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1597d10c-432e-4f78-b078-92e4088cfef1",
+            "Value": {
+                "id": "5828dbe1-35e4-410c-b0e5-6202b152cdba",
+                "resourcePath": "objects\\obj_skele_mage_attack\\obj_skele_mage_attack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -292,6 +316,14 @@
                 "id": "c673715e-c9f5-43fa-a28d-9f6f891c8130",
                 "resourcePath": "rooms\\rm_title_screen\\rm_title_screen.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "340dfefd-a9a4-4f77-88fb-d0fce6b4531d",
+            "Value": {
+                "id": "03b1dad5-71f0-4fb1-9876-0d231d0d8940",
+                "resourcePath": "sprites\\spr_skeleton_mage_r\\spr_skeleton_mage_r.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -535,11 +567,27 @@
             }
         },
         {
+            "Key": "6929c444-1000-4110-8c9c-5366862d321c",
+            "Value": {
+                "id": "fe11fc5f-b378-44df-9238-6c0dd786cfc5",
+                "resourcePath": "objects\\obj_skeleton_mage\\obj_skeleton_mage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6cb22e18-accb-43ee-a0f2-87ecc6939510",
             "Value": {
                 "id": "1a6ad1d4-3bae-4c20-8a75-fc0d31913713",
                 "resourcePath": "views\\6cb22e18-accb-43ee-a0f2-87ecc6939510.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6cf6158d-fb25-4cb3-8811-70a00d695278",
+            "Value": {
+                "id": "34ae015c-9244-4692-be58-a4e38fbbefd6",
+                "resourcePath": "objects\\obj_enemy_ranged_damage\\obj_enemy_ranged_damage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -556,6 +604,14 @@
                 "id": "684f49ba-1f73-4e44-98aa-f9ab016559fe",
                 "resourcePath": "views\\7107edfd-cf72-4b33-a11a-39af1eee048e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "716b43de-6615-49dd-a286-25f9dcddfae0",
+            "Value": {
+                "id": "512e2662-fcd5-45e1-890f-f9251df1e952",
+                "resourcePath": "sprites\\spr_skele_mage_attack\\spr_skele_mage_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -799,6 +855,14 @@
             }
         },
         {
+            "Key": "a5f5f031-f5ec-4eff-b798-da347e9d9824",
+            "Value": {
+                "id": "cc0dec8d-314c-4412-85ae-7c6ce76a6ae6",
+                "resourcePath": "views\\a5f5f031-f5ec-4eff-b798-da347e9d9824.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "acb906d3-7006-432f-b620-ab32d2f7d8ef",
             "Value": {
                 "id": "7d7e6168-5212-4955-a75c-49b16cd7433b",
@@ -811,6 +875,14 @@
             "Value": {
                 "id": "f3c63269-8ec9-4370-b4d0-3ca5b0040e0e",
                 "resourcePath": "sprites\\tss_dungeon211\\tss_dungeon211.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b067cf43-af34-4ec8-ab28-babeff64a324",
+            "Value": {
+                "id": "66764efb-58e7-41db-8393-2a0ff7d17ea9",
+                "resourcePath": "sprites\\spr_skeleton_mage_u\\spr_skeleton_mage_u.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -956,6 +1028,14 @@
                 "id": "099db059-534a-4954-93fd-70c7b174bb36",
                 "resourcePath": "objects\\obj_soul\\obj_soul.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0fe5f9b-40f7-4e04-8980-d473c0563f9a",
+            "Value": {
+                "id": "bd2634f5-e26f-4c79-9394-8cfca318ddf1",
+                "resourcePath": "sprites\\spr_skeleton_mage_d\\spr_skeleton_mage_d.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
