@@ -6,7 +6,7 @@ if(other != obj_player && !other.dead)
 	if(other.object_index == obj_slime){
 		audio_play_sound(snd_slime_hit,50,0)
 	}
-	else if(other.object_index == obj_skeleton){
+	else if(other.object_index == obj_skeleton || other.object_index == obj_skeleton_mage){
 		//audio_play_sound(snd_skeleton_hit,50,0)	
 	}
 	//knockback

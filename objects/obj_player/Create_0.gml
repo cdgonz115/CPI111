@@ -20,11 +20,20 @@ roll_cd_time = 2
 rollspeed = 2
 rolling = false
 
+//attack stats
+//attack 1- basic attack
+attack1_dmg = 1
 attack1_cd = false
 attack1_spd = room_speed * .8 //1 sec
+
+//attack 2- whirlwind
+attack2_dmg = 2
 attack2_cd = false
-attack2_spd = room_speed * 1.25
+attack2_spd = room_speed * 1.5
 attack2_cost = 0
+
+//attack 3- shockwave
+attack3_dmg = 1 //per wave
 attack3_cd = false
 attack3_spd = room_speed * 1.5
 attack3_cost = 0

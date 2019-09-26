@@ -1,22 +1,19 @@
-/// @description 
-//x = obj_player.x
-//y = obj_player.y
-
-var mouse_dir = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y)
-//var xx = lengthdir_x(sprite_width,mouse_dir)
-//var yy = lengthdir_y(sprite_height,mouse_dir)
-
+/// @description set knockback and dmg
 knockback = 10
-damage = obj_player.damage
-
-instance_create_layer(x,y,"Instances",obj_damage)
-obj_damage.image_xscale = 1.2
-obj_damage.image_yscale = .5
-obj_damage.image_angle = mouse_dir
-obj_damage.damage = damage
-obj_damage.knockback = knockback
-obj_damage.owner = obj_player
-//range
-	//global.dmg.image_xscale = 1
-	//global.dmg.image_yscale = 1
-
+damage = 1
+if(instance_exists(obj_level_generator)){
+	if(!(grid_collide(self,obj_level_generator.grid) || place_meeting(x,y,obj_collidable))){
+		var mouse_dir = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y)
+		instance_create_layer(x,y,"Instances",obj_damage)
+		if(instance_exists(obj_damage)){	
+			with(obj_damage){
+				//image_xscale = 1.2
+				//image_yscale = .5
+				image_angle = mouse_dir
+				damage = obj_player_attack_shockwave.damage
+				knockback = obj_player_attack_shockwave.knockback
+				//owner = obj_player
+			}
+		}
+	}
+}
