@@ -5,8 +5,8 @@ if(!other.dead){
 	var yy = lengthdir_y(sprite_height,mouse_dir)
 	instance_create_layer(x,y,"Instances",obj_damage)
 	with(obj_damage){
-		damage = obj_player_wand.damage
-		knockback = obj_player_wand.damage
+		damage = obj_player_attack_wand.damage
+		knockback = obj_player_attack_wand.damage
 		image_xscale = 1.5
 		image_yscale = 1.5
 		alarm[0] = 2

@@ -28,9 +28,9 @@ attack1_cd = false
 attack1_spd = room_speed * .8 //1 sec
 
 //attack 2- magic missiles
-attack2_dmg = 1
+attack2_dmg = .2
 attack2_cd = false
-attack2_spd = room_speed * .5
+attack2_spd = room_speed * .1
 attack2_cost = 0
 
 //attack 3- shockwave
