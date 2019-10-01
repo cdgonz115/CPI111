@@ -8,12 +8,12 @@ exp_ = 95
 exp_to_level = power(2,level_) * 50
 aggro_rad = (150) //aggro pixel radius
 
-max_hp = 5
+max_hp = 10
 hp = max_hp
 max_mana = 50
 mana = max_mana
 mana_regen = 5
-souls = 0
+souls = 7000
 
 roll_cd = false
 roll_cd_time = 2
@@ -40,6 +40,7 @@ attack3_cost = 0
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
+talking = false
 helmet_equipped = false
 
 //create a camera on player

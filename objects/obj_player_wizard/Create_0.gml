@@ -41,6 +41,7 @@ attack3_cost = 0
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
+is_talking = false
 helmet_equipped = false
 
 //create a camera on player

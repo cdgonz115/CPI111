@@ -1,7 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description reset the game!
 game_state = 1
 room_goto(rm_main)
+obj_Reaper.visible = true
 with(obj_player){
 	hp = max_hp
 	mana = max_mana

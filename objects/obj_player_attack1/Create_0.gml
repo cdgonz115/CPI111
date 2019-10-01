@@ -35,11 +35,12 @@ else if (target.sprite_index == spr_player_walk_u2){
 }
 image_xscale = image_xscale * 2
 image_yscale = image_yscale * 2
+
 if(instance_exists(obj_level_generator) && !(grid_collide(self,obj_level_generator.grid) || place_meeting(x,y,obj_collidable))){
 	instance_create_layer(x,y,"Instances",obj_damage)
 	//moves hitbox to where you're facing
 	obj_damage.image_angle = point_direction(x, y, mouse_x, mouse_y);
-	obj_damage.image_xscale = 0.5 //hitbox size
+	obj_damage.image_xscale = 1.5 //hitbox size
 	//assign values
 	obj_damage.knockback = knockback
 	obj_damage.damage = damage

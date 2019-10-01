@@ -1,0 +1,1 @@
+/// @description Click to purchase item from vendor

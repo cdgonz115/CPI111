@@ -26,17 +26,36 @@ if(instance_exists(chesto)){
 }
 var npc = instance_nearest(x,y,obj_NPC)
 if(instance_exists(npc)){
-	if(distance_to_object(npc) <5){
-		with(npc){
-			if(!instance_exists(obj_dialogue)){
-				dialogue = instance_create_layer(x+xoffset,y+yoffset, "Instances", obj_dialogue)
-				dialogue.text = text
-			}
-			else {
-				dialogue.text_page++
-				dialogue.text_count = 0
-				if(dialogue.text_page > array_length_1d(dialogue.text)-1){
-					instance_destroy(dialogue)
+	if(npc.object_index == obj_Reaper){
+		if(obj_Reaper.vendor.visible){
+			//object_set_visible(obj_Reaper.vendor,false)
+			obj_Reaper.vendor.visible = false
+			instance_destroy(obj_vendor_click)
+			talking = false
+		}
+		else if(distance_to_object(npc) <10){
+			with(npc){
+				//first press creates the text box
+				if(!instance_exists(obj_dialogue)){
+					dialogue = instance_create_layer(x+xoffset,y+yoffset, "Instances", obj_dialogue)
+					dialogue.text = text
+					obj_player.talking = true
+				}
+				//next press progresses the dialogue
+				else {
+					dialogue.text_page++
+					dialogue.text_count = 0
+					//close dialogue and open vendor menu
+					if(dialogue.text_page > array_length_1d(dialogue.text)-1){
+						//obj_player.is_talking = false
+						instance_destroy(dialogue)
+						//object_set_visible(obj_Reaper.vendor,true)
+						obj_Reaper.vendor.visible = true
+						
+						instance_create_layer(obj_Reaper.x+sprite_width*1.5+9,obj_Reaper.y-55,"Instances",obj_vendor_hp)
+						instance_create_layer(obj_Reaper.x+sprite_width*1.5+43,obj_Reaper.y-55,"Instances",obj_vendor_mana)
+						instance_create_layer(obj_Reaper.x+sprite_width*1.5+77,obj_Reaper.y-55,"Instances",obj_vendor_inv)
+					}
 				}
 			}
 		}

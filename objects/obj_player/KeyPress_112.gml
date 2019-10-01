@@ -1,4 +1,13 @@
-/// @description Use item 1 in inventory
-var item_num = 0
-if(item_num < inventory.max_size)
-	item_use(obj_inventory.ItemArray[0],0)
+/// @description Use potion
+
+//find and use first available potion
+var index = 0
+for(var i = 0; i < obj_inventory.max_size; i++){
+	if(obj_inventory.ItemArray[i] != noone){
+		if (obj_inventory.ItemArray[i].object_index == obj_potion1){
+			index = i;
+			break;
+		}
+	}
+}
+item_use(obj_inventory.ItemArray[index],index)
