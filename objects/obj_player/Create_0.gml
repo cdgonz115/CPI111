@@ -9,11 +9,11 @@ exp_to_level = power(2,level_) * 50
 aggro_rad = (150) //aggro pixel radius
 
 max_hp = 10
-hp = max_hp
+hp = 10
 max_mana = 50
 mana = max_mana
 mana_regen = 5
-souls = 7000
+souls = 117000
 
 roll_cd = false
 roll_cd_time = 2
