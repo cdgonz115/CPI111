@@ -98,7 +98,8 @@ for (var col = 1; col < height-1; col++){
 			var slime_prob = 0.00
 			var skele_prob = 0.00
 			var skele_mage_prob = 0.00
-			var zombie_prob = 0.03
+			var zombie_prob = 0.00
+			var ghost_prob = 0.04
 			
 			//add a chest(maybe)!
 			if ((curr_chests < max_chests) && (random(1.0)<chest_prob) && ((n_&&e_&&w_) || (s_&&w_&&e_) || (w_&&s_&&n_) || (e_&&s_&&n_))) //checks to spawn chest only in corner surrounded by 3 walls
@@ -139,6 +140,10 @@ for (var col = 1; col < height-1; col++){
 				else if (random(1)< zombie_prob)
 				{
 					instance_create_layer(curr_grid_pos_x, curr_grid_pos_y, "Instances", obj_zombie)
+				}
+				else if (random(1)< ghost_prob)
+				{
+					instance_create_layer(curr_grid_pos_x, curr_grid_pos_y, "Instances", obj_ghost)
 				}
 			}
 		}
