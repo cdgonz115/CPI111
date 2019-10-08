@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "13e16e59-1df1-4ed5-90fb-62b3a002ff8f",
+            "Value": {
+                "id": "57ae3f3e-0631-4667-9834-b94b9e0dced9",
+                "resourcePath": "sprites\\spr_zombie_aggro\\spr_zombie_aggro.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1415fd3f-970b-4c75-8550-92453cd99083",
             "Value": {
                 "id": "8836d8ba-4340-480d-bc45-84f252ee5dfe",
@@ -1263,6 +1271,14 @@
             }
         },
         {
+            "Key": "d904ac51-766e-4857-b911-eaa69103a335",
+            "Value": {
+                "id": "f49b0148-9dd5-4bf3-9f52-1fb54fffc7c6",
+                "resourcePath": "objects\\obj_zombie\\obj_zombie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9e88058-81b2-44dc-bdcb-3d97f05d22df",
             "Value": {
                 "id": "c7c5615f-0a4c-47a5-80b2-189a412290b3",
@@ -1303,10 +1319,26 @@
             }
         },
         {
+            "Key": "e0d5ceca-a41b-4051-ab5b-6483097458a8",
+            "Value": {
+                "id": "b2ce5d27-4219-42af-be07-d3cf68de1ff3",
+                "resourcePath": "sprites\\spr_zombie\\spr_zombie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2cbc6da-fa7e-453c-976c-958b98e9b0e9",
             "Value": {
                 "id": "0b888fc7-1852-4e79-90f2-508ee190e905",
                 "resourcePath": "objects\\obj_collidable\\obj_collidable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e349cdf7-3032-4359-a05e-c8fbfcc442b9",
+            "Value": {
+                "id": "063cadbb-320c-483e-bbc3-b0ea527c7fa4",
+                "resourcePath": "objects\\obj_zombie_aggro\\obj_zombie_aggro.yy",
                 "resourceType": "GMObject"
             }
         },

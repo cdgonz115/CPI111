@@ -1,10 +1,10 @@
-	/// @description Movement/Collision with walls
+/// @description Movement/Collision with walls
 
-	if(hp <= 0){
-		obj_game_control.game_state = -1
-	}
+if(hp <= 0){
+	obj_game_control.game_state = -1
+}
 
-	//if(obj_game_control.game_state != -1){ //game over
+//if(obj_game_control.game_state != -1){ //game over
 if(!talking){
 	//level check
 	if(exp_ >= exp_to_level && (exp_ > 0)){
