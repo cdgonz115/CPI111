@@ -1,6 +1,6 @@
 /// @description creates a damage object that hurts enemies at players current direction
 //assign damage, knockback values at the bottom
-
+hit = false
 knockback = 10
 damage = obj_player_wizard.attack2_dmg
 image_xscale = image_xscale * 1.5

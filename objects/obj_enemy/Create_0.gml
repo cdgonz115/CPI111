@@ -7,7 +7,9 @@ exp_ = 5 //exp awarded to player when killed
 hp = 2
 spd = 0
 
+hit_cd = false
+hit_spd = 1
+
 knockback = 5
 knocked_back = false
 dead = false
-death_animation = 0

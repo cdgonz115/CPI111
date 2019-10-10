@@ -1,7 +1,7 @@
 /// @description
 event_inherited()
-attack_cd = false
-attack_spd = 5
+hit_cd = false
+hit_spd = 5
 damage = 1
 knockback = 2
 spd = 0.5

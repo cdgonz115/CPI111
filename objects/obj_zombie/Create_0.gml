@@ -1,8 +1,8 @@
 /// @description
 event_inherited()
 hp = 4
-attack_cd = false
-attack_spd = 5
+hit_cd = false
+hit_spd = 5
 charge_cd = false
 charge_dmg = 3
 charging = false

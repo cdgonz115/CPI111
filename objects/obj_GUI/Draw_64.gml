@@ -12,8 +12,8 @@ if(obj_game_control.game_state != -1){
 	draw_healthbar(x-75,y+220,x-75+56*2.2,y+215+51*2.1,(obj_player.hp/obj_player.max_hp)*100,c_black,c_red,c_red,3,false,false) //hp
 	draw_healthbar(x+200,y+220,x+200+56*2.2,y+215+51*2.1,(obj_player.mana/obj_player.max_mana)*100,c_black,c_teal,c_teal,3,false,false) //mana
 	draw_sprite_ext(spr_gui,3,x+125,y+273,2.2,2.1,0,c_white,1) //change subimage later depending on unlocked abilities? //main UI border
-	draw_text(x-55,y+300,"HP: " + string(obj_player.hp) + "/" + string(obj_player.max_hp))
-	draw_text(x+220,y+300,"MP: " + string(obj_player.mana) + "/" + string(obj_player.max_mana))
+	draw_text(x-55,y+300,"HP: " + string(floor(obj_player.hp)) + "/" + string(obj_player.max_hp))
+	draw_text(x+220,y+300,"MP: " + string(floor(obj_player.mana)) + "/" + string(obj_player.max_mana))
 }
 //inventory display
 var xoffset = 450

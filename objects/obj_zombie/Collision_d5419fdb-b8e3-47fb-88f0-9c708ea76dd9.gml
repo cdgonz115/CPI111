@@ -8,8 +8,8 @@ if(!attack_cd && hp >0){
 	else
 		obj_enemy_damage.damage = damage
 	obj_enemy_damage.knockback = knockback
-	attack_cd = true
-	alarm[0] = attack_spd * room_speed
+	hit_cd = true
+	alarm[0] = hit_spd * room_speed
 	x_speed = 0
 	y_speed = 0
 	

@@ -10,8 +10,3 @@ if((game_state == -1) && (!alarm_triggered)) { //you died, go back to main floor
 	obj_GUI.visible = false
 	camera_set_view_pos(view_camera[0],x+50,y)
 }
-/*
-if(instance_exists(obj_game_over)){
-	obj_game_over.image_alpha = game_over_alpha*room_speed
-	game_over_alpha += 0.1
-}
