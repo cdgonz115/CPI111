@@ -155,7 +155,7 @@ for (var col = 1; col < height-1; col++){
 				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_wall_blood)
 			if(tile_index == 4 && random(1)<0.2)
 				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_wall_chains)
-			if((tile_index == 2 || tile_index == 8) && random(1)<0.2)
+			if((tile_index == 2 || tile_index == 8 || tile_index == 7) && random(1)<0.15)
 				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_torch)
 		}
 		else //set floor tiles

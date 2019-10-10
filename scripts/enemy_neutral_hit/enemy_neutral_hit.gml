@@ -1,7 +1,7 @@
 ///@arg enemy
 var enemy = argument0
 with(enemy){
-	if(!hit_cd && hp >0){
+	if(!obj_player.rolling && !hit_cd && hp >0){
 		obj_player.hp -= damage
 		//obj_enemy_damage.knockback = knockback
 		hit_cd = true
