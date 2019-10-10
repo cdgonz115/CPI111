@@ -34,7 +34,7 @@ attack2_spd = room_speed * .3
 casted2 = false //for mm animation
 attack2_cost = 4
 
-//attack 3- shockwave
+//attack 3- blast nova
 attack3_dmg = 1 //per wave
 attack3_cd = false
 attack3_spd = room_speed * 1.5

@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "2e3a6ef6-01bf-4a13-80c9-0d7537de7bad",
+            "Value": {
+                "id": "85324f31-9a5d-46b4-b7f9-8a3eeb3aa998",
+                "resourcePath": "sprites\\spr_blast_nova\\spr_blast_nova.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "340dfefd-a9a4-4f77-88fb-d0fce6b4531d",
             "Value": {
                 "id": "03b1dad5-71f0-4fb1-9876-0d231d0d8940",
@@ -508,6 +516,14 @@
                 "id": "68ae9f2b-7d57-46f5-ad21-0c835e1ae654",
                 "resourcePath": "views\\4a566683-4ceb-47d7-891f-8b4442f4a26c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c338d5f-0985-44b0-80af-bf629e5110c3",
+            "Value": {
+                "id": "091826ee-ef44-4813-890f-420f005cc2ba",
+                "resourcePath": "objects\\obj_player_attack_blast_nova\\obj_player_attack_blast_nova.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1311,6 +1327,14 @@
             }
         },
         {
+            "Key": "d3616fda-14cc-44ea-aa3b-190e579bc22f",
+            "Value": {
+                "id": "66ad9b60-af91-4fe1-9a88-57587d992cb0",
+                "resourcePath": "scripts\\hit_sounds\\hit_sounds.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d622a0b2-6116-4534-8fbd-cc08b53d7685",
             "Value": {
                 "id": "8b798e8f-b413-4a1e-a754-e5f3b1307fba",
@@ -1608,7 +1632,8 @@
         "784724b5-d1dd-4171-822d-1e196ff42b07",
         "fb9f1dcf-c48e-4a40-8ab8-db547d3e1d5e",
         "682fc94e-f744-4731-8d3f-2f35e3063079",
-        "b99265c0-9a13-4408-aeed-470a95343695"
+        "b99265c0-9a13-4408-aeed-470a95343695",
+        "d3616fda-14cc-44ea-aa3b-190e579bc22f"
     ],
     "tutorial": ""
 }

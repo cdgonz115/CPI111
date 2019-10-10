@@ -1,9 +1,13 @@
-/// @description hit the enemy
-if(other != obj_player && !other.dead)
-{
-	other.hp -= damage
-	//hit sounds
-	hit_sounds(other)
+/// @description Insert description here
+// You can write your code in this editor
+if(other != obj_player && !other.dead){
+	if(!other.hit_by_nova){
+		other.hp -= obj_player.attack3_dmg
+		other.hit_by_nova = true
+		other.alarm[9] = obj_player.attack3_cd*room_speed
+		hit_sounds(other)
+	}
+	
 	//knockback
 	var dir = point_direction(obj_player.x,obj_player.y,other.x,other.y)
 	var xforce = lengthdir_x(knockback,dir-180)
@@ -45,7 +49,5 @@ if(other != obj_player && !other.dead)
 				}
 			}
 		}
-		knocked_back = true
-		alarm[11] = 5 //time knocked back
 	}
 }

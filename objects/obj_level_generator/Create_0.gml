@@ -95,10 +95,10 @@ for (var col = 1; col < height-1; col++){
 			var max_chests = 4
 			var curr_chests = 0
 			//baddies
-			var slime_prob = 0.00
+			var slime_prob = 0.05
 			var skele_prob = 0.00
 			var skele_mage_prob = 0.00
-			var zombie_prob = 0.04
+			var zombie_prob = 0.00
 			var ghost_prob = 0.00
 			
 			//add a chest(maybe)!
