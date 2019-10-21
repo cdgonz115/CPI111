@@ -52,9 +52,9 @@ if(instance_exists(npc)){
 						//object_set_visible(obj_Reaper.vendor,true)
 						obj_Reaper.vendor.visible = true
 						
-						instance_create_layer(obj_Reaper.x+sprite_width*1.5+9,obj_Reaper.y-55,"Instances",obj_vendor_hp)
-						instance_create_layer(obj_Reaper.x+sprite_width*1.5+43,obj_Reaper.y-55,"Instances",obj_vendor_mana)
-						instance_create_layer(obj_Reaper.x+sprite_width*1.5+77,obj_Reaper.y-55,"Instances",obj_vendor_inv)
+						instance_create_layer(obj_player.x+sprite_width*1.5+25,obj_player.y-60,"Instances",obj_vendor_hp)
+						instance_create_layer(obj_player.x+sprite_width*1.5+59,obj_player.y-60,"Instances",obj_vendor_mana)
+						instance_create_layer(obj_player.x+sprite_width*1.5+93,obj_player.y-60,"Instances",obj_vendor_inv)
 					}
 				}
 			}

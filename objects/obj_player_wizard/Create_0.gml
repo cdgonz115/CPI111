@@ -14,7 +14,7 @@ hp = max_hp
 max_mana = 50
 mana = max_mana
 mana_regen = 5
-souls = 0
+souls = 1700000
 
 roll_cd = false
 roll_cd_time = 2
