@@ -45,7 +45,7 @@ if(!dead){
 					hspeed = 0
 					vspeed = 0
 					charging = false
-					alarm[2] = 3*room_speed
+					alarm[2] = charge_time
 				}
 			}
 			else if (hspeed < 0) { //left
@@ -55,7 +55,7 @@ if(!dead){
 					hspeed = 0
 					vspeed = 0
 					charging = false
-					alarm[2] = 3*room_speed
+					alarm[2] = charge_time
 				}
 			}
 		}
@@ -77,7 +77,7 @@ if(!dead){
 					vspeed = 0
 					hspeed = 0
 					charging = false
-					alarm[2] = 3*room_speed
+					alarm[2] = charge_time
 				}
 			} 
 			else if (vspeed < 0){ //up
@@ -87,7 +87,7 @@ if(!dead){
 					vspeed = 0
 					hspeed = 0
 					charging = false
-					alarm[2] = 3*room_speed
+					alarm[2] = charge_time
 				}
 			}
 		}

@@ -1,12 +1,14 @@
 /// @description
 event_inherited()
 hp = 4
+exp_ = 20
 hit_cd = false
 hit_spd = 5
 charge_cd = false
-charge_dmg = 3
+charge_dmg = 4
+charge_time = 3*room_speed
 charging = false
-damage = 2
+damage = 1
 knockback = 2
 spd = 2
 dead = false

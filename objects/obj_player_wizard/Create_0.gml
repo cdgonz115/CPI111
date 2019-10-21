@@ -30,7 +30,7 @@ attack1_spd = room_speed * .8 //1 sec
 //attack 2- magic missiles
 attack2_dmg = .5
 attack2_cd = false
-attack2_spd = room_speed * .3
+attack2_spd = room_speed * .5
 casted2 = false //for mm animation
 attack2_cost = 4
 

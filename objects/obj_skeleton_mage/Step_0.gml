@@ -16,7 +16,13 @@ if(!dead){
 			{
 				x_speed = 0
 				y_speed = 0
-				attacking = true
+				//attacking = true
+				if(!ranged_attack_cd){
+					attack = instance_create_layer(x,y,"Instances",obj_skele_mage_attack)
+					attack.damage = ranged_attack_dmg
+					ranged_attack_cd = true
+					alarm[1] = ranged_attack_spd
+				}
 			}
 			else //change the movement towards the player
 			{

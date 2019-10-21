@@ -1,6 +1,6 @@
 /// @description reset the game!
 game_state = 1
-room_goto(rm_main)
+room_goto(rm_town)
 obj_Reaper.visible = true
 with(obj_player){
 	hp = max_hp

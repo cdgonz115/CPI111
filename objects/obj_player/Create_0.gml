@@ -17,7 +17,7 @@ souls = 117000
 
 roll_cd = false
 roll_cd_time = 2
-rollspeed = 2
+rollspeed = 1.1
 rolling = false
 
 //attack stats
@@ -30,7 +30,7 @@ attack1_spd = room_speed * .8 //1 sec
 attack2_dmg = 2
 attack2_cd = false
 attack2_spd = room_speed * 1.5
-attack2_cost = 0
+attack2_cost = 20
 
 //attack 3- shockwave
 attack3_dmg = 1 //per wave

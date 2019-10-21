@@ -1,8 +1,8 @@
 /// @description Interact with object
-
+interact_dist = 10
 var chesto = instance_nearest(x,y,obj_chest)
 if(instance_exists(chesto)){
-	if(chesto.opened == false && distance_to_object(chesto)<5){
+	if(chesto.opened == false && distance_to_object(chesto)<interact_dist){
 		//"collision" with chest
 		//right
 		if (place_meeting(x+10,y,obj_chest))

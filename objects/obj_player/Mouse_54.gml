@@ -5,5 +5,5 @@ if(!roll_cd && !talking){
 	acceleration = acceleration*rollspeed
 	roll_cd = true
 	rolling = true
-	alarm[11] = 15 //time in roll state
+	alarm[11] = 0.3*room_speed //time in roll state
 }
