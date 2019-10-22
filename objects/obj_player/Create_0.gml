@@ -41,6 +41,8 @@ attack3_cost = 0
 playerRecoil=-1;
 
 talking = false
+knocked_back = false
+knock_time = 0.5 * room_speed
 helmet_equipped = false
 
 //create a camera on player

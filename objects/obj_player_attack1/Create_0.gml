@@ -3,7 +3,7 @@
 
 target = obj_player //easier to type target and easier to change also owner
 dir = 0 //direction player is facing when using an attack
-knockback = 10
+knockback_dist = 10
 damage = obj_player.attack1_dmg
 
 //right
@@ -42,6 +42,6 @@ image_yscale = image_yscale * 2
 	obj_damage.image_angle = point_direction(x, y, mouse_x, mouse_y);
 	obj_damage.image_xscale = 1.5 //hitbox size
 	//assign values
-	obj_damage.knockback = knockback
+	obj_damage.knockback_dist = knockback_dist
 	obj_damage.damage = damage
 //}

@@ -4,13 +4,13 @@ y = obj_player.y
 image_xscale = 2
 image_yscale = 2
 
-knockback = 10
+knockback_dist = 10
 damage = obj_player.damage
 //create 4 hiboxes
 for(var i = 0; i < 4; i++) {
 	global.dmg = instance_create_layer(x,y,"Instances",obj_damage)
 	global.dmg.damage = damage
-	global.dmg.knockback = knockback
+	global.dmg.knockback_dist = knockback_dist
 	//global.dmg.owner = obj_player
 	//create a full circle of hitbox
 	global.dmg.image_angle = 90*i

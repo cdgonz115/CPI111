@@ -11,6 +11,7 @@ hit_cd = false
 hit_spd = 1
 
 hit_by_nova = false
-knockback = 5
+knockback_dist = 5
 knocked_back = false
+knock_time = 0.5 * room_speed;
 dead = false

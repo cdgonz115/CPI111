@@ -1,5 +1,5 @@
 /// @description set knockback and dmg
-knockback = 10
+knockback_dist = 10
 damage = 1
 if(instance_exists(obj_level_generator)){
 	if(!(grid_collide(self,obj_level_generator.grid) || place_meeting(x,y,obj_collidable))){
@@ -11,7 +11,7 @@ if(instance_exists(obj_level_generator)){
 				//image_yscale = .5
 				image_angle = mouse_dir
 				damage = obj_player_attack_shockwave.damage
-				knockback = obj_player_attack_shockwave.knockback
+				knockback_dist = obj_player_attack_shockwave.knockback_dist
 				//owner = obj_player
 			}
 		}

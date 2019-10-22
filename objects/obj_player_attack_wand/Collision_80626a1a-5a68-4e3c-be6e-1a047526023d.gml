@@ -6,7 +6,7 @@ if(!other.dead){
 	instance_create_layer(x,y,"Instances",obj_damage)
 	with(obj_damage){
 		damage = obj_player_attack_wand.damage
-		knockback = obj_player_attack_wand.damage
+		knockback_dist = obj_player_attack_wand.knockback_dist
 		image_xscale = 1.5
 		image_yscale = 1.5
 		alarm[0] = 2
