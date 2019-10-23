@@ -16,8 +16,10 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "41f9f891-fb2c-49b4-8d87-b3f3b7e6ede2",
+    "overriddenProperties": [
+        
+    ],
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,8 +33,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "8ac29c9e-c340-4c99-a4bf-f56bee7db299",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "fully_upgraded",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "7f6ef1be-e960-494e-88bb-0655663886ab",
-    "visible": false
+    "visible": true
 }

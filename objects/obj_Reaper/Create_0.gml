@@ -9,7 +9,6 @@ text[1] = "Now that you're here, let me take a look at those souls..."
 //Vendor
 //Upgrade levels - 1 means have not purchased upgrade, 2 means purchased once, etc.
 //it was easier for calculations ok?! lol
-vendor = instance_create_layer(x,y,"Instances",obj_vendor)
 upgrade_hp = 1
 upgrade_hp_cost = power(2,upgrade_hp) * 50
 

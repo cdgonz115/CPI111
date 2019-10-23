@@ -28,10 +28,9 @@ if(instance_exists(chesto)){
 var npc = instance_nearest(x,y,obj_NPC)
 if(instance_exists(npc)){
 	if(npc.object_index == obj_Reaper){
-		if(obj_Reaper.vendor.visible){
+		if(instance_exists(obj_vendor)){
 			//object_set_visible(obj_Reaper.vendor,false)
-			obj_Reaper.vendor.visible = false
-			instance_destroy(obj_vendor_click)
+			instance_destroy(obj_vendor)
 			talking = false
 		}
 		else if(distance_to_object(npc) <= interact_dist){
@@ -51,11 +50,7 @@ if(instance_exists(npc)){
 						//obj_player.is_talking = false
 						instance_destroy(dialogue)
 						//object_set_visible(obj_Reaper.vendor,true)
-						obj_Reaper.vendor.visible = true
-						
-						instance_create_layer(obj_player.x+sprite_width*1.5+25,obj_player.y-60,"Instances",obj_vendor_hp)
-						instance_create_layer(obj_player.x+sprite_width*1.5+59,obj_player.y-60,"Instances",obj_vendor_mana)
-						instance_create_layer(obj_player.x+sprite_width*1.5+93,obj_player.y-60,"Instances",obj_vendor_inv)
+						instance_create_layer(obj_player.x+135,obj_player.y-63,"Instances",obj_vendor)
 					}
 				}
 			}

@@ -7,7 +7,7 @@ if(!attack1_cd) {
 	alarm[1] = attack1_spd
 }
 */
-if(!attack2_cd && (mana >=attack2_cost)) {
+if(!attack2_cd && (mana >=attack2_cost) && !talking) {
 	damage = attack2_dmg
 	attack = instance_create_layer(x,y,"Instances",obj_player_attack_magic_mis)
 	if(casted2){

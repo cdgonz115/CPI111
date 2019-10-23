@@ -12,3 +12,8 @@ if((obj_player.souls > obj_Reaper.upgrade_inv_cost) && (obj_player.inventory.max
 	obj_Reaper.upgrade_inv++
 	obj_Reaper.upgrade_inv_cost = power(2,obj_Reaper.upgrade_inv) * 50
 }
+if(obj_Reaper.upgrade_inv >=9)
+{
+	fully_upgraded=true
+	sprite_index=spr_lvl_up;
+}

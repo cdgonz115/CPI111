@@ -14,3 +14,9 @@ if(obj_player.souls > obj_Reaper.upgrade_hp_cost){
 	obj_Reaper.upgrade_hp++
 	obj_Reaper.upgrade_hp_cost = power(2,obj_Reaper.upgrade_hp) * 50
 }
+//To be uncommented once a cap has been put to the health cost and the secondary sprite has been added
+//if(value>=cap)
+//{
+//	fully_upgraded=true
+//	sprite_index=name_of_sprite
+//}
