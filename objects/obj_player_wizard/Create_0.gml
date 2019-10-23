@@ -35,15 +35,24 @@ casted2 = false //for mm animation
 attack2_cost = 4
 
 //attack 3- blast nova
-attack3_dmg = 1 //per wave
+attack3_dmg = 2 //once per wave
 attack3_cd = false
 attack3_spd = room_speed * 1.5
 attack3_cost = 0
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
+//states
+dead = false
 talking = false
+knocked_back = false
+knock_time = 0.5 * room_speed
 helmet_equipped = false
+
+//animation
+up = spr_wizard_up
+down = spr_wizard_down
+side = spr_wizard_side
 
 //create a camera on player
 instance_create_layer(x, y, "Instances", obj_camera)

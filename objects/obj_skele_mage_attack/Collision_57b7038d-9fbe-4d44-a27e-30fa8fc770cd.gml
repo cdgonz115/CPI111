@@ -2,6 +2,6 @@
 
 if(!obj_player.rolling){
 	obj_player.hp -= damage
-	//knockback(         knockback stuff for mage projectile
+	knockback(owner,other)
 	instance_destroy()
 }

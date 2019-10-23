@@ -1,6 +1,7 @@
 /// @description set knockback and dmg
-knockback_dist = 10
-damage = 1
+knockback_dist = 15
+damage = obj_player.attack3_dmg
+
 if(instance_exists(obj_level_generator)){
 	if(!(grid_collide(self,obj_level_generator.grid) || place_meeting(x,y,obj_collidable))){
 		var mouse_dir = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y)

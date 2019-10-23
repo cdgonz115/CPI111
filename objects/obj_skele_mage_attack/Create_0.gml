@@ -7,3 +7,5 @@ owner = noone;
 //go towards player's last position when enemy attacked
 move_towards_point(obj_player.x,obj_player.y,projectile_spd)
 image_angle = direction
+
+//audio_play_sound(fireball,90,0)

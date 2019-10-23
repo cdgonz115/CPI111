@@ -20,6 +20,7 @@ if(!dead){
 				if(!ranged_attack_cd){
 					attack = instance_create_layer(x,y,"Instances",obj_skele_mage_attack)
 					attack.damage = ranged_attack_dmg
+					attack.owner = self
 					ranged_attack_cd = true
 					alarm[1] = ranged_attack_spd
 				}

@@ -1,5 +1,7 @@
 /// @description reset the game!
 game_state = 1
+obj_player.dead = false
+floor_ = 0
 room_goto(rm_town)
 obj_Reaper.visible = true
 with(obj_player){
@@ -14,8 +16,8 @@ with(obj_player){
 			ItemArray[i] = noone
 		}
 	}
-	x = 512
-	y = 384
+	x = 990
+	y = 800
 }
 audio_stop_sound(mus_horror_ambient)
 //audio_play_sound(mus_InnerCore_Low,100,true)

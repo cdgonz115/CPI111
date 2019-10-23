@@ -11,3 +11,4 @@ projectile_spd = 3 //pixels per frame
 //go towards mouse
 move_towards_point(mouse_x,mouse_y,projectile_spd)
 image_angle = direction
+audio_play_sound(floorspell,10,0)

@@ -4,10 +4,10 @@ var xx = lengthdir_x(sprite_width,mouse_dir)
 var yy = lengthdir_y(sprite_height,mouse_dir)
 var collided = false
 
-if((!attack3_cd) && (mana >=attack3_cost) && !talking) {
+if((!dead && !attack3_cd) && (mana >=attack3_cost) && !talking) {
 	//create 4 separate shockwave objects in a row
 	for(var i = 0; i < 4; i++) {
-		instance_create_layer(x+xx*i,y+yy*i,"Instances",obj_player_attack_shockwave)
+		instance_create_layer(x+(sign(image_xscale)*(xx*i)),y+yy*i,"Instances",obj_player_attack_shockwave)
 		with(obj_player_attack_shockwave){
 			damage = obj_player.attack3_dmg
 			//change shockwave according to mouse location
@@ -20,10 +20,10 @@ if((!attack3_cd) && (mana >=attack3_cost) && !talking) {
 			if((mouse_dir<45 || mouse_dir>315) || (mouse_dir>135 && mouse_dir<225)){
 				x += sign(image_xscale)*5
 			}
-			else if(mouse_dir>45 && mouse_dir<135){
+			else if(mouse_dir>45 && mouse_dir<135){ //up
 				y -= 5
 			}
-			else if(mouse_dir<315 && mouse_dir>225){
+			else if(mouse_dir<315 && mouse_dir>225){ //down
 				y += 5
 			}
 			//if it hits a wall or chest, stop creating shockwaves

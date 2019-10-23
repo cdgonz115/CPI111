@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+//depth = -y
 //check if inventory is full
 var index = 0
 if(can_pickup && obj_inventory.curr_size < obj_player.inventory.max_size){

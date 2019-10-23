@@ -1,27 +1,28 @@
 /// @description Interact with object
-interact_dist = 10
+interact_dist = 12
 var chesto = instance_nearest(x,y,obj_chest)
 if(instance_exists(chesto)){
-	if(chesto.opened == false && distance_to_object(chesto)<interact_dist){
+	if(!chesto.opened && distance_to_object(chesto)<interact_dist){
 		//"collision" with chest
 		//right
-		if (place_meeting(x+10,y,obj_chest))
-			instance_create_layer(x-sprite_width/2,y,"Instances",obj_potion1)
+		if (place_meeting(x+interact_dist,y,obj_chest))
+			instance_create_layer(x-sprite_width,y,"Instances",obj_potion1)
 		//left
-		else if (place_meeting(x-10,y,obj_chest))
-			instance_create_layer(x+sprite_width/2,y,"Instances",obj_potion1)
+		else if (place_meeting(x-interact_dist,y,obj_chest))
+			instance_create_layer(x+sprite_width,y,"Instances",obj_potion1)
 		//down
-		else if(place_meeting(x,y+10,obj_chest))
-			instance_create_layer(x,y-sprite_height/2,"Instances",obj_potion1)
+		else if(place_meeting(x,y+interact_dist,obj_chest))
+			instance_create_layer(x,y-sprite_height,"Instances",obj_potion1)
 		//up
-		else if(place_meeting(x,y-10,obj_chest))
-			instance_create_layer(x,y+sprite_height/2,"Instances",obj_potion1)
+		else if(place_meeting(x,y-interact_dist,obj_chest))
+			instance_create_layer(x,y+sprite_height,"Instances",obj_potion1)
 		//pop out a potion probly don't need this line but oh well
 		if(instance_exists(obj_potion1))
-			obj_potion1.depth = chesto.depth-1
+			//obj_potion1.depth = chesto.depth-1
 		
 		chesto.image_speed = .7
 		chesto.opened = true
+		audio_play_sound(chestopen,2,0)
 	}
 }
 var npc = instance_nearest(x,y,obj_NPC)
@@ -33,7 +34,7 @@ if(instance_exists(npc)){
 			instance_destroy(obj_vendor_click)
 			talking = false
 		}
-		else if(distance_to_object(npc) <10){
+		else if(distance_to_object(npc) <= interact_dist){
 			with(npc){
 				//first press creates the text box
 				if(!instance_exists(obj_dialogue)){

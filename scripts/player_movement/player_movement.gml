@@ -17,7 +17,7 @@ with(player){
 		y_speed = lengthdir_y(max_speed, direction_)
 	}
 
-	x_speed = (x_input) * acceleration//
+	x_speed = (x_input) * acceleration
 	y_speed = (y_input) * acceleration
 	//friction
 	if(x_input ==0)

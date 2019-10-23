@@ -17,7 +17,7 @@ souls = 117000
 
 roll_cd = false
 roll_cd_time = 2
-rollspeed = 1.1
+rollspeed = 2
 rolling = false
 
 //attack stats
@@ -40,10 +40,17 @@ attack3_cost = 0
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
+//states
+dead = false
 talking = false
 knocked_back = false
-knock_time = 0.5 * room_speed
+knock_time = 0.1 * room_speed
 helmet_equipped = false
+
+//animation stuff
+up = spr_warrior_up
+down = spr_warrior_down
+side = spr_warrior_side
 
 //create a camera on player
 instance_create_layer(x, y, "Instances", obj_camera)
