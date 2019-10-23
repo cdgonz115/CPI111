@@ -1,0 +1,3 @@
+instance_destroy(obj_vendor_hp)
+instance_destroy(obj_vendor_mana)
+instance_destroy(obj_vendor_inv)

@@ -33,18 +33,25 @@ if(object_get_visible(obj_inventory)){
 }
 //reaper vendor display
 if(object_exists(obj_Reaper)){
-	if(obj_Reaper.vendor.visible){
+	if(instance_exists(obj_vendor)){
 		draw_sprite_ext(obj_vendor.sprite_index,0,x+xoffset+110,y-250,1.5,1.5,0,c_white,1)
 		//draw_text(x+xoffset+110,y-250,"  x " + string(obj_Reaper.upgrade_hp_cost))
-		draw_text(x+xoffset-20,y-232," x " + string(obj_Reaper.upgrade_hp_cost))
-		draw_sprite_ext(spr_soul,0,x+xoffset-30,y-222,1.5,1.5,0,c_white,1)
-		draw_text(x+xoffset-20+110,y-232," x " + string(obj_Reaper.upgrade_mana_cost))
-		draw_sprite_ext(spr_soul,0,x+xoffset-30+110,y-222,1.5,1.5,0,c_white,1)
-		if(obj_Reaper.upgrade_inv <9){
+		if(!obj_vendor_hp.fully_upgraded)
+		{
+			draw_text(x+xoffset-20,y-232," x " + string(obj_Reaper.upgrade_hp_cost))
+			draw_sprite_ext(spr_soul,0,x+xoffset-30,y-222,1.5,1.5,0,c_white,1)
+		}
+		if(!obj_vendor_mana.fully_upgraded)
+		{
+			draw_text(x+xoffset-20+110,y-232," x " + string(obj_Reaper.upgrade_mana_cost))
+			draw_sprite_ext(spr_soul,0,x+xoffset-30+110,y-222,1.5,1.5,0,c_white,1)
+		}
+		if(!obj_vendor_inv.fully_upgraded){
 			draw_text(x+xoffset-20+110*2,y-232," x " + string(obj_Reaper.upgrade_inv_cost))
 			draw_sprite_ext(spr_soul,0,x+xoffset-30+110*2,y-222,1.5,1.5,0,c_white,1)
 		}
-		else {
+		else
+		{
 			draw_text(x+xoffset-40+110*2,y-232,"FULLY UPGRADED")
 		}
 	}
