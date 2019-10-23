@@ -1,6 +1,8 @@
 /// @description
 x_speed = 0
 y_speed = 0
+x_input = 0
+y_input = 0
 max_speed = 2
 acceleration = 2
 level_ = 1

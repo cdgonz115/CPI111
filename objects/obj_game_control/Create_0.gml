@@ -1,4 +1,11 @@
 /// @description 
+
+//choice of class
+choice = ""
+chosen = true
+//change to false during real game
+//chosen = false
+
 floor_ = 0
 //difficulty = 1
 //keep gamestate starting at 1 for testing

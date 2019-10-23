@@ -1,4 +1,4 @@
-/// @description write dialogue
+/// @description draw dialogue
 
 text_count += text_speed
 text_visible = string_copy(text[text_page],0,text_count)

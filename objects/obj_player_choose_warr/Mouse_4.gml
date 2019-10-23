@@ -1,5 +1,4 @@
 /// @description 
-
-
+obj_game_control.choice = "Warrior"
+obj_game_control.game_state = 1
 room_goto(rm_town)
-instance_create_layer(990,800,"Instances",obj_player)

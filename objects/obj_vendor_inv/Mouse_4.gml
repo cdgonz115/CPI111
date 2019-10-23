@@ -6,7 +6,6 @@ if((obj_player.souls >= obj_Reaper.upgrade_inv_cost) && !obj_Reaper.inv_fully_up
 	obj_player.inventory.ItemArray[obj_player.inventory.max_size-1] = noone
 	if(object_get_visible(obj_inventory)){
 		object_set_visible(obj_inventory,false)
-		//object_set_visible(obj_inventory,true)
 		alarm[11] = 6
 	}
 	obj_Reaper.upgrade_inv++
