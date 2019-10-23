@@ -11,9 +11,13 @@ text[1] = "Now that you're here, let me take a look at those souls..."
 //it was easier for calculations ok?! lol
 upgrade_hp = 1
 upgrade_hp_cost = power(2,upgrade_hp) * 50
+hp_fully_upgraded = false
 
 upgrade_mana = 1
 upgrade_mana_cost = power(2,upgrade_mana) * 50
+mana_fully_upgraded = false
+
+inv_fully_upgraded = false
 
 alarm[11] = 1
 //upgrade_inv = obj_player.inventory.max_size

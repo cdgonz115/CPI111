@@ -1,9 +1,11 @@
 /// @description click to upgrade hp
 
-if(obj_player.souls >= obj_Reaper.upgrade_hp_cost){
+if(obj_player.souls >= obj_Reaper.upgrade_hp_cost && !obj_Reaper.hp_fully_upgraded){
 	obj_player.souls -= obj_Reaper.upgrade_hp_cost
 	obj_player.max_hp += 10
 	obj_player.hp = obj_player.max_hp
+	//have to update potions since the current potions restore a lower amount, and it's
+	//easier to calculate here than every frame on each potion
 	for(var i = 0; i < obj_inventory.max_size; i++){
 		if(obj_inventory.ItemArray[i] != noone){
 			if (obj_inventory.ItemArray[i].object_index == obj_potion1){
@@ -13,10 +15,9 @@ if(obj_player.souls >= obj_Reaper.upgrade_hp_cost){
 	}
 	obj_Reaper.upgrade_hp++
 	obj_Reaper.upgrade_hp_cost = power(2,obj_Reaper.upgrade_hp) * 50
+	
+	if(obj_Reaper.upgrade_hp == 5){
+		obj_Reaper.hp_fully_upgraded = true
+		image_index = 1
+	}
 }
-//To be uncommented once a cap has been put to the health cost and the secondary sprite has been added
-//if(value>=cap)
-//{
-//	fully_upgraded=true
-//	sprite_index=name_of_sprite
-//}

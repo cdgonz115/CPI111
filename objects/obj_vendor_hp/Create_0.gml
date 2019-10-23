@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-if(obj_Reaper.inv_fully_upgraded)
+if(obj_Reaper.hp_fully_upgraded)
 	image_index = 1

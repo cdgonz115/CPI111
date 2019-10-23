@@ -13,13 +13,23 @@
             "enumb": 4,
             "eventtype": 6,
             "m_owner": "e3771e0a-cf6a-4434-9dda-1b926b02c5c6"
+        },
+        {
+            "id": "bf93cad4-0059-456e-a46e-e666dec34c4d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e3771e0a-cf6a-4434-9dda-1b926b02c5c6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         
     ],
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "41f9f891-fb2c-49b4-8d87-b3f3b7e6ede2",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -34,22 +44,9 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "4373d59e-228a-4a0c-b685-76fb10b2a8d7",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "fully_upgraded",
-            "varType": 3
-        }
+        
     ],
     "solid": false,
-    "spriteId": "7f6ef1be-e960-494e-88bb-0655663886ab",
+    "spriteId": "f7e8dc80-ffe3-4b28-8208-b8531ac8a7e8",
     "visible": true
 }
