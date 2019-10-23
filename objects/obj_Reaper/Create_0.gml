@@ -19,6 +19,6 @@ mana_fully_upgraded = false
 
 inv_fully_upgraded = false
 
-alarm[11] = 2
+alarm[11] = 3
 //upgrade_inv = obj_player.inventory.max_size
 //upgrade_inv_cost = power(3,upgrade_inv) * 50

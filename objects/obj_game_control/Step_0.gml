@@ -2,11 +2,19 @@
 
 if(game_state == 1 && !chosen){
 	chosen = true
-	if(choice == "Warrior")
-		instance_create_layer(990,800,"Instances",obj_player)
+	if(choice == "Warrior"){
+		var player = instance_create_layer(990,800,"Instances",obj_player)
+		show_debug_message("got here")
+		//instance_destroy(obj_player_wizard)
+	}
 	else if(choice == "Wizard")
-		instance_create_layer(990,800,"Instances",obj_player_wizard)
+		var player = instance_create_layer(990,800,"Instances",obj_player_wizard)
+		//instance_destroy(obj_player)
+	else
+		var player = noone
 	instance_create_layer(1056,736,"Instances",obj_Reaper)
+	var gui = instance_create_layer(-10,10,"Instances",obj_GUI)
+	gui.player = player
 }
 
 if((game_state == -1) && (!alarm_triggered)) { //you died, go back to main floor
