@@ -1,6 +1,6 @@
 /// @description click to upgrade hp
 
-if(obj_player.souls > obj_Reaper.upgrade_mana_cost){
+if(obj_player.souls >= obj_Reaper.upgrade_mana_cost){
 	obj_player.souls -= obj_Reaper.upgrade_mana_cost
 	obj_player.max_mana += 5
 	obj_player.mana = obj_player.max_mana

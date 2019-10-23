@@ -1,6 +1,6 @@
 /// @description click to upgrade hp
 
-if((obj_player.souls > obj_Reaper.upgrade_inv_cost) && (obj_player.inventory.max_size<9)){
+if((obj_player.souls >= obj_Reaper.upgrade_inv_cost) && (obj_player.inventory.max_size<9)){
 	obj_player.souls -= obj_Reaper.upgrade_inv_cost
 	obj_player.inventory.max_size++
 	obj_player.inventory.ItemArray[obj_player.inventory.max_size-1] = noone
