@@ -10,6 +10,7 @@ if(game_state == 1 && !chosen){
 	}
 	instance_create_layer(1056,736,"Instances",obj_Reaper)
 	instance_create_layer(-10,10,"Instances",obj_GUI)
+	alarm[1] = 10
 }
 
 if((game_state == -1) && (!alarm_triggered)) { //you died, go back to main floor

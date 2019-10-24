@@ -22,5 +22,3 @@ if(!attack2_cd && (mana >=attack2_cost) && !talking && !recently_created) {
 	alarm[2] = attack2_spd
 	mana -= attack2_cost
 }
-else
-	recently_created = false //so that when choosing the class, doesn't throw out a random attack
