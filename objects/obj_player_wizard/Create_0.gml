@@ -2,6 +2,8 @@
 /// @description
 x_speed = 0
 y_speed = 0
+x_input = 0
+y_input = 0
 max_speed = 2
 acceleration = 2
 level_ = 1
@@ -48,6 +50,7 @@ talking = false
 knocked_back = false
 knock_time = 0.5 * room_speed
 helmet_equipped = false
+recently_created = true
 
 //animation
 up = spr_wizard_up

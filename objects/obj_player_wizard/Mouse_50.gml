@@ -7,7 +7,7 @@ if(!attack1_cd) {
 	alarm[1] = attack1_spd
 }
 */
-if(!attack2_cd && (mana >=attack2_cost) && !talking) {
+if(!attack2_cd && (mana >=attack2_cost) && !talking && !recently_created) {
 	damage = attack2_dmg
 	attack = instance_create_layer(x,y,"Instances",obj_player_attack_magic_mis)
 	if(casted2){
@@ -22,3 +22,5 @@ if(!attack2_cd && (mana >=attack2_cost) && !talking) {
 	alarm[2] = attack2_spd
 	mana -= attack2_cost
 }
+else
+	recently_created = false //so that when choosing the class, doesn't throw out a random attack

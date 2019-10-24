@@ -48,6 +48,7 @@ talking = false
 knocked_back = false
 knock_time = 0.1 * room_speed
 helmet_equipped = false
+recently_created = true
 
 //animation stuff
 up = spr_warrior_up
