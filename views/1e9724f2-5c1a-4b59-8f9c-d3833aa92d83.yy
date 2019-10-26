@@ -12,7 +12,8 @@
         "1856ddca-185f-4911-b31c-9cbf4f1fa046",
         "12a56019-7813-43cf-bacc-0ed49c2540d7",
         "828a0d80-960b-4897-8865-364bd09220f0",
-        "515dd042-21f7-465e-be9d-ac54c6d803ab"
+        "515dd042-21f7-465e-be9d-ac54c6d803ab",
+        "6d4d6495-ead3-4465-82c4-b3741f169256"
     ],
     "filterType": "GMObject",
     "folderName": "Player_wiz",

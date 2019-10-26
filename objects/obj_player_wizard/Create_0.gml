@@ -1,5 +1,5 @@
 /// @description 
-/// @description
+
 x_speed = 0
 y_speed = 0
 x_input = 0
@@ -54,6 +54,10 @@ attack5_cd = false
 attack5_spd = 1*room_speed //damages once per second and 1 sec cd
 attack5_cost_initial = 10 //initial
 attack5_cost_channel = 4 //per second after initial
+
+tele_cd = false
+tele_cd_time = 4 * room_speed
+tele_cost = 10 
 
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;

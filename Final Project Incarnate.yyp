@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "6d4d6495-ead3-4465-82c4-b3741f169256",
+            "Value": {
+                "id": "1ff73d5a-0630-428d-a070-d840cdfa9583",
+                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d536ee7-0906-49f8-b6ce-7480e61df6a2",
             "Value": {
                 "id": "02ea8dfe-a97b-4408-bac6-c75f94367796",
@@ -1196,6 +1204,14 @@
                 "id": "e38cd25c-ffd1-4ac0-99b7-ac61ab54d6ef",
                 "resourcePath": "objects\\obj_bubble_shield\\obj_bubble_shield.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a048fa2f-b13a-469f-a053-5067252ff3dd",
+            "Value": {
+                "id": "735f3969-4633-4bf0-bdd0-ba5b6f3311d1",
+                "resourcePath": "sprites\\spr_teleport\\spr_teleport.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
