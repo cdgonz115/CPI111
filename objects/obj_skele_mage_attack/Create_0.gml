@@ -2,6 +2,7 @@
 // You can write your code in this editor
 damage = 0
 projectile_spd = 1 //pixels per frame
+collided = false
 owner = noone;
 
 //go towards player's last position when enemy attacked

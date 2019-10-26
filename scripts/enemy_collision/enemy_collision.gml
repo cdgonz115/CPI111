@@ -45,14 +45,14 @@ with(enemy){
 		if(y_speed > 0){ //down
 			if (grid_collide(self,obj_level_generator.grid)){
 				y = bbox_bottom&~(CELL_HEIGHT-1)
-				y -= bbox_bottom-y + 1
+				y -= bbox_bottom-y+1
 				y_speed = 0
 			}
 		} 
 		else if (y_speed < 0){ //up
 			if (grid_collide(self,obj_level_generator.grid)){
 				y = bbox_top&~(CELL_HEIGHT-1)
-				y += CELL_HEIGHT+y-bbox_top+1
+				y += CELL_HEIGHT+y-bbox_top+2
 				y_speed = 0
 			}
 		}

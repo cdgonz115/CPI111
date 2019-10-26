@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "12c9bd06-49f7-4e89-8ce6-1f556f9ee6ae",
+            "Value": {
+                "id": "587e890d-4382-491c-bc56-d841fdac3856",
+                "resourcePath": "objects\\obj_boss\\obj_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13604f1d-eada-4923-9ed8-0397f2aec456",
             "Value": {
                 "id": "755c1c82-8fcb-4a75-b6c8-0bfa5da410ad",
@@ -451,6 +459,14 @@
             "Value": {
                 "id": "e160699b-537d-4c8e-98d2-7687000e43c8",
                 "resourcePath": "objects\\obj_Reaper\\obj_Reaper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c010afc-95ee-4249-8bc5-7b07037fd799",
+            "Value": {
+                "id": "4bba11f7-26c2-4a70-bf44-a76a5e564475",
+                "resourcePath": "objects\\obj_shield_block\\obj_shield_block.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1127,6 +1143,14 @@
             }
         },
         {
+            "Key": "a040741d-9ba5-4dc2-b090-d8353e07ff59",
+            "Value": {
+                "id": "e38cd25c-ffd1-4ac0-99b7-ac61ab54d6ef",
+                "resourcePath": "objects\\obj_bubble_shield\\obj_bubble_shield.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0c9b5d9-3e1d-4ab1-a263-62b29efcd314",
             "Value": {
                 "id": "967a0096-8f45-46f0-902a-a39a5cfbf6b8",
@@ -1484,6 +1508,14 @@
                 "id": "72dd5b6a-7b8f-4daa-a2a3-fe6e8c1c2b51",
                 "resourcePath": "views\\cec90bbb-b494-44b1-a4ed-b353a58d113b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cef3443e-cff4-41e6-974e-48bf92a9705d",
+            "Value": {
+                "id": "be0ba9c4-db6f-49ed-9d6b-d7bd3dfe20ab",
+                "resourcePath": "sprites\\spr_shield_block\\spr_shield_block.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
