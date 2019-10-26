@@ -41,6 +41,12 @@ attack3_dmg = 2 //once per wave
 attack3_cd = false
 attack3_spd = room_speed * 1.5
 attack3_cost = 0
+
+attack4_dmg = 0
+attack4_cd = false
+attack4_spd = 4* room_speed
+attack4_cost = 10
+
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 

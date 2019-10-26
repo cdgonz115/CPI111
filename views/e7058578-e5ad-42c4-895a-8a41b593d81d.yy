@@ -11,7 +11,8 @@
         "cef3443e-cff4-41e6-974e-48bf92a9705d",
         "3ee68308-1d72-4c44-aae3-9b5a47c73ddf",
         "0b67b47e-8697-46af-88cc-d947c10d5f1e",
-        "2e3a6ef6-01bf-4a13-80c9-0d7537de7bad"
+        "2e3a6ef6-01bf-4a13-80c9-0d7537de7bad",
+        "b2abf22b-1e35-449a-bf4c-acec35428d32"
     ],
     "filterType": "GMSprite",
     "folderName": "Attacks",
