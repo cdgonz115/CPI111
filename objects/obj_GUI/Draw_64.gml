@@ -13,8 +13,8 @@ if(object_exists(obj_player)){
 	var height = view_hport[0]
 	var width = view_wport[0]
 	if(obj_game_control.game_state != -1){
-		draw_healthbar(width/2-200,height-165,width/2-75,height-50,(obj_player.hp/obj_player.max_hp)*100,c_black,c_red,c_red,3,false,false) //hp
-		draw_healthbar(width/2+75,height-165,width/2+200,height-50,(obj_player.mana/obj_player.max_mana)*100,c_black,c_teal,c_teal,3,false,false) //mana
+		draw_healthbar(width/2-200,height-158,width/2-75,height-50,(obj_player.hp/obj_player.max_hp)*100,c_black,c_red,c_red,3,false,false) //hp
+		draw_healthbar(width/2+75,height-158,width/2+200,height-50,(obj_player.mana/obj_player.max_mana)*100,c_black,c_teal,c_teal,3,false,false) //mana
 		draw_sprite_ext(spr_gui,3,width/2,height - 100,2.2,2.1,0,c_white,1) //change subimage later depending on unlocked abilities? //main UI border
 		draw_text(width/2-175,height-85,"HP: " + string(floor(obj_player.hp)) + "/" + string(obj_player.max_hp))
 		draw_text(width/2+100,height-85,"MP: " + string(floor(obj_player.mana)) + "/" + string(obj_player.max_mana))

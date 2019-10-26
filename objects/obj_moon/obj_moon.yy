@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_moon",
     "eventList": [
-        
+        {
+            "id": "d8db5e32-2f49-41f7-954e-b222d7d490d5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5f11fee0-9117-4b7d-97aa-4d06113bdd25"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

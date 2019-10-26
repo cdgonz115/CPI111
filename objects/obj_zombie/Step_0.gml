@@ -6,7 +6,7 @@ if(!dead){
 		//sprite_index = spr_skeleton_death
 		damage = 0
 		dead = true
-		alarm[10] = 1*room_speed //die time
+		alarm[10] = 1 //die time
 	}
 	
 	//if(!knocked_back){ //he's immune to knockback

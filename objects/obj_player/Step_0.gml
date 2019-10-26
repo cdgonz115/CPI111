@@ -7,13 +7,6 @@ if(hp <= 0){
 
 //if(obj_game_control.game_state != -1){ //game over
 if(!talking){
-	//level check
-	if(exp_ >= exp_to_level && (exp_ > 0)){
-			level_ ++
-			exp_ = exp_ % exp_to_level
-			exp_to_level = power(2,level_) * 50
-			instance_create_layer(x,y-CELL_HEIGHT/2,"Instances",obj_lvl_up)
-	}
 	//mana regen
 	if(mana < max_mana) 
 		mana+= mana_regen/room_speed

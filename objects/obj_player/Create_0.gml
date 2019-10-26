@@ -7,7 +7,7 @@ max_speed = 2
 acceleration = 2
 level_ = 1
 exp_ = 95
-exp_to_level = power(2,level_) * 50
+exp_to_level = level_ * 50 + 50//power(2,level_) * 50
 aggro_rad = (150) //aggro pixel radius
 
 max_hp = 10

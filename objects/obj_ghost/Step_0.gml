@@ -8,7 +8,7 @@ if(!dead && obj_game_control.game_state != -1){
 		dead = true
 		hspeed = 0
 		vspeed = 0
-		alarm[10] = 1*room_speed
+		alarm[10] = 1
 		//go to animation end
 	}
 	if(!knocked_back && !dead){

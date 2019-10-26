@@ -5,7 +5,7 @@ if(!dead && obj_game_control.game_state != -1){
 		sprite_index = spr_skeleton_death
 		damage = 0
 		dead = true
-		alarm[10] = 1*room_speed
+		alarm[10] = 1
 	}
 	if(!knocked_back){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro

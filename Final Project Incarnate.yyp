@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "42071eff-cd1d-4e7a-8d4f-9c9ce19e8011",
+            "Value": {
+                "id": "c72b2871-55e4-4335-bd1b-46164982abfe",
+                "resourcePath": "scripts\\level_up\\level_up.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "43ab4275-b1ed-44d2-9a56-26c35823ed03",
             "Value": {
                 "id": "9a0b538f-beed-4941-a586-a036f863f99b",
@@ -1857,7 +1865,8 @@
         "682fc94e-f744-4731-8d3f-2f35e3063079",
         "b99265c0-9a13-4408-aeed-470a95343695",
         "d3616fda-14cc-44ea-aa3b-190e579bc22f",
-        "51c4cb3f-77ee-4d28-b736-fcb6d86f0529"
+        "51c4cb3f-77ee-4d28-b736-fcb6d86f0529",
+        "42071eff-cd1d-4e7a-8d4f-9c9ce19e8011"
     ],
     "tutorial": ""
 }

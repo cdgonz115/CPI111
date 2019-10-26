@@ -5,7 +5,7 @@ if(!dead){
 		sprite_index = spr_skeleton_mage_death
 		damage = 0
 		dead = true
-		alarm[10] = 1*room_speed //die time
+		alarm[10] = 1 //die time
 	}
 	else if(!knocked_back){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro

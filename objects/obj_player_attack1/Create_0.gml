@@ -19,8 +19,6 @@ if (target.sprite_index == target.side) {
 		y = target.y
 		dir = 2
 	}
-//}//left
-//else if (target.sprite_index == spr_player_walk_l2){
 	
 }//down
 else if (target.sprite_index == target.down) {
@@ -45,7 +43,8 @@ audio_play_sound(basicswipe,10,0)
 instance_create_layer(x,y,"Instances",obj_damage)
 //moves hitbox to where you're facing
 obj_damage.image_angle = point_direction(x, y, mouse_x, mouse_y);
-obj_damage.image_xscale = 1.2 //hitbox size
+//obj_damage.image_xscale = 1.2 //hitbox size
+obj_damage.image_yscale = 0.9
 //assign values
 obj_damage.knockback_dist = knockback_dist
 obj_damage.damage = damage
