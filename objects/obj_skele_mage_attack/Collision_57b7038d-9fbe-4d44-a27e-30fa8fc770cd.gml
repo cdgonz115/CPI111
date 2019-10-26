@@ -2,6 +2,7 @@
 
 if(!obj_player.rolling){
 	obj_player.hp -= damage
-	knockback(owner,other)
+	if(object_exists(owner))
+		knockback(owner,other)
 	instance_destroy()
 }
