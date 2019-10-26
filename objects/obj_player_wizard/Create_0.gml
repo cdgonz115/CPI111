@@ -53,7 +53,7 @@ attack5_dmg = 1 //ramps from 1 to 3 damage over 2 sec ?
 attack5_cd = false
 attack5_spd = 1*room_speed //damages once per second and 1 sec cd
 attack5_cost_initial = 10 //initial
-attack5_cost_channel = 5 //per second after initial
+attack5_cost_channel = 4 //per second after initial
 
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
