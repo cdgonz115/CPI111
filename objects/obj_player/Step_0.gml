@@ -6,7 +6,7 @@ if(hp <= 0){
 }
 
 //if(obj_game_control.game_state != -1){ //game over
-if(!talking){
+if(!talking && !channeling){
 	//mana regen
 	if(mana < max_mana) 
 		mana+= mana_regen/room_speed

@@ -4,11 +4,13 @@ if(other != obj_player && !other.dead){
 	if(!other.hit_by_nova){
 		other.hp -= obj_player.attack3_dmg
 		other.hit_by_nova = true
-		other.alarm[9] = obj_player.attack3_cd*room_speed
+		other.alarm[9] = obj_player.attack3_spd
 		hit_sounds(other)
 	}
 	
 	//knockback
+	knockback(obj_player,other)
+	/*
 	var dir = point_direction(obj_player.x,obj_player.y,other.x,other.y)
 	var xforce = lengthdir_x(knockback,dir-180)
 	var yforce = lengthdir_y(knockback,dir-180)
@@ -49,5 +51,5 @@ if(other != obj_player && !other.dead){
 				}
 			}
 		}
-	}
+	}*/
 }

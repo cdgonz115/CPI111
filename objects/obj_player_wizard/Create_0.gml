@@ -42,10 +42,18 @@ attack3_cd = false
 attack3_spd = room_speed * 1.5
 attack3_cost = 0
 
+//attack 4- bubble shield
 attack4_dmg = 0
 attack4_cd = false
 attack4_spd = 4* room_speed
 attack4_cost = 10
+
+//attack 5- lightning beam
+attack5_dmg = 1 //ramps from 1 to 3 damage over 2 sec ?
+attack5_cd = false
+attack5_spd = 1*room_speed //damages once per second and 1 sec cd
+attack5_cost_initial = 10 //initial
+attack5_cost_channel = 5 //per second after initial
 
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
@@ -57,6 +65,7 @@ knocked_back = false
 knock_time = 0.5 * room_speed
 helmet_equipped = false
 recently_created = true
+channeling = false
 
 //animation
 up = spr_wizard_up

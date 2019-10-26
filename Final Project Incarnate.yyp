@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "12a56019-7813-43cf-bacc-0ed49c2540d7",
+            "Value": {
+                "id": "2ff0418e-b897-42bb-be07-3a638f098b22",
+                "resourcePath": "objects\\obj_lightning_beam\\obj_lightning_beam.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12c9bd06-49f7-4e89-8ce6-1f556f9ee6ae",
             "Value": {
                 "id": "587e890d-4382-491c-bc56-d841fdac3856",
@@ -244,6 +252,14 @@
                 "id": "adb7b040-80ca-4da3-b580-f8baaf47b735",
                 "resourcePath": "views\\1728e5cf-6aff-44b9-b0fc-d1ff7a7673c2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1856ddca-185f-4911-b31c-9cbf4f1fa046",
+            "Value": {
+                "id": "25ff17b4-8d54-4a89-b9a9-7dbd1a44b22c",
+                "resourcePath": "objects\\obj_lightning_beam_charge\\obj_lightning_beam_charge.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -655,6 +671,14 @@
             }
         },
         {
+            "Key": "515dd042-21f7-465e-be9d-ac54c6d803ab",
+            "Value": {
+                "id": "3e74eea4-dd78-4933-9ff4-67a774d8b4f1",
+                "resourcePath": "objects\\obj_channel_attack\\obj_channel_attack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "51c4cb3f-77ee-4d28-b736-fcb6d86f0529",
             "Value": {
                 "id": "a221dc22-e212-4301-93c8-5b5515183ce2",
@@ -951,6 +975,14 @@
             }
         },
         {
+            "Key": "7b6283d7-ef61-4595-88a6-1e637a95590a",
+            "Value": {
+                "id": "5e290cc5-843d-4e83-bd75-fde1c45b86a3",
+                "resourcePath": "sprites\\spr_player_magic_mis2\\spr_player_magic_mis2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b6b3701-9912-43e9-babf-194cceb1d5ee",
             "Value": {
                 "id": "1228ff15-2925-41be-9f24-7478f60ade8e",
@@ -1004,6 +1036,14 @@
                 "id": "063299bd-0981-4134-b46f-13e8ede3886a",
                 "resourcePath": "views\\8228ffc1-a6df-4eb9-8ab6-8c68d2ffdbb8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "828a0d80-960b-4897-8865-364bd09220f0",
+            "Value": {
+                "id": "7fbc46d8-637d-4dbd-adc3-6deb5e1ae0e3",
+                "resourcePath": "objects\\obj_lightning_beam_channel\\obj_lightning_beam_channel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1251,6 +1291,14 @@
             "Value": {
                 "id": "a5ea0962-4923-46eb-a430-1f306e587602",
                 "resourcePath": "sprites\\spr_player_walk_d\\spr_player_walk_d.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3ee1426-4577-471b-897e-e0af596206b1",
+            "Value": {
+                "id": "47701a17-3c2a-4ce9-986b-8dedcfd43ab9",
+                "resourcePath": "sprites\\spr_lightning_beam_charge\\spr_lightning_beam_charge.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1743,6 +1791,14 @@
             }
         },
         {
+            "Key": "ea93d707-a4ae-45f5-a85d-d884edfb7dc9",
+            "Value": {
+                "id": "7168f808-a988-4108-88a8-ed3395b2bc41",
+                "resourcePath": "sprites\\spr_lightning_beam\\spr_lightning_beam.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eb2e44f7-4982-44b2-af7d-222263dcd7d6",
             "Value": {
                 "id": "feb879d8-dc49-43a6-9ecb-e82c35c8430a",
@@ -1772,6 +1828,14 @@
                 "id": "acc8d362-7488-49a6-beb0-5ec0ec8dac4f",
                 "resourcePath": "objects\\obj_player_choose_wiz\\obj_player_choose_wiz.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee18fec1-76a2-4db1-ac3f-2963cf8bdab6",
+            "Value": {
+                "id": "fcb779cb-9828-49b7-9a6b-12f9ce3943c6",
+                "resourcePath": "sprites\\spr_lightning_beam_channel\\spr_lightning_beam_channel.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

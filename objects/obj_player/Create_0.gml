@@ -46,6 +46,12 @@ attack4_cd = false
 attack4_spd = 4* room_speed
 attack4_cost = 10
 
+//attack 5- ???
+attack5_dmg = 0
+attack5_cd = false
+attack5_spd = 0
+attack5_cost = 0
+
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
