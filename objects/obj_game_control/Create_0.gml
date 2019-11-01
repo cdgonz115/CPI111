@@ -13,3 +13,6 @@ game_state = 0 // 0 = title screen, 1 = main floor, 2 = dungeon floor, 3 = boss 
 //audio_play_sound(mus_InnerCore_Low,1,true)
 alarm_triggered = false
 
+//lighting effects
+lightswitch = true;   //true = on, false = off
+
