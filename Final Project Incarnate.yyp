@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "51167823-bb59-4306-b57b-6ade6eeaf247",
+            "Value": {
+                "id": "a7c3c860-b25e-4ea1-b0d6-6e89c7c3f63d",
+                "resourcePath": "sprites\\spr_light_gradient\\spr_light_gradient.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "515dd042-21f7-465e-be9d-ac54c6d803ab",
             "Value": {
                 "id": "3e74eea4-dd78-4933-9ff4-67a774d8b4f1",
@@ -723,6 +731,14 @@
             "Value": {
                 "id": "3853fa37-2a8e-4f57-ae80-a08558c6055c",
                 "resourcePath": "objects\\obj_slime\\obj_slime.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "570fb36f-f4b1-4ddf-9b34-163307562af3",
+            "Value": {
+                "id": "968295b8-c7d5-44e5-acb5-c48fb326e927",
+                "resourcePath": "objects\\obj_lighting_control\\obj_lighting_control.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1132,6 +1148,14 @@
                 "id": "fddabf51-9855-4133-a371-e61f8e990df7",
                 "resourcePath": "sprites\\spr_skeleton_r\\spr_skeleton_r.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e21e7c8-8b22-436d-8008-93b334a0bdc8",
+            "Value": {
+                "id": "01bd68fe-af86-4426-ba8d-d029bf144717",
+                "resourcePath": "objects\\obj_light_source\\obj_light_source.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -77,6 +77,7 @@ up = spr_wizard_up
 down = spr_wizard_down
 side = spr_wizard_side
 
+
 //create a camera on player
 instance_create_layer(x, y, "Instances", obj_camera)
 //change camera size for screen res optimization?

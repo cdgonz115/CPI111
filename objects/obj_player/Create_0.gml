@@ -64,6 +64,7 @@ playerRecoil=-1;
 //states
 dead = false
 talking = false
+channeling = false
 knocked_back = false
 knock_time = 0.1 * room_speed
 helmet_equipped = false
