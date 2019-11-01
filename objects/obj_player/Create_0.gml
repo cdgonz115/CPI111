@@ -1,18 +1,22 @@
 /// @description
+
+//movement stuff
 x_speed = 0
 y_speed = 0
 x_input = 0
 y_input = 0
 max_speed = 2
 acceleration = 2
+
+//attributes
 level_ = 1
 exp_ = 95
-exp_to_level = level_ * 50 + 50//power(2,level_) * 50
+exp_to_level = level_ * 50 + 50
 aggro_rad = (150) //aggro pixel radius
 
 max_hp = 10
-hp = 10
-max_mana = 50
+hp = 8
+max_mana = 30
 mana = max_mana
 mana_regen = 5
 souls = 117000
@@ -26,24 +30,24 @@ rolling = false
 //attack 1- basic attack
 attack1_dmg = 1
 attack1_cd = false
-attack1_spd = room_speed * .8 //1 sec
+attack1_spd = room_speed * .8 //1 sec cooldown
 
 //attack 2- whirlwind
 attack2_dmg = 2
 attack2_cd = false
 attack2_spd = room_speed * 1.5
-attack2_cost = 20
+attack2_cost = 15
 
 //attack 3- shockwave
-attack3_dmg = 1 //per wave
+attack3_dmg = 2 //per wave
 attack3_cd = false
-attack3_spd = room_speed * 1.5
-attack3_cost = 0
+attack3_spd = room_speed * 3
+attack3_cost = 20
 
 //attack 4- shield block
 attack4_dmg = 0
 attack4_cd = false
-attack4_spd = 4* room_speed
+attack4_spd = room_speed * 4
 attack4_cost = 10
 
 //attack 5- ???
@@ -77,7 +81,7 @@ down = spr_warrior_down
 side = spr_warrior_side
 
 //create a camera on player
-instance_create_layer(x, y, "Instances", obj_camera)
+camera = instance_create_layer(x, y, "Instances", obj_camera)
 //change camera size for screen res optimization?
 inventory = instance_create_layer(x, y, "Instances", obj_inventory)
 

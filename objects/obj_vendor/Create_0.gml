@@ -6,8 +6,8 @@ image_speed = 0
 max_size = 3
 curr_size = 3
 
-image_xscale=.5;
-image_yscale=.5
+image_xscale=0.5;
+image_yscale=0.5
 
 
 instance_create_layer(obj_vendor.x-32-1,obj_vendor.y+5,"Instances",obj_vendor_hp)

@@ -10,7 +10,7 @@ if((obj_player.souls >= obj_Reaper.upgrade_inv_cost) && !obj_Reaper.inv_fully_up
 	}
 	obj_Reaper.upgrade_inv++
 	obj_Reaper.upgrade_inv_cost = power(2,obj_Reaper.upgrade_inv) * 50
-	if(obj_Reaper.upgrade_inv ==9)
+	if(obj_Reaper.upgrade_inv == 9)
 	{
 		obj_Reaper.inv_fully_upgraded=true
 		image_index = 1
