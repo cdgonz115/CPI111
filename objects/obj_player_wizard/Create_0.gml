@@ -70,6 +70,7 @@ knock_time = 0.5 * room_speed
 helmet_equipped = false
 recently_created = true
 channeling = false
+charging = false //don't even use but it's for inheritance errors crap
 
 //animation
 up = spr_wizard_up

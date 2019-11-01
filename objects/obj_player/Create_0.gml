@@ -52,6 +52,12 @@ attack5_cd = false
 attack5_spd = 0
 attack5_cost = 0
 
+charge_cd = false
+charge_cd_time = 4*room_speed
+charge_speed = 3
+charging = false
+charge_cost = 10
+
 //recoilSpeed=10;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 
@@ -62,6 +68,7 @@ knocked_back = false
 knock_time = 0.1 * room_speed
 helmet_equipped = false
 recently_created = true
+channeling = false
 
 //animation stuff
 up = spr_warrior_up

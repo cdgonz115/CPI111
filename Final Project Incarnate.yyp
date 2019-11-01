@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "08bfd163-5758-40d1-886e-4fc20eba5974",
+            "Value": {
+                "id": "b4df45af-07e1-470d-af3c-dd778aeee84a",
+                "resourcePath": "objects\\obj_charge\\obj_charge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b67b47e-8697-46af-88cc-d947c10d5f1e",
             "Value": {
                 "id": "a6ac520a-dbad-4543-b735-46fa73741f22",
@@ -427,6 +435,14 @@
             "Value": {
                 "id": "03b1dad5-71f0-4fb1-9876-0d231d0d8940",
                 "resourcePath": "sprites\\spr_skeleton_mage_r\\spr_skeleton_mage_r.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3521e845-5d39-4e24-a42b-eac471157ed6",
+            "Value": {
+                "id": "a8216fda-8a45-4c96-a4ee-e989f1b15de3",
+                "resourcePath": "sprites\\spr_player_charge\\spr_player_charge.yy",
                 "resourceType": "GMSprite"
             }
         },
