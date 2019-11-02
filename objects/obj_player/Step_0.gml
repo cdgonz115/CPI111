@@ -1,6 +1,6 @@
 /// @description Movement/Collision with walls
 
-if(hp <= 0){
+if(floor(hp) <= 0){
 	dead = true
 	obj_game_control.game_state = -1
 }

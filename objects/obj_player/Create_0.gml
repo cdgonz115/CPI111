@@ -14,8 +14,8 @@ exp_ = 95
 exp_to_level = level_ * 50 + 50
 aggro_rad = (150) //aggro pixel radius
 
-max_hp = 10
-hp = 8
+max_hp = 8
+hp = max_hp
 max_mana = 30
 mana = max_mana
 mana_regen = 5
@@ -50,11 +50,12 @@ attack4_cd = false
 attack4_spd = room_speed * 4
 attack4_cost = 10
 
-//attack 5- ???
-attack5_dmg = 0
+//attack 5- enrage
+//attack5_dmg = 0
+attack5_duration = 4 * room_speed //double damage for 4 sec
 attack5_cd = false
-attack5_spd = 0
-attack5_cost = 0
+attack5_spd = 0.5 * room_speed //.5 sec spacing
+attack5_cost = ceil(0.25 * max_hp) //health cost
 
 charge_cd = false
 charge_cd_time = 4*room_speed
