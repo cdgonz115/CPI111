@@ -15,7 +15,7 @@ max_hp = 15
 hp = max_hp
 max_mana = 50
 mana = max_mana
-mana_regen = 5
+mana_regen = 5 // per sec
 souls = 1700000
 
 //won't need to use this section
@@ -39,19 +39,20 @@ attack2_cd = false
 attack2_spd = room_speed * 5 //cooldown
 attack2_cost = 30
 
-//attack 3- blast nova
-attack3_dmg = 2 //once per wave
+//attack 3- summon an imp that explodes
+attack3_dmg = 2 
 attack3_cd = false
-attack3_spd = room_speed * 1.5
-attack3_cost = 15
+attack3_spd = room_speed * 3
+attack3_cost = 20
 
 //attack 4- flame shield
-attack4_dmg = 0
+attack4_dmg = 1
 attack4_cd = false
 attack4_spd = 4* room_speed
 attack4_cost = 10
 
 //attack 5- mind control
+//uses channeling
 attack5_dmg = 1 //ramps from 1 to 3 damage over 2 sec ?
 attack5_cd = false
 attack5_spd = 1*room_speed //damages once per second and 1 sec cd
