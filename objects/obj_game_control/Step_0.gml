@@ -16,11 +16,17 @@ if(game_state == 1 && !chosen){ //start of game
 	alarm[1] = 10
 }
 
-if(floor_ == 11){
+if(floor_ == 11 && !boss_floor){
 	room_goto(rm_boss)
-	obj_player.x = 991
-	obj_player.y = 886
+	//obj_player.tilemap = layer_tilemap_get_id("Collision")
 	game_state = 1
+	obj_player.x = 988
+	obj_player.y = 858
+	//instance_destroy(obj_player.camera)
+	//obj_player.camera = instance_create_layer(x, y, "Instances", obj_camera)
+	obj_player.camera.width = camera_get_view_width(view_camera[0])
+	obj_player.camera.height = camera_get_view_height(view_camera[0])
+	boss_floor = true
 }
 
 if((game_state == -1) && (!alarm_triggered)) { //you died, go back to main floor

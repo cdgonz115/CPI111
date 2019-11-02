@@ -79,7 +79,7 @@ side = spr_wizard_side
 
 
 //create a camera on player
-instance_create_layer(x, y, "Instances", obj_camera)
+camera = instance_create_layer(x, y, "Instances", obj_camera)
 //change camera size for screen res optimization?
 inventory = instance_create_layer(x, y, "Instances", obj_inventory)
 

@@ -7,5 +7,10 @@ if(obj_game_control.game_state != -1){
 
 	x = clamp(x, width/2 + CELL_WIDTH, room_width-width/2 - CELL_WIDTH)
 	y = clamp(y, height/2 + CELL_HEIGHT, room_height-height/2 - CELL_HEIGHT)
-	camera_set_view_pos(view_camera[0], x-width/2, y-height/2)
+	if(obj_game_control.boss_floor){
+		camera_set_view_pos(view_camera[0], x-width/1.32, y-height/1.35)
+	}
+	else {
+		camera_set_view_pos(view_camera[0], x-width/2, y-height/2)
+	}
 }

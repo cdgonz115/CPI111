@@ -943,14 +943,6 @@
             }
         },
         {
-            "Key": "66d2e702-2f86-421b-a005-4f2d8f9efc06",
-            "Value": {
-                "id": "7d41ee1c-ea09-406e-9791-4c175651a8c7",
-                "resourcePath": "rooms\\rm_boss\\rm_boss.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "682fc94e-f744-4731-8d3f-2f35e3063079",
             "Value": {
                 "id": "7213afd6-cf2b-47a4-9e58-b5af860801db",
@@ -1860,6 +1852,14 @@
                 "id": "8b798e8f-b413-4a1e-a754-e5f3b1307fba",
                 "resourcePath": "sprites\\tss_dungeon21111\\tss_dungeon21111.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7060a94-a819-4fe3-b73e-f6f9774e3328",
+            "Value": {
+                "id": "42bd482a-a001-427c-99d3-76cac2a7e173",
+                "resourcePath": "rooms\\rm_boss\\rm_boss.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

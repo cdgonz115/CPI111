@@ -1,6 +1,7 @@
 /// @description reset the game!
 game_state = 1
 obj_player.dead = false
+boss_floor = false
 floor_ = 0
 room_goto(rm_town)
 obj_Reaper.visible = true

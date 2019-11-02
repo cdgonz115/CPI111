@@ -3,6 +3,7 @@
 
 var object = argument0
 with(object){
+	tilemap = layer_tilemap_get_id("Collision")
 	if(obj_game_control.game_state==1){
 		var bbox_side;
 		
