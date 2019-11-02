@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "175cecf7-b4ea-4257-aca2-bc71d697fd50",
+            "Value": {
+                "id": "6fe6c9cb-2d3e-4530-814e-fdf9c78108f0",
+                "resourcePath": "sprites\\spr_warlock_side\\spr_warlock_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1856ddca-185f-4911-b31c-9cbf4f1fa046",
             "Value": {
                 "id": "25ff17b4-8d54-4a89-b9a9-7dbd1a44b22c",
@@ -1975,6 +1983,14 @@
             }
         },
         {
+            "Key": "e4b15a13-693a-4f18-b0db-cef4cf605a05",
+            "Value": {
+                "id": "5bc7d6aa-88fa-4433-a926-984a275ea75c",
+                "resourcePath": "sprites\\spr_warlock_down\\spr_warlock_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e4ce7b48-91a0-4f8f-939a-0a7058c643bd",
             "Value": {
                 "id": "ee4e8f14-0104-4638-99c8-323fab8d4090",
@@ -1987,6 +2003,14 @@
             "Value": {
                 "id": "791a02d2-b278-42c3-801a-1c29354e148e",
                 "resourcePath": "sprites\\spr_gate\\spr_gate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6937fb0-1cfb-4a19-82e1-111bf71761b6",
+            "Value": {
+                "id": "3d341165-01c0-497e-a639-94365d1d9796",
+                "resourcePath": "sprites\\spr_warlock_up\\spr_warlock_up.yy",
                 "resourceType": "GMSprite"
             }
         },

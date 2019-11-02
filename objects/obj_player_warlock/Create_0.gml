@@ -76,9 +76,9 @@ channeling = false
 charging = false //don't even use but it's for inheritance errors crap
 
 //animation
-up = spr_wizard_up
-down = spr_wizard_down
-side = spr_wizard_side
+up = spr_warlock_up
+down = spr_warlock_down
+side = spr_warlock_side
 
 
 //create a camera on player
