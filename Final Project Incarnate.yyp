@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "071f15e4-8e2b-49c9-9b5c-8504165832c4",
+            "Value": {
+                "id": "b5c75846-ced0-4855-acc6-2250ac81a70e",
+                "resourcePath": "views\\071f15e4-8e2b-49c9-9b5c-8504165832c4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "076588f5-9ecc-4a68-8e6d-bd88bb020dde",
             "Value": {
                 "id": "d1b92ebe-3f60-46ca-9bb6-8f3823352934",
@@ -180,6 +188,14 @@
                 "id": "5bb15d08-477f-4562-a0e9-fefab9d1112f",
                 "resourcePath": "objects\\obj_player_attack_wand\\obj_player_attack_wand.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "12447092-33d0-4610-8766-a17176172210",
+            "Value": {
+                "id": "3286e79b-d143-4dfe-b99c-e50309f93a2a",
+                "resourcePath": "sprites\\spr_fel_pillar_rune\\spr_fel_pillar_rune.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +311,22 @@
             }
         },
         {
+            "Key": "1a4b137a-6b36-4f5c-aaa3-b29e2d30e6ca",
+            "Value": {
+                "id": "2bba5e0a-ab07-42fa-8d13-0d19eb0a3192",
+                "resourcePath": "objects\\obj_minion\\obj_minion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ba6a77b-e7ce-44d8-9513-30b167dcee63",
+            "Value": {
+                "id": "961ef616-6cb6-4e71-933d-a04e1529be70",
+                "resourcePath": "objects\\obj_player_warlock\\obj_player_warlock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1cbe7896-026d-4fe1-98df-493cba85708c",
             "Value": {
                 "id": "43d56277-d564-4736-954c-ccaddcd11f79",
@@ -324,6 +356,14 @@
                 "id": "ec058d4d-4b0f-4374-a97e-a36c3b444595",
                 "resourcePath": "objects\\obj_skeleton\\obj_skeleton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "20e10446-06b4-4359-a2dd-a509124a525c",
+            "Value": {
+                "id": "b57b02c5-621a-4f44-a92b-f1e68aa9b71a",
+                "resourcePath": "sprites\\spr_tele_rune\\spr_tele_rune.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -839,6 +879,14 @@
             }
         },
         {
+            "Key": "5e976698-5562-4ba0-9561-45cca4cdd30c",
+            "Value": {
+                "id": "28339ccf-cc9e-4527-adf0-41596a7dafd3",
+                "resourcePath": "objects\\obj_soul_siphon\\obj_soul_siphon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5f11fee0-9117-4b7d-97aa-4d06113bdd25",
             "Value": {
                 "id": "e06d4f68-6548-46e5-a6fe-4359aad51efc",
@@ -884,6 +932,14 @@
                 "id": "bcb83ceb-ab47-4a88-b908-b86939d31d74",
                 "resourcePath": "sprites\\bg_title_screen\\bg_title_screen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65301e62-f574-4ba8-8753-7116429342df",
+            "Value": {
+                "id": "cc61b9aa-0fb6-4329-b4ff-6907fb2da862",
+                "resourcePath": "objects\\obj_player_choose_warlock\\obj_player_choose_warlock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -956,6 +1012,14 @@
                 "id": "02ea8dfe-a97b-4408-bac6-c75f94367796",
                 "resourcePath": "sounds\\snd_hit10\\snd_hit10.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6d9214fb-fd21-4750-807a-64424f0771cc",
+            "Value": {
+                "id": "f966c503-5985-4d47-8625-3db823a6a6ee",
+                "resourcePath": "objects\\obj_fire_armor\\obj_fire_armor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1263,6 +1327,14 @@
             }
         },
         {
+            "Key": "96796be3-04be-45cf-854d-ece935c5d0a9",
+            "Value": {
+                "id": "00fb0204-d951-4322-bffa-859f7531a8e5",
+                "resourcePath": "sprites\\spr_fel_pillar\\spr_fel_pillar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99ea35fe-f8ca-4330-a193-d4655f97dfe3",
             "Value": {
                 "id": "7077c2f2-7dc2-422e-a170-16e086b00a30",
@@ -1292,6 +1364,14 @@
                 "id": "57d8418b-9b9d-49b1-a47f-9296690fdc51",
                 "resourcePath": "tilesets\\ts_collision\\ts_collision.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9e36ebf5-148e-4685-89d8-67a1e957feac",
+            "Value": {
+                "id": "5733912b-ae5b-4e51-9e14-b62c747bb80b",
+                "resourcePath": "objects\\obj_tele_rune\\obj_tele_rune.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1647,6 +1727,14 @@
             }
         },
         {
+            "Key": "c75eea87-9d9b-4225-899b-53001e3163e4",
+            "Value": {
+                "id": "d616924c-577a-4a86-a52b-a5c8f29ce493",
+                "resourcePath": "sprites\\spr_soul_siphon\\spr_soul_siphon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca3de9c5-e6b9-418e-b10b-e5cb9936fd70",
             "Value": {
                 "id": "c5bb5c08-ffc7-451b-947a-ef1d801f3042",
@@ -1871,6 +1959,14 @@
             }
         },
         {
+            "Key": "e43fdaab-258d-4f85-a152-25269bf34cf7",
+            "Value": {
+                "id": "e029ac3f-a288-40d4-a21b-1f20cf467635",
+                "resourcePath": "objects\\obj_fel_pillar\\obj_fel_pillar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e4661ac9-b300-4102-9f0c-017a45b75f3b",
             "Value": {
                 "id": "f72db65c-66ad-4cea-aac8-f4ac8a244f9e",
@@ -1991,6 +2087,14 @@
             }
         },
         {
+            "Key": "f5090d21-34ca-45b1-9271-492a2b92a225",
+            "Value": {
+                "id": "a37341b5-e7b0-4abf-97d1-7979e6dc1815",
+                "resourcePath": "views\\f5090d21-34ca-45b1-9271-492a2b92a225.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f591c667-c2f8-46f5-84c3-dd1350cbf7cd",
             "Value": {
                 "id": "800d6952-b983-4b53-b1b1-71624a04fbec",
@@ -2036,6 +2140,14 @@
                 "id": "af03e53e-1343-4590-8e38-2410f5b54ca0",
                 "resourcePath": "sprites\\spr_vendor_mana\\spr_vendor_mana.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f7eacc92-1644-4c33-8fec-ceac67b114a3",
+            "Value": {
+                "id": "fa62a3fa-ade3-4d8e-be3f-f17cbf428c29",
+                "resourcePath": "objects\\obj_fel_pillar_rune\\obj_fel_pillar_rune.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2099,6 +2211,14 @@
             "Value": {
                 "id": "2a385cad-3f6a-47f3-b735-c1e5e54ae473",
                 "resourcePath": "objects\\obj_vendor_hp\\obj_vendor_hp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fff8e303-4706-4cf0-878e-3ef79a8ae58a",
+            "Value": {
+                "id": "7566ecb3-6da8-4fdc-8048-64eda5ad4d01",
+                "resourcePath": "objects\\obj_mind_control\\obj_mind_control.yy",
                 "resourceType": "GMObject"
             }
         },

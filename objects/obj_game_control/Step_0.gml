@@ -8,6 +8,9 @@ if(game_state == 1 && !chosen){ //start of game
 	else if(choice == "Wizard") {
 		instance_create_layer(990,800,"Instances",obj_player_wizard)
 	}
+	else if(choice == "Warlock") {
+		instance_create_layer(990,800,"Instances",obj_player_warlock)
+	}
 	instance_create_layer(1056,736,"Instances",obj_Reaper)
 	instance_create_layer(-10,10,"Instances",obj_GUI)
 	alarm[1] = 10

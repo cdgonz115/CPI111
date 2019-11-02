@@ -7,7 +7,7 @@ if(!dead){
 		dead = true
 		alarm[10] = 1 //die time
 	}
-	else if(!knocked_back){
+	else if(!knocked_back && !mind_controlled){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
 
 		if ((dist_ <= obj_player.aggro_rad+50) && !attacking) //aggros at higher range
