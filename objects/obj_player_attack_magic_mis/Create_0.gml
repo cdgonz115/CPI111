@@ -2,7 +2,7 @@
 //assign damage, knockback values at the bottom
 hit = false
 knockback_dist = 10
-damage = obj_player_wizard.attack2_dmg
+damage = obj_player_wizard.attack1_dmg
 image_xscale = image_xscale * 1.5
 image_yscale = image_yscale * 1.5
 
