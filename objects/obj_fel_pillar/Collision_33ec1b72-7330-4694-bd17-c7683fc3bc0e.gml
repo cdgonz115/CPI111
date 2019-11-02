@@ -4,8 +4,7 @@
 if(!other.hit_by_pillar){
 	with(other){
 		hit_by_pillar = true
-		hp -= obj_player_warlock.attack2_dmg
-		show_debug_message("gothere")
+		hp -= damage
 	}
 	hit_sounds(other)
 	knockback(self,other)

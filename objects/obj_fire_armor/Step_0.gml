@@ -2,4 +2,7 @@
 // You can write your code in this editor
 x = obj_player.x
 y = obj_player.y
-//depth = obj_player.depth -1
+
+if(floor(image_index) == 9){
+	image_speed = 0.5
+}

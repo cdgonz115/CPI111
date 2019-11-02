@@ -1,3 +1,6 @@
 /// @description enemies take half damage from their own attacks
 
-other.owner.hp -= other.damage/2
+if(instance_exists(other.owner)){
+	other.owner.hp -= damage
+	instance_destroy(other)
+}
