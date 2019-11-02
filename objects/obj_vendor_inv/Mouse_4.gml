@@ -9,7 +9,7 @@ if((obj_player.souls >= obj_Reaper.upgrade_inv_cost) && !obj_Reaper.inv_fully_up
 		alarm[11] = 6
 	}
 	obj_Reaper.upgrade_inv++
-	obj_Reaper.upgrade_inv_cost = power(2,obj_Reaper.upgrade_inv) * 50
+	obj_Reaper.upgrade_inv_cost = obj_Reaper.upgrade_inv*50
 	if(obj_Reaper.upgrade_inv == 9)
 	{
 		obj_Reaper.inv_fully_upgraded=true

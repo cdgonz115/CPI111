@@ -24,23 +24,23 @@ rollspeed = 2
 rolling = false
 
 //attack stats
-//attack 1- basic attack
-attack1_dmg = 1
+//attack 1- magic missile basic attack
+attack1_dmg = .5
 attack1_cd = false
-attack1_spd = room_speed * .8 //1 sec
+attack1_spd = room_speed * .25 //fire rate
+casted1 = false //for mm animation
 
-//attack 2- magic missiles
-attack2_dmg = .5
+//attack 2- flame pillar
+attack2_dmg = 3
 attack2_cd = false
-attack2_spd = room_speed * .25 //fire rate
-casted2 = false //for mm animation
-attack2_cost = 4
+attack2_spd = room_speed * 5 //cooldown
+attack2_cost = 30
 
 //attack 3- blast nova
 attack3_dmg = 2 //once per wave
 attack3_cd = false
 attack3_spd = room_speed * 1.5
-attack3_cost = 0
+attack3_cost = 15
 
 //attack 4- bubble shield
 attack4_dmg = 0
@@ -53,7 +53,7 @@ attack5_dmg = 1 //ramps from 1 to 3 damage over 2 sec ?
 attack5_cd = false
 attack5_spd = 1*room_speed //damages once per second and 1 sec cd
 attack5_cost_initial = 10 //initial
-attack5_cost_channel = 4 //per second after initial
+attack5_cost_channel = 10 //10 per second after initial
 
 tele_cd = false
 tele_cd_time = 4 * room_speed

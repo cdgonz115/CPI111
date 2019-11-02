@@ -4,6 +4,7 @@ damage = 0
 projectile_spd = 1 //pixels per frame
 collided = false
 owner = noone;
+knockback_dist = 5
 
 //go towards player's last position when enemy attacked
 move_towards_point(obj_player.x,obj_player.y,projectile_spd)

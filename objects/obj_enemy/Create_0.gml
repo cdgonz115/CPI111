@@ -12,7 +12,9 @@ hit_spd = 1
 
 hit_by_nova = false
 hit_by_beam = false
+hit_by_pillar = false
 
+frozen = false
 knockback_dist = 5
 knocked_back = false
 knock_time = 0.5 * room_speed;

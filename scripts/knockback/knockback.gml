@@ -9,8 +9,8 @@ if(!obj_player.rolling){
 	else if(oth_.object_index == obj_player)
 		audio_play_sound(bunnyhit,15,0)
 	var dir = point_direction(self_.x,self_.y,oth_.x,oth_.y)
-	var xforce = lengthdir_x(knockback,dir-180)
-	var yforce = lengthdir_y(knockback,dir-180)
+	var xforce = lengthdir_x(self_.knockback_dist,dir-180)
+	var yforce = lengthdir_y(self_.knockback_dist,dir-180)
 	with(oth_){
 		var x_predict = x - xforce
 		var y_predict = y - yforce

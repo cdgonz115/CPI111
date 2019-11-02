@@ -14,7 +14,7 @@ if(obj_player.souls >= obj_Reaper.upgrade_hp_cost && !obj_Reaper.hp_fully_upgrad
 		}
 	}
 	obj_Reaper.upgrade_hp++
-	obj_Reaper.upgrade_hp_cost = power(2,obj_Reaper.upgrade_hp) * 50
+	obj_Reaper.upgrade_hp_cost += 5
 	
 	if(obj_Reaper.upgrade_hp == obj_Reaper.upgrade_max_hp){
 		obj_Reaper.hp_fully_upgraded = true
