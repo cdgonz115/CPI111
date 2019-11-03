@@ -9,8 +9,8 @@ if(!dead){
 	}
 	else if(!knocked_back && !mind_controlled){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
-
-		if ((dist_ <= obj_player.aggro_rad+50) && !attacking && line_of_sight(x,y,obj_player.x,obj_player.y)) //aggros at higher range
+		aggrod = (line_of_sight(x,y,obj_player.x,obj_player.y) && dist_ <= obj_player.aggro_rad+50)
+		if (aggrod && !attacking) //aggros at higher range
 		{ 
 			if(dist_ <= CELL_WIDTH*2) //stops 2 cells away
 			{
@@ -31,7 +31,8 @@ if(!dead){
 				y_speed += sign(obj_player.y - y) * spd
 			}
 		}
-		else{
+		if (dist_ > obj_player.aggro_rad+50){
+			aggrod = false
 			x_speed = 0
 			y_speed = 0
 		}

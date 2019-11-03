@@ -12,7 +12,8 @@ if(!dead){
 	//if(!knocked_back){ //he's immune to knockback
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
 		//within aggro radius
-		if (dist_ <= obj_player.aggro_rad-30 && line_of_sight(x,y,obj_player.x,obj_player.y))
+		aggrod = dist_ <= obj_player.aggro_rad-30 && line_of_sight(x,y,obj_player.x,obj_player.y)
+		if (aggrod)
 		{ 
 			if(!charge_cd){
 				//play aggro animation
@@ -23,8 +24,13 @@ if(!dead){
 				alarm[1] = 1*room_speed
 			}
 		}
+		if(dist_ > obj_player.aggro_rad-30){
+			aggrod = false
+			hspeed = 0
+			vspeed = 0
+		}
 		
-		//collision with map
+		//collision with map different for zombie
 		var speed_ = point_distance(0,0,hspeed,vspeed)
 		var direction_ = point_direction(0,0,hspeed,vspeed)
 		if (speed_ > max_speed) {

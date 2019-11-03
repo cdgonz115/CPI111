@@ -11,5 +11,5 @@ else
 }
 
 //How big the light source is
-global.x_radius = .41; //values are multiples of spr_light_gradient size
-global.y_radius = .41;
+global.x_radius = .30; //values are multiples of spr_light_gradient size
+global.y_radius = .30;

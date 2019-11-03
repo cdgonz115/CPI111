@@ -15,6 +15,7 @@ hit_by_beam = false
 hit_by_pillar = false
 hit_by_fire_armor = false
 
+aggrod = false
 frozen = false
 knockback_dist = 5
 knocked_back = false

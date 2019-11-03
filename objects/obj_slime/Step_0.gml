@@ -23,7 +23,7 @@ if(!dead && obj_game_control.game_state != -1){
 				y_speed += sign(obj_player.y - y) * spd
 			}
 		}
-		else{ //idle
+		else { //idle
 			x_speed = 0
 			y_speed = 0
 		}

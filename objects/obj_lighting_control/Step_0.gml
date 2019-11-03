@@ -1,10 +1,10 @@
 //Flicker effect
-var flicker = random_range(-0.01, 0.01); //random var
-global.x_radius += flicker;
-global.y_radius += flicker;
+var flicker = random_range(-0.02, 0.02); //random var
+//global.x_radius += flicker;
+//global.y_radius += flicker;
 
-global.x_radius = clamp(global.x_radius, 0.40, 0.44); // clamp value between these values
-global.y_radius = clamp(global.y_radius, 0.40, 0.44);
+global.x_radius = clamp(global.x_radius, 0.40, 0.50); // clamp value between these values
+global.y_radius = clamp(global.y_radius, 0.40, 0.50);
 
 
 //Light source creation
@@ -22,7 +22,7 @@ if (surface_exists(surf))
 	
 	with(obj_player) //on player
 	{
-		draw_sprite_ext(spr_light_gradient, 0, x, y, global.x_radius, global.y_radius, 0, c_black, 1);
+		draw_sprite_ext(spr_light_gradient, 0, x, y, global.x_radius+.15, global.y_radius+.15, 0, c_black, 1);
 		//gpu_set_blendmode(bm_zero);
 		//draw_sprite_ext(spr_light_gradient, 0, x, y, global.x_radius, global.y_radius, 0, c_orange, 0.7);
 		// ^^ colored lighting stuff for future
@@ -30,7 +30,7 @@ if (surface_exists(surf))
 	
 	with(obj_torch) //on torch
 	{
-		draw_sprite_ext(spr_light_gradient, 0, x, y, global.x_radius, global.y_radius, 0, c_black, 1);
+		draw_sprite_ext(spr_light_gradient, 0, x, y, global.x_radius+flicker, global.y_radius+flicker, 0, c_black, 1);
 		//gpu_set_blendmode(bm_zero);
 		//draw_sprite_ext(spr_light_gradient, 0, x, y, global.x_radius, global.y_radius, 0, c_orange, 0.7);
 		// ^^ colored lighting stuff for future
