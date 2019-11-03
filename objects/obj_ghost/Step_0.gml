@@ -11,10 +11,10 @@ if(!dead && obj_game_control.game_state != -1){
 		alarm[10] = 1
 		//go to animation end
 	}
-	if(!knocked_back && !dead && !mind_controlled ){
+	if(!knocked_back && !dead && !mind_controlled){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
 
-		if (dist_ <= obj_player.aggro_rad + 100)
+		if (dist_ <= obj_player.aggro_rad + 100 && line_of_sight(x,y,obj_player.x,obj_player.y))
 		{ 
 			move_towards_point(obj_player.x,obj_player.y,spd)
 		}

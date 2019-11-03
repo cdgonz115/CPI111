@@ -12,7 +12,7 @@ if(!dead){
 	//if(!knocked_back){ //he's immune to knockback
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
 		//within aggro radius
-		if (dist_ <= obj_player.aggro_rad-30)
+		if (dist_ <= obj_player.aggro_rad-30 && line_of_sight(x,y,obj_player.x,obj_player.y))
 		{ 
 			if(!charge_cd){
 				//play aggro animation

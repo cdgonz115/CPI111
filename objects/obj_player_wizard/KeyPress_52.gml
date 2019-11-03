@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description attack 5 - lightning beam
 
 if(!dead && !attack5_cd && (mana >=attack5_cost_initial) && !talking && !channeling) {
 	mana -= attack5_cost_initial
