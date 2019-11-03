@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "166c14b7-1187-4cba-b939-dfe0c7c45244",
+            "Value": {
+                "id": "d985934a-b8c3-4700-9d88-87882e149879",
+                "resourcePath": "sounds\\Dark_Souls___Gwyn__Lord_of_Cinder___Ru_s_Piano_Cover\\Dark_Souls___Gwyn__Lord_of_Cinder___Ru_s_Piano_Cover.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1728e5cf-6aff-44b9-b0fc-d1ff7a7673c2",
             "Value": {
                 "id": "adb7b040-80ca-4da3-b580-f8baaf47b735",
@@ -452,6 +460,14 @@
                 "id": "ccaa85f7-cc69-46e6-9160-77c70b101563",
                 "resourcePath": "sprites\\spr_floor2\\spr_floor2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2933d2d3-f355-430b-b8d7-6207fbfe6ea5",
+            "Value": {
+                "id": "fe15834e-b3ac-496b-9ca8-8e73c54f75a4",
+                "resourcePath": "objects\\obj_lightning\\obj_lightning.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -692,6 +708,14 @@
                 "id": "cb99b30f-57f2-4291-a80a-03b7cf882c6e",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4883a411-8617-4325-a43d-90690cfa93df",
+            "Value": {
+                "id": "af0fcee3-799e-45fa-8f04-5e331dc6bf10",
+                "resourcePath": "sprites\\spr_lightning\\spr_lightning.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1327,6 +1351,14 @@
             }
         },
         {
+            "Key": "90cea189-303f-41c6-8254-a2b708458ffb",
+            "Value": {
+                "id": "b2af7fbc-da4d-48bd-9312-315ff998dc49",
+                "resourcePath": "sounds\\thunder3\\thunder3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "91e4843c-b6dd-49f4-af21-fb2472c5f2e0",
             "Value": {
                 "id": "3efb22d0-4872-49e5-bbae-57b58804e0d1",
@@ -1599,6 +1631,14 @@
             }
         },
         {
+            "Key": "b9fee5bb-1617-42b8-a348-c14cb1f7711d",
+            "Value": {
+                "id": "2d45bb66-0353-4115-bbe9-e9ae837d9e4a",
+                "resourcePath": "sprites\\spr_water_particle\\spr_water_particle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ba05373a-1dfe-4252-9569-37bd3c6a179b",
             "Value": {
                 "id": "6f9ca9dd-8ad0-4f73-8d0d-f2dcd4c47f0e",
@@ -1692,6 +1732,14 @@
                 "id": "2b235a30-3b45-4f52-994d-ef1cfa440b49",
                 "resourcePath": "sprites\\spr_helmet1_u\\spr_helmet1_u.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c23c8ec7-aaec-4323-89f9-f333bc5ad618",
+            "Value": {
+                "id": "9fff8945-d0fc-4a52-9ae0-35602fbd136d",
+                "resourcePath": "sounds\\rain_03\\rain_03.yy",
+                "resourceType": "GMSound"
             }
         },
         {
