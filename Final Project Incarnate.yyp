@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "2b0727ab-4cba-49ea-8918-2db039d7faaf",
+            "Value": {
+                "id": "f5da5b49-ad20-496f-a162-18485ef8e954",
+                "resourcePath": "scripts\\grid_collide_point\\grid_collide_point.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2df2af7c-815c-44a5-a465-40253b191208",
             "Value": {
                 "id": "1d787a8f-e4bb-4c4a-afad-7209bf49b125",
@@ -2354,6 +2362,7 @@
     "script_order": [
         "de196b2e-5f86-40bd-bdb7-cf6d5342ed40",
         "5f55bcd5-6311-4415-9707-45b359fee7de",
+        "2b0727ab-4cba-49ea-8918-2db039d7faaf",
         "5bb67673-6da7-41eb-a9c2-54e7641d8cb7",
         "19a5e6eb-1975-46a0-94b4-10aa4ca89127",
         "784724b5-d1dd-4171-822d-1e196ff42b07",

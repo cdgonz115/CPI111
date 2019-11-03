@@ -1,21 +1,33 @@
 /// @description Interact with object
 interact_dist = 12
 var chesto = instance_nearest(x,y,obj_chest)
+var grid_ = obj_level_generator.grid
 if(instance_exists(chesto)){
 	if(!chesto.opened && distance_to_object(chesto)<interact_dist){
 		//"collision" with chest
 		//right
-		if (place_meeting(x+interact_dist,y,obj_chest))
+		if (place_meeting(x+interact_dist,y,obj_chest)){
 			instance_create_layer(x-sprite_width,y,"Instances",obj_potion1)
+		}
 		//left
-		else if (place_meeting(x-interact_dist,y,obj_chest))
+		else if (place_meeting(x-interact_dist,y,obj_chest)){
 			instance_create_layer(x+sprite_width,y,"Instances",obj_potion1)
-		//down
-		else if(place_meeting(x,y+interact_dist,obj_chest))
-			instance_create_layer(x,y-sprite_height,"Instances",obj_potion1)
+		}
+		//up, down
+		else if(place_meeting(x,y+interact_dist,obj_chest)||place_meeting(x,y-interact_dist,obj_chest)){
+			if(!grid_collide_point(x-sprite_width,y,grid_)) {//no wall on the left
+				instance_create_layer(x-interact_dist*2,y,"Instances",obj_potion1)
+			}
+			else {
+				instance_create_layer(x+interact_dist*2,y,"Instances",obj_potion1)
+			}
+			obj_potion1.depth = -obj_potion1.y
+		}
 		//up
-		else if(place_meeting(x,y-interact_dist,obj_chest))
+		/*
+		else if(){
 			instance_create_layer(x,y+sprite_height,"Instances",obj_potion1)
+		}*/
 		//pop out a potion probly don't need this line but oh well
 		if(instance_exists(obj_potion1))
 			//obj_potion1.depth = chesto.depth-1
