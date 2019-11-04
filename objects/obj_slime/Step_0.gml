@@ -1,4 +1,6 @@
 /// @description Collision
+
+depth = -y
 if(!dead && obj_game_control.game_state != -1){
 	if (hp <= 0)
 	{

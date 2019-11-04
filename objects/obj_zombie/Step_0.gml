@@ -1,6 +1,8 @@
 /// @description Collision and stuff
+
+depth = -y
 if(!dead){
-	depth = -y
+	
 	if (hp <= 0)
 	{
 		//sprite_index = spr_skeleton_death
@@ -12,7 +14,13 @@ if(!dead){
 	//if(!knocked_back){ //he's immune to knockback
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro
 		//within aggro radius
-		aggrod = dist_ <= obj_player.aggro_rad-30 && line_of_sight(x,y,obj_player.x,obj_player.y)
+		if(line_of_sight(x,y,obj_player.x,obj_player.y) && dist_ <= obj_player.aggro_rad)
+			aggrod = true
+		else {// if (line_of_sight(x,y,obj_player.x,obj_player.y) && dist_ > obj_player.aggro_rad){
+			aggrod = false
+			hspeed = 0
+			vspeed = 0
+		}
 		if (aggrod)
 		{ 
 			if(!charge_cd){
@@ -23,11 +31,6 @@ if(!dead){
 				charge_cd = true
 				alarm[1] = 1*room_speed
 			}
-		}
-		if(dist_ > obj_player.aggro_rad-30){
-			aggrod = false
-			hspeed = 0
-			vspeed = 0
 		}
 		
 		//collision with map different for zombie

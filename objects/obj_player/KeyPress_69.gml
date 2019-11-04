@@ -16,17 +16,17 @@ if(instance_exists(chesto)){
 		}
 		//up, down
 		else if(place_meeting(x,y+interact_dist,obj_chest)||place_meeting(x,y-interact_dist,obj_chest)){
-			if(!grid_collide_point(x-sprite_width*2,y,grid_)) {//no wall on the left
-				instance_create_layer(x-interact_dist*2,y,"Instances",obj_potion1)
-			}
-			else if (!grid_collide_point(x+sprite_width*2,y,grid_)){ //no wall on right
-				instance_create_layer(x+interact_dist*2,y,"Instances",obj_potion1)
-			}
-			else if(!grid_collide_point(x,y+sprite_width*2,grid_)){ //no wall below
+			if(!grid_collide_point(chesto.x,chesto.y+chesto.sprite_height,grid_)){ //no wall below
 				instance_create_layer(x,y+interact_dist*2,"Instances",obj_potion1)
 			}
-			else{
+			else if (!grid_collide_point(chesto.x,chesto.y-chesto.sprite_height,grid_)){ //no wall above
 				instance_create_layer(x,y-interact_dist*2,"Instances",obj_potion1)
+			}
+			else if(!grid_collide_point(chesto.x-chesto.sprite_width,chesto.y,grid_)) {//no wall on the left
+				instance_create_layer(x-interact_dist*2,y,"Instances",obj_potion1)
+			}
+			else {//if (!grid_collide_point(chesto.x+chesto.sprite_width,chesto.y,grid_)){ //no wall on right
+				instance_create_layer(x+interact_dist*2,y,"Instances",obj_potion1)
 			}
 			obj_potion1.depth = -obj_potion1.y
 		}

@@ -19,14 +19,14 @@ with(enemy){
 		if (x_speed > 0) { //right
 			if (grid_collide(self,obj_level_generator.grid)){
 				x = bbox_right&~(CELL_WIDTH-1)
-				x -= bbox_right-x+1
+				x -= bbox_right-x
 				x_speed = 0
 			}
 		}
 		else if (x_speed < 0) { //left
 			if (grid_collide(self,obj_level_generator.grid)){
 				x = bbox_left&~(CELL_WIDTH-1)
-				x += CELL_WIDTH+x-bbox_left+1
+				x += CELL_WIDTH+x-bbox_left
 				x_speed = 0
 			}
 		}
@@ -52,7 +52,7 @@ with(enemy){
 		else if (y_speed < 0){ //up
 			if (grid_collide(self,obj_level_generator.grid)){
 				y = bbox_top&~(CELL_HEIGHT-1)
-				y += CELL_HEIGHT+y-bbox_top+2
+				y += CELL_HEIGHT+y-bbox_top
 				y_speed = 0
 			}
 		}

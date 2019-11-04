@@ -17,7 +17,7 @@
         "8f38ff32-58ff-439b-9567-964072e4207a"
     ],
     "filterType": "GMObject",
-    "folderName": "Enemy",
+    "folderName": "Enemies",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
