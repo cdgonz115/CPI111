@@ -7,16 +7,16 @@ y_input = 0
 max_speed = 2
 acceleration = 2
 level_ = 1
-exp_ = 95
-exp_to_level = power(2,level_) * 50
+exp_ = 0
+exp_to_level = level_ * 50 + 50
 aggro_rad = (150) //aggro pixel radius
 
 max_hp = 5
 hp = max_hp
 max_mana = 50
 mana = max_mana
-mana_regen = 5
-souls = 1700000
+mana_regen = 2.5
+souls = 0
 
 roll_cd = false
 roll_cd_time = 2
@@ -33,7 +33,7 @@ casted1 = false //for mm animation
 //attack 2- flame pillar
 attack2_dmg = 3
 attack2_cd = false
-attack2_spd = room_speed * 5 //cooldown
+attack2_spd = room_speed * 3 //cooldown
 attack2_cost = 30
 
 //attack 3- blast nova

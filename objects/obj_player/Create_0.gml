@@ -10,7 +10,7 @@ acceleration = 2
 
 //attributes
 level_ = 1
-exp_ = 95
+exp_ = 0
 exp_to_level = level_ * 50 + 50
 aggro_rad = (150) //aggro pixel radius
 
@@ -18,8 +18,8 @@ max_hp = 8
 hp = max_hp
 max_mana = 30
 mana = max_mana
-mana_regen = 5
-souls = 117000
+mana_regen = 2
+souls = 0
 
 roll_cd = false
 roll_cd_time = 2

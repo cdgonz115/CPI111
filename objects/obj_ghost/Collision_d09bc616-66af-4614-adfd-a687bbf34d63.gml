@@ -1,2 +1,3 @@
 /// @description 
-event_inherited()
+
+enemy_neutral_hit(self)

@@ -1,4 +1,5 @@
 ///@arg enemy
+
 var enemy = argument0
 with(enemy){
 	if(!obj_player.rolling && !hit_cd && hp >0){

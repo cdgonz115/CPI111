@@ -34,6 +34,7 @@ if((game_state == -1) && (!alarm_triggered)) { //you died, go back to main floor
 	instance_destroy(obj_enemy_damage)
 	instance_destroy(obj_skele_mage_attack)
 	instance_destroy(obj_randomables) //if you don't, the torches will still show through the floor briefly
+	instance_destroy(obj_consumable)
 	//game over stuff
 	alarm[0] = room_speed*3 
 	alarm_triggered = true

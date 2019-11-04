@@ -1,3 +1,6 @@
+
+
+depth = -9999
 if(obj_game_control.lightswitch == false) //if switch not flipped
 {
 	instance_destroy() //get rid of lighting effects

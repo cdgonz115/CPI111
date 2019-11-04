@@ -6,17 +6,17 @@ x_input = 0
 y_input = 0
 max_speed = 2
 acceleration = 2
-level_ = 4
-exp_ = 95
-exp_to_level = power(2,level_) * 50
+level_ = 1
+exp_ = 0
+exp_to_level = level_ * 50 + 50
 aggro_rad = (150) //aggro pixel radius
 
-max_hp = 15
+max_hp = 5
 hp = max_hp
-max_mana = 50
+max_mana = 40
 mana = max_mana
-mana_regen = 5 // per sec
-souls = 1700000
+mana_regen = 2.5 // per sec
+souls = 0
 
 //won't need to use this section
 roll_cd = false //using for rune tele right click
@@ -36,13 +36,13 @@ attack1_spd = room_speed * 1 //fire rate
 //attack 2- fel pillar
 attack2_dmg = 3
 attack2_cd = false
-attack2_spd = room_speed * 5 //cooldown
+attack2_spd = room_speed * 3 //cooldown
 attack2_cost = 30
 
 //attack 3- summon an imp that explodes
 attack3_dmg = 2 
 attack3_cd = false
-attack3_spd = room_speed * 3
+attack3_spd = room_speed * 2
 attack3_cost = 20
 
 //attack 4- flame shield

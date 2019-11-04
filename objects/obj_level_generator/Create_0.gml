@@ -95,11 +95,11 @@ for (var col = 1; col < height-1; col++){
 			var max_chests = 4
 			var curr_chests = 0
 			//baddies
-			var slime_prob = 0.00
-			var skele_prob = 0.00
-			var skele_mage_prob = 0.00
-			var zombie_prob = 0.05
-			var ghost_prob = 0.00
+			var slime_prob = 0.02
+			var skele_prob = 0.02
+			var skele_mage_prob = 0.02
+			var zombie_prob = 0.00
+			var ghost_prob = 0.02
 			
 			//add a chest(maybe)!
 			if ((curr_chests < max_chests) && (random(1.0)<chest_prob) && ((n_&&e_&&w_) || (s_&&w_&&e_) || (w_&&s_&&n_) || (e_&&s_&&n_))) //checks to spawn chest only in corner surrounded by 3 walls
@@ -155,8 +155,30 @@ for (var col = 1; col < height-1; col++){
 				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_wall_blood)
 			if(tile_index == 4 && random(1)<0.2)
 				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_wall_chains)
-			if((tile_index == 2 || tile_index == 8 || tile_index == 7) && random(1)<0.15)
+			if((tile_index == 2 || tile_index == 8 || tile_index == 7) && random(1)<0.08) {
 				instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_torch)
+			}
+			if((tile_index == 5 || tile_index == 3 || tile_index == 10) && random(1)<0.08) {
+				//var torch = instance_create_layer(curr_grid_pos_x,curr_grid_pos_y, "Level", obj_torch)
+				if(tile_index == 5) {
+					instance_create_layer(curr_grid_pos_x-.5*CELL_WIDTH,curr_grid_pos_y, "Level", obj_torch)
+					//torch.x -= 0.5 * CELL_WIDTH
+				}
+				else if (tile_index == 3) {
+					instance_create_layer(curr_grid_pos_x+.5*CELL_WIDTH,curr_grid_pos_y, "Level", obj_torch)
+					//torch.x += 0.5 * CELL_WIDTH
+				}
+				else if (tile_index == 10) {
+					if(random(1)<0.5)
+						instance_create_layer(curr_grid_pos_x+.5*CELL_WIDTH,curr_grid_pos_y, "Level", obj_torch)
+						//torch.x += 0.5 * CELL_WIDTH
+					else
+						instance_create_layer(curr_grid_pos_x-.5*CELL_WIDTH,curr_grid_pos_y, "Level", obj_torch)
+						//torch.x -= 0.5 * CELL_WIDTH
+				}
+				//torch.fire.x = torch.x
+				//torch.smoke.x = torch.x
+			}
 		}
 		else //set floor tiles
 		{
