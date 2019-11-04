@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-obj_enemy.hit_by_fire_armor = false
+if(instance_exists(obj_enemy))
+	obj_enemy.hit_by_fire_armor = false
