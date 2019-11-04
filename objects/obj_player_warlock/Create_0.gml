@@ -43,7 +43,7 @@ attack2_cost = 30
 attack3_dmg = 2 
 attack3_cd = false
 attack3_spd = room_speed * 2
-attack3_cost = 20
+attack3_cost = 15
 
 //attack 4- flame shield
 attack4_dmg = 1

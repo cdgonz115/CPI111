@@ -5,6 +5,8 @@ boss_floor = false
 floor_ = 0
 room_goto(rm_town)
 obj_Reaper.visible = true
+obj_Reaper.x = obj_Reaper.originx
+obj_Reaper.y = obj_Reaper.originy
 with(obj_player){
 	hp = max_hp
 	mana = max_mana

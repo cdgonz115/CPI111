@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
+
+originx = x
+originy = y
 //dialogue
 text[0] = "Oh, you made it back... but not in one piece... heh, heh, heh..."
 text[1] = "Now that you're here, let me take a look at those souls..."

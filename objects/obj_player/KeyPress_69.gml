@@ -8,6 +8,7 @@ if(instance_exists(chesto)){
 		//"collision" with chest
 		//right
 		if (place_meeting(x+interact_dist,y,obj_chest)){
+			show_debug_message("chest is on left")
 			instance_create_layer(x-sprite_width,y,"Instances",obj_potion1)
 		}
 		//left
@@ -28,8 +29,8 @@ if(instance_exists(chesto)){
 			else {//if (!grid_collide_point(chesto.x+chesto.sprite_width,chesto.y,grid_)){ //no wall on right
 				instance_create_layer(x+interact_dist*2,y,"Instances",obj_potion1)
 			}
-			obj_potion1.depth = -obj_potion1.y
 		}
+		obj_potion1.depth = -obj_potion1.y
 		//pop out a potion probly don't need this line but oh well
 		if(instance_exists(obj_potion1))
 			//obj_potion1.depth = chesto.depth-1

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 damage = 0
-projectile_spd = 1 //pixels per frame
+projectile_spd = 1.5 //pixels per frame
 collided = false
 owner = noone;
 knockback_dist = 5

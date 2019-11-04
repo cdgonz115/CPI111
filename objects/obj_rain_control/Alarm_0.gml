@@ -1,4 +1,4 @@
-/// @description manual loop
+/// @description manual music loop
 
 //audio_stop_sound(rain_03)
 audio_play_sound(rain_03,100,0)
