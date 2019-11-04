@@ -1,6 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description mind control?
 
+/*
 if(!dead && !attack5_cd && (mana >=attack5_cost_initial) && !talking && !channeling) {
 	mana -= attack5_cost_initial
 	attack5_cd = true

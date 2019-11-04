@@ -54,6 +54,7 @@ attack5_cd = false
 attack5_spd = 1*room_speed //damages once per second and 1 sec cd
 attack5_cost_initial = 10 //initial
 attack5_cost_channel = 10 //10 per second after initial
+attack5_cost = 0 //don't use, just placeholder for code
 
 tele_cd = false
 tele_cd_time = 4 * room_speed

@@ -3,7 +3,7 @@
 if(game_state == 1 && !chosen){ //start of game
 	chosen = true
 	if(choice == "Warrior"){
-		instance_create_layer(990,800,"Instances",obj_player)
+		instance_create_layer(990,800,"Instances",obj_player_warrior)
 	}
 	else if(choice == "Wizard") {
 		instance_create_layer(990,800,"Instances",obj_player_wizard)

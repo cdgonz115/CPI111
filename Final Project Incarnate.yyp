@@ -1303,6 +1303,14 @@
             }
         },
         {
+            "Key": "88a3c473-1abd-4271-9f7b-02264cf5947b",
+            "Value": {
+                "id": "71111dfa-018c-4ab5-afbe-6b7680d6c398",
+                "resourcePath": "objects\\obj_player_warrior\\obj_player_warrior.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a8caed6-125d-4396-926f-ddffc87801e1",
             "Value": {
                 "id": "d8abb73f-9a9a-4132-98ef-89773aa3969b",
