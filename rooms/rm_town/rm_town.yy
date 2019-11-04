@@ -45,7 +45,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "a486303d-3d8c-4262-ac4c-0d83825f7927",
-            "depth": 0,
+            "depth": -101,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
