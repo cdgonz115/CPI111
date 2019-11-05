@@ -1,4 +1,4 @@
-	/// @description UI, inventory, vendor
+/// @description UI, inventory, vendor
 
 if(object_exists(obj_player)){
 	draw_set_halign(fa_left)
