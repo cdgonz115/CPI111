@@ -2,10 +2,10 @@
 
 var player = argument0
 with(player){
-	key_right = keyboard_check(ord("D"))
-	key_left = keyboard_check(ord("A"))
-	key_up = keyboard_check(ord("W"))
-	key_down = keyboard_check(ord("S"))
+	key_right = keyboard_check(ord("F"))
+	key_left = keyboard_check(ord("S"))
+	key_up = keyboard_check(ord("E"))
+	key_down = keyboard_check(ord("D"))
 
 	x_input = key_right - key_left
 	y_input = key_down - key_up

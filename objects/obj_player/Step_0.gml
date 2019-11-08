@@ -4,6 +4,7 @@ if(floor(hp) <= 0){
 	dead = true
 	obj_game_control.game_state = -1
 }
+//leveling up is triggered by enemy death
 
 //if(obj_game_control.game_state != -1){ //game over
 if(!talking && !channeling && !charging){

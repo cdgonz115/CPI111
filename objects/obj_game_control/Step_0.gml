@@ -16,7 +16,7 @@ if(game_state == 1 && !chosen){ //start of game
 	alarm[1] = 10
 }
 
-if(floor_ == 11 && !boss_floor){
+if(floor_ == 6 && !boss_floor){
 	room_goto(rm_boss)
 	//obj_player.tilemap = layer_tilemap_get_id("Collision")
 	game_state = 1

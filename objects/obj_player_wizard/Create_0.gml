@@ -13,7 +13,7 @@ aggro_rad = (150) //aggro pixel radius
 
 max_hp = 5
 hp = max_hp
-max_mana = 50
+max_mana = 40
 mana = max_mana
 mana_regen = 2.5
 souls = 0
@@ -55,6 +55,7 @@ attack5_spd = 1*room_speed //damages once per second and 1 sec cd
 attack5_cost_initial = 10 //initial
 attack5_cost_channel = 10 //10 per second after initial
 
+//space bar - teleport
 tele_cd = false
 tele_cd_time = 4 * room_speed
 tele_cost = 10 
