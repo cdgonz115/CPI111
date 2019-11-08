@@ -27,3 +27,4 @@ audio_play_sound(Dark_Souls___Gwyn__Lord_of_Cinder___Ru_s_Piano_Cover,100,true)
 instance_destroy(obj_game_over)
 alarm_triggered = false
 obj_GUI.visible = true
+obj_player.map_active=false

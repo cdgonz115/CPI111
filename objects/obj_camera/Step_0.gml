@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if not instance_exists(target) exit
-if(obj_game_control.game_state != -1){
+if(obj_game_control.game_state != -1 && !obj_player.map_active){
+	camera_set_view_size(view_camera[0],400,200)
 	x = lerp(x, target.x, .1)
 	y = lerp(y, target.y, .1)
 
@@ -13,4 +14,9 @@ if(obj_game_control.game_state != -1){
 	else {
 		camera_set_view_pos(view_camera[0], x-width/2, y-height/2)
 	}
+}
+else
+{
+	camera_set_view_pos(view_camera[0],0,0)
+	camera_set_view_size(view_camera[0],room_width,room_height)
 }

@@ -7,7 +7,7 @@ if(floor(hp) <= 0){
 //leveling up is triggered by enemy death
 
 //if(obj_game_control.game_state != -1){ //game over
-if(!talking && !channeling && !charging){
+if(!talking && !channeling && !charging && !map_active){
 	//mana regen
 	if(mana < max_mana) 
 		mana+= mana_regen/room_speed

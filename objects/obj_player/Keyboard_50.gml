@@ -4,7 +4,7 @@ var xx = lengthdir_x(sprite_width,mouse_dir)
 var yy = lengthdir_y(sprite_height,mouse_dir)
 var collided = false
 
-if((!dead && !attack3_cd) && (mana >=attack3_cost) && !talking) {
+if((!dead && !attack3_cd) && (mana >=attack3_cost) && !talking & !map_active) {
 	//create 4 separate shockwave objects in a row
 	for(var i = 0; i < 4; i++) {
 		instance_create_layer(x+(sign(image_xscale)*(xx*i)),y+yy*i,"Instances",obj_player_attack_shockwave)
