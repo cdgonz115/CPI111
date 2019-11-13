@@ -9,7 +9,7 @@ if(other != obj_player && !other.dead){
 	}
 	
 	//knockback
-	knockback(obj_player,other)
+	knockback(self,other)
 	/*
 	var dir = point_direction(obj_player.x,obj_player.y,other.x,other.y)
 	var xforce = lengthdir_x(knockback,dir-180)

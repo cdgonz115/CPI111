@@ -3,7 +3,7 @@ event_inherited()
 hit_cd = false
 hit_spd = 5
 damage = 1
-spd = 1.5
+spd = .65
 hp = 2
 exp_ = 15
 //image_speed = 0.5
