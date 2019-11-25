@@ -3,7 +3,7 @@
 var self_ = argument0;
 var oth_ = argument1;
 
-if(!obj_player.rolling){
+if(!obj_player.rolling && obj_game_control.game_state != 1){
 	if(oth_.object_index == obj_player_wizard)
 		audio_play_sound(foxhit2,15,0)
 	else if(oth_.object_index == obj_player)
