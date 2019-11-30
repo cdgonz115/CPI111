@@ -4,6 +4,7 @@ depth = -y
 if(!dead){
 	if (hp <= 0)
 	{
+		audio_play_sound(skeletonDeath,60,0)
 		sprite_index = spr_skeleton_mage_death
 		damage = 0
 		dead = true
@@ -26,6 +27,7 @@ if(!dead){
 				y_speed = 0
 				//attacking = true
 				if(!ranged_attack_cd){
+					audio_play_sound(enemyfire,60,0)
 					attack = instance_create_layer(x,y,"Instances",obj_skele_mage_attack)
 					attack.damage = ranged_attack_dmg
 					attack.owner = self

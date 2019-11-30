@@ -26,6 +26,7 @@ if(!dead){
 			if(!charge_cd){
 				//play aggro animation
 				instance_create_layer(x,y,"Instances",obj_zombie_aggro)
+				audio_play_sound(zombiegrunt,60,0)
 				//set timer to do a charge attack
 				charging = true
 				charge_cd = true
@@ -54,6 +55,7 @@ if(!dead){
 					hspeed = 0
 					vspeed = 0
 					charging = false
+					audio_play_sound(zombiebump,60,0)
 					alarm[2] = charge_time
 				}
 			}
@@ -64,6 +66,7 @@ if(!dead){
 					hspeed = 0
 					vspeed = 0
 					charging = false
+					audio_play_sound(zombiebump,60,0)
 					alarm[2] = charge_time
 				}
 			}
@@ -86,6 +89,7 @@ if(!dead){
 					vspeed = 0
 					hspeed = 0
 					charging = false
+					audio_play_sound(zombiebump,60,0)
 					alarm[2] = charge_time
 				}
 			} 
@@ -96,6 +100,7 @@ if(!dead){
 					vspeed = 0
 					hspeed = 0
 					charging = false
+					audio_play_sound(zombiebump,60,0)
 					alarm[2] = charge_time
 				}
 			}

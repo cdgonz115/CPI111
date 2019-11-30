@@ -52,6 +52,7 @@ if(instance_exists(npc)){
 			with(npc){
 				//first press creates the text box
 				if(!instance_exists(obj_dialogue)){
+					audio_play_sound(talktoReaper,40,0)
 					dialogue = instance_create_layer(x+xoffset,y+yoffset, "Instances", obj_dialogue)
 					dialogue.text = text
 					obj_player.talking = true

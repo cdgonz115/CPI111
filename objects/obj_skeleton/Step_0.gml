@@ -4,10 +4,11 @@ depth = -y
 if(!dead && obj_game_control.game_state != -1){
 	if (hp <= 0)
 	{
+		audio_play_sound(skeletonDeath,60,0)
 		sprite_index = spr_skeleton_death
 		damage = 0
 		dead = true
-		alarm[10] = 1
+		alarm[10] = 1 * room_speed
 	}
 	if(!knocked_back && !mind_controlled){
 		var dist_ = point_distance(x,y,obj_player.x,obj_player.y) //distance between enemy and player to aggro

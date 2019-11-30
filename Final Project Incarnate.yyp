@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "2c0cc3cc-dd3e-4bfc-8b5d-9918db6a6bd6",
+            "Value": {
+                "id": "1b7b2d91-787f-48a9-8bde-6f0eb14ccec3",
+                "resourcePath": "sounds\\ghostDeath\\ghostDeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2ca8938f-64ac-4ab0-88e2-a74aaea23379",
             "Value": {
                 "id": "89fdaa24-2f27-4310-8596-c091c797d212",
@@ -828,6 +836,14 @@
                 "id": "68ae9f2b-7d57-46f5-ad21-0c835e1ae654",
                 "resourcePath": "views\\4a566683-4ceb-47d7-891f-8b4442f4a26c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4b85597d-5095-4629-b45e-abf559a63849",
+            "Value": {
+                "id": "27367ff0-28ac-405c-8259-95224434ca69",
+                "resourcePath": "sounds\\enemyfire\\enemyfire.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1519,6 +1535,14 @@
             }
         },
         {
+            "Key": "9945c380-0c39-4ae3-84dd-dd36787968ac",
+            "Value": {
+                "id": "704e0063-2863-49fc-a4a3-17858df7c2ed",
+                "resourcePath": "sounds\\talktoReaper\\talktoReaper.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "99ea35fe-f8ca-4330-a193-d4655f97dfe3",
             "Value": {
                 "id": "7077c2f2-7dc2-422e-a170-16e086b00a30",
@@ -1628,6 +1652,22 @@
                 "id": "8a90f1a9-01c6-432b-b71d-1dc6faa8da24",
                 "resourcePath": "objects\\obj_darkpool_hitbox\\obj_darkpool_hitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "abae839c-1dc7-4058-b70d-56719d647fa2",
+            "Value": {
+                "id": "63d86f1c-f4aa-4560-a131-26361b8ace7b",
+                "resourcePath": "sounds\\haloWiz\\haloWiz.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "af4b2404-dee0-4a48-8e0f-43c3287581fd",
+            "Value": {
+                "id": "3e15eb02-afc3-4299-9b4f-84e4226b3b7d",
+                "resourcePath": "sounds\\flame_pillar\\flame_pillar.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2068,6 +2108,14 @@
                 "id": "b5d44d24-f3ee-456d-a2da-ddf1e1f38e67",
                 "resourcePath": "sprites\\spr_wizard_up\\spr_wizard_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1c4def7-1b49-4888-8092-ec2096901927",
+            "Value": {
+                "id": "cefeb0a4-29b2-4107-9c68-df42e1e1d594",
+                "resourcePath": "sounds\\Warrior___AOE\\Warrior___AOE.yy",
+                "resourceType": "GMSound"
             }
         },
         {

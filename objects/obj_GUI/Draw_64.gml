@@ -1,13 +1,14 @@
 /// @description UI, inventory, vendor
 
 if(instance_exists(obj_player) && instance_exists(obj_game_control) && obj_game_control.game_state != 3){
+	//top left corner stuff
 	draw_set_halign(fa_left)
 	draw_set_color(c_white)
 	draw_text(30,30,"Level: " + string(obj_player.level_))
 	draw_text(30,55,"EXP: " + string(obj_player.exp_) + "/ " + string(obj_player.exp_to_level))
 	draw_text(30,80,"Floor: " + string(obj_game_control.floor_))
 	draw_text(30,105,"   x " + string(obj_player.souls))
-	draw_sprite_ext(spr_soul,0,40,115,2,2,0,c_white,1)
+	draw_sprite_ext(spr_soul,0,40,120,1.5,1.5,0,c_white,1)
 
 	//the main player UI
 	var height = view_hport[0]

@@ -5,6 +5,7 @@ if(!dead && obj_game_control.game_state != -1){
 	if (hp <= 0)
 	{
 		//sprite_index = spr_slime_death
+		audio_play_sound(ghostDeath,60,0)
 		damage = 0
 		dead = true
 		hspeed = 0
