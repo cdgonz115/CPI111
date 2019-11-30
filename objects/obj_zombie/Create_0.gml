@@ -1,6 +1,7 @@
 /// @description
 event_inherited()
 hp = 4
+max_hp = hp
 exp_ = 20
 hit_cd = false
 hit_spd = 5

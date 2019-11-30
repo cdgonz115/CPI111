@@ -1,4 +1,6 @@
 /// @description
+//cheats
+hp_cheat = false
 
 //movement stuff
 x_speed = 0

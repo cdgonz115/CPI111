@@ -7,6 +7,7 @@ if(!dead){
 		if(obj_inventory.ItemArray[i] != noone){
 			if (obj_inventory.ItemArray[i].object_index == obj_potion1){
 				index = i;
+				audio_play_sound(swallowPotion,50,0)
 				break;
 			}
 		}

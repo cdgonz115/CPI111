@@ -1,6 +1,6 @@
 /// @description UI, inventory, vendor
 
-if(object_exists(obj_player)){
+if(instance_exists(obj_player) && instance_exists(obj_game_control) && obj_game_control.game_state != 3){
 	draw_set_halign(fa_left)
 	draw_set_color(c_white)
 	draw_text(30,30,"Level: " + string(obj_player.level_))

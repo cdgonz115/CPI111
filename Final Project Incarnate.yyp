@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "04c0b4de-d15b-4b81-a092-514428438c19",
+            "Value": {
+                "id": "1b65e247-97df-460c-b3af-b0439f901821",
+                "resourcePath": "sprites\\spr_game_complete\\spr_game_complete.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "055a0388-e3cc-4faf-80a8-ff12c1725dc1",
             "Value": {
                 "id": "0f47f8ba-6915-4160-bca6-fc81f3337a40",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "2ca8938f-64ac-4ab0-88e2-a74aaea23379",
+            "Value": {
+                "id": "89fdaa24-2f27-4310-8596-c091c797d212",
+                "resourcePath": "sprites\\spr_soul\\spr_soul.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2df2af7c-815c-44a5-a465-40253b191208",
             "Value": {
                 "id": "1d787a8f-e4bb-4c4a-afad-7209bf49b125",
@@ -644,6 +660,14 @@
                 "id": "879e3558-1d27-4e82-8273-3bd9376b8a54",
                 "resourcePath": "sprites\\spr_Boss_tap\\spr_Boss_tap.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c64b169-dd24-4e62-92c9-b3e4a62caa4f",
+            "Value": {
+                "id": "7e4c4a21-04f3-4f63-9567-5a619e0066ae",
+                "resourcePath": "sounds\\swallowPotion\\swallowPotion.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1599,11 +1623,11 @@
             }
         },
         {
-            "Key": "acb906d3-7006-432f-b620-ab32d2f7d8ef",
+            "Key": "a939692e-51bb-4a1f-bbb7-5520da7bcf5c",
             "Value": {
-                "id": "7d7e6168-5212-4955-a75c-49b16cd7433b",
-                "resourcePath": "sprites\\spr_soul\\spr_soul.yy",
-                "resourceType": "GMSprite"
+                "id": "8a90f1a9-01c6-432b-b71d-1dc6faa8da24",
+                "resourcePath": "objects\\obj_darkpool_hitbox\\obj_darkpool_hitbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2143,6 +2167,14 @@
             }
         },
         {
+            "Key": "deced240-756a-44bc-a933-6b8de3676175",
+            "Value": {
+                "id": "a8613d3b-26b4-4c7f-8a1e-5312cb87ed9e",
+                "resourcePath": "sprites\\spr_vendor2\\spr_vendor2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0d5ceca-a41b-4051-ab5b-6483097458a8",
             "Value": {
                 "id": "b2ce5d27-4219-42af-be07-d3cf68de1ff3",
@@ -2263,6 +2295,14 @@
             }
         },
         {
+            "Key": "e7ce303c-7838-4837-8c80-bae57b122a02",
+            "Value": {
+                "id": "7b1e7e55-c560-4722-9ceb-c8e60cb0a3ab",
+                "resourcePath": "sprites\\spr_darkpool_hitbox\\spr_darkpool_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e93349b5-f3b3-486a-90f9-824d669a69e4",
             "Value": {
                 "id": "2940c6a6-313e-4cd8-a646-5d626c82e325",
@@ -2356,6 +2396,14 @@
                 "id": "ba2d12c7-2c33-49cf-b5ac-2fdf99949399",
                 "resourcePath": "sprites\\spr_darkwave\\spr_darkwave.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f2b8caa5-75c7-4e40-a391-35bcef83560b",
+            "Value": {
+                "id": "870b981b-e590-4f31-818f-6284dc09b3d1",
+                "resourcePath": "objects\\obj_game_complete\\obj_game_complete.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -29,3 +29,8 @@ inv_fully_upgraded = false
 //see alarm 11 for other inventory upgrade stuff
 
 alarm[11] = 3
+
+//for boss testing
+if(room == rm_boss){
+	x = -100
+}

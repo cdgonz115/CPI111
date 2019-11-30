@@ -1,18 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 hp = 200
-max_hp = 200
-spd = 0.5
+max_hp = hp
+spd = 0.6
 hit_by_nova = false
 hit_by_beam = false
 hit_by_pillar = false
 hit_by_fire_armor = false
+
+knockback_dist = 20
 
 //attack damages
 //scythe swipe
 attack1_dmg = 20
 //dark wave
 attack2_dmg = 10 //per wave
+can_wave = true
 waves = 0
 //spawn minion
 //attack3_dmg = 
@@ -23,6 +26,7 @@ attack4_dmg = 30
 player_hit = false
 attacking = false
 which_attack = 0
+time_between = 7
 //decided = false
 alarm[1] = 5*room_speed //time between each attack, first one is 5 sec, then all others is 10
 

@@ -1,11 +1,22 @@
 /// @description 
 
-//move_towards_point(obj_player.x,obj_player.y,spd)
+if(hp <= 0){
+	obj_game_control.game_state = 3
+	instance_destroy()
+}
 
 //do attack then decide next attack
 //the attacks themselves will help boss get back into not attacking state
+if(sprite_index == idle){
+	move_towards_point(obj_player.x,obj_player.y,spd)
+}
+else {
+	hspeed = 0
+	vspeed = 0
+}
 if(attacking){
 	attacking = false
+	//attack_mode = true
 	switch(which_attack){
 		case 0:
 			//not activtely attacking
@@ -19,6 +30,7 @@ if(attacking){
 			//do dark wave
 			sprite_index = flapping
 			instance_create_layer(x,y,layer,obj_darkwave)
+			alarm[2] = 7* room_speed
 			break;
 			/*
 		case 3:
@@ -33,7 +45,7 @@ if(attacking){
 			instance_create_layer(x,y,layer,obj_darkpool)
 			break;
 	}
-	alarm[1] = 10 * room_speed
+	alarm[1] = time_between * room_speed
 }
 
 if(which_attack == 1 && sprite_index == swiping){

@@ -1,4 +1,6 @@
 /// @description 
+//cheats
+hp_cheat = false
 
 x_speed = 0
 y_speed = 0

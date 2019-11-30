@@ -1,5 +1,10 @@
 /// @description check game state
 
+if(game_state == 3){
+	instance_create_layer(room_width/2,room_height/2,layer,obj_game_complete)
+	//instance_create_layer(obj_player.x,obj_player.y,layer,obj_game_complete)
+}
+
 if(game_state == 1 && !chosen){ //start of game
 	chosen = true
 	if(choice == "Warrior"){

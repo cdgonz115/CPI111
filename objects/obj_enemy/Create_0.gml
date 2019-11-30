@@ -5,6 +5,7 @@ y_speed = 0
 max_speed = .3
 exp_ = 5 //exp awarded to player when killed
 hp = 2
+max_hp = hp
 spd = 0
 
 hit_cd = false
