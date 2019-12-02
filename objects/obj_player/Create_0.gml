@@ -85,9 +85,9 @@ down = spr_warrior_down
 side = spr_warrior_side
 
 //create a camera on player
-camera = instance_create_layer(x, y, "Instances", obj_camera)
+camera = instance_create_layer(x, y, "GUI", obj_camera)
 //change camera size for screen res optimization?
-inventory = instance_create_layer(x, y, "Instances", obj_inventory)
+inventory = instance_create_layer(x, y, "GUI", obj_inventory)
 
 //for non-random map collision
 tilemap = layer_tilemap_get_id("Collision")

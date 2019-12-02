@@ -1,8 +1,8 @@
 layerId=layer_get_id("Instances")
-if(layer_get_visible(layerId) && room==rm_dungeon)
+if(layer_get_visible(layerId) && room==rm_dungeon && !map_active)
 {
 map_active=true
-layer_set_visible(layerId,false)
+//layer_set_visible(layerId,false)
 }
 else
 {

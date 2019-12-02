@@ -1,1 +1,3 @@
-image_alpha=.6
+image_alpha=.4
+image_speed = 0
+//instance_destroy()
