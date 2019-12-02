@@ -191,3 +191,11 @@ for (var col = 1; col < height-1; col++){
 		}
 	}
 }
+for(i=32;i<room_width;i+=64)
+{
+	for(j=32;j<room_height;j+=64)
+	{
+		var block=instance_create_layer(i,j,"minimap_blocks",obj_minimap_block)
+		block.alarm[0]=i/32+(j/32)*0+irandom_range(0,100);
+	}
+}
