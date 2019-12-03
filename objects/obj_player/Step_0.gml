@@ -7,7 +7,7 @@ if(floor(hp) <= 0){
 //leveling up is triggered by enemy death
 
 //if(obj_game_control.game_state != -1){ //game over
-if(!talking && !channeling && !charging && !map_active){
+if(!talking && !channeling && !charging){
 	//mana regen
 	if(mana < max_mana) 
 		mana+= mana_regen/room_speed
@@ -26,5 +26,5 @@ if(!talking && !channeling && !charging && !map_active){
 			collision_random(self)
 	}
 	
-	if(helmet_equipped) instance_create_layer(x,y,"Instances",obj_helmet);
+	//if(helmet_equipped) instance_create_layer(x,y,"Instances",obj_helmet);
 }

@@ -17,7 +17,7 @@ if(game_state == 1 && !chosen){ //start of game
 		instance_create_layer(990,800,"Instances",obj_player_warlock)
 	}
 	instance_create_layer(1056,736,"Instances",obj_Reaper)
-	instance_create_layer(-10,10,"Instances",obj_GUI)
+	instance_create_layer(-10,10,"GUI",obj_GUI)
 	alarm[1] = 10
 }
 

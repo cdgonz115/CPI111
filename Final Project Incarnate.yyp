@@ -1679,6 +1679,14 @@
             }
         },
         {
+            "Key": "ad5e4246-4c55-4b7c-ba8f-a12c3f5951a4",
+            "Value": {
+                "id": "8a28db06-8a9e-4323-8219-755222c20cfc",
+                "resourcePath": "sounds\\snd_title_press\\snd_title_press.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "af4b2404-dee0-4a48-8e0f-43c3287581fd",
             "Value": {
                 "id": "3e15eb02-afc3-4299-9b4f-84e4226b3b7d",
@@ -2023,6 +2031,14 @@
             }
         },
         {
+            "Key": "c82ea98d-333c-4aa9-b746-df25525bb78f",
+            "Value": {
+                "id": "383d5864-cdfa-4119-98c2-4849fc60f9fb",
+                "resourcePath": "sounds\\openingbag\\openingbag.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ca3de9c5-e6b9-418e-b10b-e5cb9936fd70",
             "Value": {
                 "id": "c5bb5c08-ffc7-451b-947a-ef1d801f3042",
@@ -2267,6 +2283,14 @@
             "Value": {
                 "id": "03fcb22e-0a92-4321-b1b5-2db96e5c4a60",
                 "resourcePath": "objects\\obj_vendor_mana\\obj_vendor_mana.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e392d44a-3578-4df8-9810-94b228092ce7",
+            "Value": {
+                "id": "2efe9b91-d6c2-4f96-94ce-85e792b9eab9",
+                "resourcePath": "objects\\obj_minimap\\obj_minimap.yy",
                 "resourceType": "GMObject"
             }
         },

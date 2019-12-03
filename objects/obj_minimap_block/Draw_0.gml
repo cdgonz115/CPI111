@@ -1,1 +1,1 @@
-if(view_current == 1)draw_self()
+if(view_current == 1) draw_self()

@@ -2,7 +2,7 @@
 
 if(instance_exists(target) && target != noone){
 	if(obj_player.hp <= 0 || target.hp <= 0 || !line_of_sight(obj_player.x,obj_player.y,target.x,target.y)
-	|| point_distance(obj_player.x,obj_player.y,target.x,target.y) > 90){
+	|| point_distance(obj_player.x,obj_player.y,target.x,target.y) > siphon_dist){
 		obj_player_warlock.siphoning = false
 		instance_destroy()
 	}
