@@ -28,5 +28,6 @@ with(other){
 	}
 	y = y_predict
 	
-	hp -= 10
+	//hp -= 10
 }
+enemy_neutral_hit(self)

@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "17c0c8b9-ec5e-43d6-ad37-9e600dae66cb",
+            "Value": {
+                "id": "3e1401a8-7d85-49d7-81f4-a585ce862496",
+                "resourcePath": "tilesets\\ts_dirt\\ts_dirt.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "1856ddca-185f-4911-b31c-9cbf4f1fa046",
             "Value": {
                 "id": "25ff17b4-8d54-4a89-b9a9-7dbd1a44b22c",
@@ -935,6 +943,14 @@
             }
         },
         {
+            "Key": "53b0d361-4ea8-43ac-8d76-9cdc6d3ce04a",
+            "Value": {
+                "id": "23838eaf-0e3e-455f-9a0b-4451e9cf9e6e",
+                "resourcePath": "sprites\\spr_gravestone\\spr_gravestone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "54356429-c642-48fc-b256-781b3be1058f",
             "Value": {
                 "id": "7338b8fd-c87b-4693-af67-0fc0eb9e497e",
@@ -1236,6 +1252,14 @@
                 "id": "a7b45500-7719-43b2-aa33-e850b944ef5b",
                 "resourcePath": "objects\\obj_penta\\obj_penta.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7417d538-03b0-4e52-a519-b43c51e7beff",
+            "Value": {
+                "id": "a9837ee9-d814-4c8b-aa44-5ec6021761aa",
+                "resourcePath": "sprites\\spr_tombstone\\spr_tombstone.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1708,6 +1732,14 @@
                 "id": "66764efb-58e7-41db-8393-2a0ff7d17ea9",
                 "resourcePath": "sprites\\spr_skeleton_mage_u\\spr_skeleton_mage_u.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b087b22d-09b0-4e98-8d2d-b3efb870c0be",
+            "Value": {
+                "id": "9a3136b9-0c1b-4aad-9eb0-a4bf3a31721f",
+                "resourcePath": "objects\\obj_gravestone\\obj_gravestone.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2271,6 +2303,14 @@
             }
         },
         {
+            "Key": "e2d38fe5-05f9-4520-88ca-6f93abf137fb",
+            "Value": {
+                "id": "4fa48c00-5923-476d-931b-e6177123751a",
+                "resourcePath": "objects\\obj_tombstone\\obj_tombstone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e349cdf7-3032-4359-a05e-c8fbfcc442b9",
             "Value": {
                 "id": "063cadbb-320c-483e-bbc3-b0ea527c7fa4",
@@ -2367,6 +2407,14 @@
             }
         },
         {
+            "Key": "e72a9938-7168-4fda-89e1-e39df2b37216",
+            "Value": {
+                "id": "8aff897c-ebea-487c-aba0-2097a98599a3",
+                "resourcePath": "sprites\\title_01\\title_01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e73810c7-ee31-47ab-a963-ee105120aae4",
             "Value": {
                 "id": "e0733148-dcea-4a99-a456-fcd4e8e93a06",
@@ -2420,6 +2468,14 @@
                 "id": "78cf5baf-ca3e-43db-a2f7-10af3d326ded",
                 "resourcePath": "views\\ebc92353-e91c-4b97-8a00-2dd53206e096.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebcdded6-847b-41da-83a1-e45e24ef6b62",
+            "Value": {
+                "id": "69786ca5-c9b9-483a-8820-c23159b70f57",
+                "resourcePath": "sprites\\title_02\\title_02.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2524,6 +2580,14 @@
                 "id": "36906ec1-1390-4340-9fe6-6fa32bcebf67",
                 "resourcePath": "views\\f72ae9d6-0717-464a-b2a9-3cc40e70a830.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f782a3dd-4eb8-4adf-b70d-b4983c797b06",
+            "Value": {
+                "id": "c611143d-90b2-4926-a26f-a93918c4d036",
+                "resourcePath": "sprites\\spr_dirts\\spr_dirts.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

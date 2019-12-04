@@ -9,6 +9,10 @@ hit_by_pillar = false
 hit_by_fire_armor = false
 dead = false
 
+hit_cd = false
+hit_spd = 1
+damage = 10
+
 knockback_dist = 20
 
 //attack damages
