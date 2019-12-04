@@ -2,6 +2,7 @@
 
 if(hp <= 0){
 	obj_game_control.game_state = 3
+	dead = true
 	instance_destroy()
 }
 

@@ -6,9 +6,13 @@ if(instance_exists(obj_level_generator))
 if(instance_exists(chesto)){
 	if(!chesto.opened && distance_to_object(chesto)<interact_dist){
 		//"collision" with chest
+		var dir = point_direction(x,y,chesto.x,chesto.y)
+		var potx = -lengthdir_x(distance_to_object(chesto),dir)
+		var poty = -lengthdir_y(distance_to_object(chesto),dir)
+		instance_create_layer(x+10*sign(potx),y+10*sign(poty),"Instances",obj_potion1)
+		/*
 		//right
 		if (place_meeting(x+interact_dist,y,obj_chest)){
-			show_debug_message("chest is on left")
 			instance_create_layer(x-sprite_width,y,"Instances",obj_potion1)
 		}
 		//left
@@ -29,7 +33,7 @@ if(instance_exists(chesto)){
 			else {//if (!grid_collide_point(chesto.x+chesto.sprite_width,chesto.y,grid_)){ //no wall on right
 				instance_create_layer(x+interact_dist*2,y,"Instances",obj_potion1)
 			}
-		}
+		}*/
 		obj_potion1.depth = -obj_potion1.y
 		//pop out a potion probly don't need this line but oh well
 		if(instance_exists(obj_potion1))

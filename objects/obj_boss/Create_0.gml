@@ -7,6 +7,7 @@ hit_by_nova = false
 hit_by_beam = false
 hit_by_pillar = false
 hit_by_fire_armor = false
+dead = false
 
 knockback_dist = 20
 

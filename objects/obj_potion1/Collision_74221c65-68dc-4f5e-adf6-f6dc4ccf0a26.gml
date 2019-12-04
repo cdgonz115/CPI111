@@ -12,6 +12,7 @@ if(can_pickup && obj_inventory.curr_size < obj_player.inventory.max_size){
 		}
 	}
 	obj_inventory.ItemArray[index] = instance_create_layer(-10,-10,"Inventory",obj_potion1)
+	obj_inventory.ItemArray[index].persistent = true
 	obj_inventory.curr_size++
 	audio_play_sound(snd_Item_Pickup,50,0)
 	instance_destroy()
