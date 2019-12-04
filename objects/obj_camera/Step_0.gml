@@ -18,13 +18,11 @@ if(obj_game_control.game_state != -1) //if you're not dead
 		
 	if(!obj_player.map_active)
 	{
-		//view_visible[1]=false
+		view_visible[1]=false
 	}
 	else
 	{		
-		//view_visible[1]=true
-		camera_set_view_pos(view_camera[1],-room_width*2,0)
-		camera_set_view_size(view_camera[1],(room_width+room_width/4)*2,(room_height*2))
+		view_visible[1]=true
 	}
 
 }

@@ -2287,14 +2287,6 @@
             }
         },
         {
-            "Key": "e392d44a-3578-4df8-9810-94b228092ce7",
-            "Value": {
-                "id": "2efe9b91-d6c2-4f96-94ce-85e792b9eab9",
-                "resourcePath": "objects\\obj_minimap\\obj_minimap.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e3d28fe9-0f9f-4786-839e-17dccd31f305",
             "Value": {
                 "id": "67dae535-4d99-478a-b89b-93900bb3bc1f",
