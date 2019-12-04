@@ -1,5 +1,7 @@
 /// @description click to upgrade hp
 
+event_inherited()
+
 if(obj_player.souls >= obj_Reaper.upgrade_hp_cost && !obj_Reaper.hp_fully_upgraded){
 	obj_player.souls -= obj_Reaper.upgrade_hp_cost
 	obj_player.max_hp += obj_Reaper.upgrade_hp_amount
@@ -18,6 +20,6 @@ if(obj_player.souls >= obj_Reaper.upgrade_hp_cost && !obj_Reaper.hp_fully_upgrad
 	
 	if(obj_Reaper.upgrade_hp == obj_Reaper.upgrade_max_hp){
 		obj_Reaper.hp_fully_upgraded = true
-		image_index = 1
+		instance_destroy()
 	}
 }

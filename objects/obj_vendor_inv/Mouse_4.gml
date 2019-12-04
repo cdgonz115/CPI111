@@ -1,5 +1,7 @@
 /// @description click to upgrade hp
 
+event_inherited()
+
 if((obj_player.souls >= obj_Reaper.upgrade_inv_cost) && !obj_Reaper.inv_fully_upgraded){
 	obj_player.souls -= obj_Reaper.upgrade_inv_cost
 	obj_player.inventory.max_size++
@@ -13,6 +15,7 @@ if((obj_player.souls >= obj_Reaper.upgrade_inv_cost) && !obj_Reaper.inv_fully_up
 	if(obj_Reaper.upgrade_inv == 9)
 	{
 		obj_Reaper.inv_fully_upgraded=true
-		image_index = 1
+		//instance_destroy()
+		alarm[0] = 1
 	}
 }

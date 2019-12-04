@@ -23,6 +23,7 @@ if(game_state == 1 && !chosen){ //start of game
 
 if(floor_ == 3 && !boss_floor){
 	room_goto(rm_boss)
+	obj_player.map_active = false
 	//obj_player.tilemap = layer_tilemap_get_id("Collision")
 	game_state = 1
 	obj_player.x = 988
