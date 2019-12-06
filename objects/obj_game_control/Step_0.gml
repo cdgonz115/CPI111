@@ -29,6 +29,7 @@ if(floor_ == 3 && !boss_floor){
 	obj_player.x = 988
 	obj_player.y = 858
 	audio_stop_all()
+	alarm[11] = -1
 	audio_play_sound(mus_InnerCore_Low,100,1)
 	obj_player.camera.width = camera_get_view_width(view_camera[0])
 	obj_player.camera.height = camera_get_view_height(view_camera[0])
