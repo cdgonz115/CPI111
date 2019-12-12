@@ -7,7 +7,7 @@ chosen = false
 //chosen = false
 
 floor_ = 0
-boss_floor = true
+boss_floor = false
 //difficulty = 1
 //keep gamestate starting at 1 for testing
 game_state = 0// 0 = title screen, 1 = main floor && boss, 2 = dungeon floor, -1 = you died, 3 = game over
